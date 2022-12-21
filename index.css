@@ -176,7 +176,7 @@ div.about-text p {
   font-size: medium;
   border-radius: 10px;
   background-color: rgba(248, 188, 98, 0.589);
-  border: 2px dashed rgb(221, 219, 121);
+  /* border: 2px dashed rgb(221, 219, 121); */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -225,7 +225,7 @@ div.row:after {
 div.row div.column span.title {
   color: rgb(216, 58, 58);
   font-weight: bold;
-  font-size: 17px;
+  font-size: 14px;
   background: none;
   padding: 3px;
   border-left: 2px solid rgba(225, 151, 243, 0.575);
@@ -233,14 +233,14 @@ div.row div.column span.title {
 
 div.row div.column span.price {
   color: rgb(204, 58, 58);
-  font-size: 15px;
+  font-size: 13px;
   background: none;
   padding: 3px;
 }
 
 div.row div.column span.description {
   color: rgb(218, 93, 35);
-  font-size: 14px;
+  font-size: 1px;
   background: none;
   display: block;
   padding: 4px;
@@ -267,35 +267,6 @@ div.row div.column span.description {
 
 .card button:active {
   opacity: 0.5;
-} */
-
-/* div.product-group {
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
-  color: #fff;
-  font-size: small;
-  border-radius: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.product img {
-  width: auto;
-  height: 150px;
-  border-radius: 10px;
-  border: 2px solid rgb(248, 90, 248);
-  margin: -50px 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.product span {
-  font-size: 12px;
-  color: #fff;
-  font-weight: bold;
 } */
 
 @media only screen and (orientation: portrait) {
