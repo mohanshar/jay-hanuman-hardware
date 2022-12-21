@@ -53,7 +53,7 @@ p span {
   color: #f56868;
 }
 
-p kbd {
+kbd {
   background: none;
   color: rgba(252, 252, 29, 0.829);
   font-weight: bold;
@@ -168,7 +168,7 @@ div.copyright {
   border-top-right-radius: 20px;
 }
 
-div.about-text p {
+div.about-text {
   margin: 65px 5px;
   padding: 15px;
   text-align: center;
@@ -201,7 +201,6 @@ div.contact-info {
   font-size: 12px;
   padding: 12px 8px;
   display: block;
-  width: max-content;
   color: rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
@@ -211,7 +210,6 @@ div.contact-info a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   border-bottom: 1px solid rgb(151, 116, 116);
-  padding: 5px;
 }
 
 /* Clear floats after the columns */
@@ -219,7 +217,7 @@ div.row:after {
   content: "";
   display: table;
   clear: both;
-  height: 30vh;
+  height: 20vh;
 }
 
 div.row div.column span.title {
