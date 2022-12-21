@@ -1,0 +1,523 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+::selection {
+  background-color: rgba(238, 6, 6, 0.418);
+  backdrop-filter: blur(5px);
+  color: #fff;
+}
+
+header h2 {
+  color: gold;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 0 0 30px 30px;
+  background-color: rgba(94, 123, 250, 0.678);
+  backdrop-filter: blur(20px);
+  user-select: none;
+  display: block;
+  width: 100%;
+  top: 0;
+  -webkit-position: sticky;
+  position: sticky;
+  position: fixed;
+}
+
+header h2:hover {
+  text-decoration: 5px underline gold;
+}
+
+p {
+  margin: 65px 5px;
+  background-color: rgb(51, 79, 129);
+  color: rgb(250, 154, 250);
+  text-align: center;
+  padding: 25px;
+  border: 2px solid rgb(248, 90, 248);
+  border-radius: 30px 30px 10px 10px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+p span {
+  float: right;
+  background: none;
+  margin-top: -5px;
+  padding: 4px 25px;
+  color: #f56868;
+}
+
+p kbd {
+  background: none;
+  color: rgba(252, 252, 29, 0.829);
+  font-weight: bold;
+}
+
+div.img img {
+  width: 85%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid rgb(230, 99, 39);
+  margin: -50px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  user-select: none;
+  width: 100%;
+  /* border-bottom: 3px solid rgba(247, 65, 104, 0.651); */
+}
+
+footer button {
+  background-color: #333;
+  color: wheat;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  display: block;
+  float: left;
+  width: 25%;
+  border-right: 0.5px solid #888;
+  cursor: pointer;
+  -webkit-tap-highlight-color: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.active {
+  font-weight: bold;
+  background-color: #666;
+  border-bottom: 3px solid cornflowerblue;
+  border-bottom-right-radius: 20px;
+  transition: 0.5s;
+}
+
+footer button:hover {
+  font-weight: bold;
+  background-color: #666;
+  border-bottom: 3px solid #ddd;
+}
+
+footer button:active {
+  font-weight: bold;
+  background-color: #666;
+  border-bottom: 2px solid #ddd;
+}
+
+footer button:nth-child(4):active {
+  font-weight: bold;
+  background-color: #666;
+  border-bottom: 2px solid #ddd;
+}
+
+footer button:nth-child(1) {
+  border-top-left-radius: 15px;
+}
+
+footer button:nth-child(1) {
+  border-top-right-radius: 15px;
+}
+
+.btn {
+  padding: 10px 15px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgba(105, 103, 212, 0.726);
+  color: #fff;
+  user-select: none;
+  -webkit-tap-highlight-color: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(132, 130, 247, 0.726);
+  color: #fff;
+  border-left: 3px solid rgb(238, 197, 217);
+  border-right: 3px solid rgb(238, 197, 217);
+}
+
+.btn:active {
+  background-color: rgba(204, 114, 114, 0.658);
+}
+
+div.copyright {
+  /* margin-top: 3px; */
+  background-color: rgba(187, 45, 45, 0.568);
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+  font-size: small;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+div.about-text p {
+  margin: 65px 5px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: rgba(248, 188, 98, 0.589);
+  border: 2px dashed rgb(221, 219, 121);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.about-text .profilepic {
+  width: auto;
+  height: 120px;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.911),
+    rgba(230, 212, 212, 0.5)
+  );
+  margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.contact-info {
+  margin-top: -50px;
+  font-size: 13px;
+  padding: 12px 8px;
+  display: block;
+  width: max-content;
+  color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.contact-info a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-bottom: 1px solid rgb(151, 116, 116);
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+div.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 30vh;
+}
+
+div.row div.column span.title {
+  color: rgb(216, 58, 58);
+  font-weight: bold;
+  font-size: 17px;
+  background: none;
+  padding: 3px;
+  border-left: 2px solid rgba(225, 151, 243, 0.575);
+}
+
+div.row div.column span.price {
+  color: rgb(204, 58, 58);
+  font-size: 15px;
+  background: none;
+  padding: 3px;
+}
+
+div.row div.column span.description {
+  color: rgb(218, 93, 35);
+  font-size: 14px;
+  background: none;
+  display: block;
+  padding: 4px;
+  border-left: 2px solid rgba(225, 151, 243, 0.575);
+}
+
+/* 
+.card button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  border-radius: 0 0 8px 8px;
+  color: white;
+  background-color: rgba(121, 7, 7, 0.404);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.card button:active {
+  opacity: 0.5;
+} */
+
+/* div.product-group {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: small;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.product img {
+  width: auto;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid rgb(248, 90, 248);
+  margin: -50px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.product span {
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+} */
+
+@media only screen and (orientation: portrait) {
+  footer button {
+    font-size: small;
+  }
+}
+
+/* @media only screen and (orientation: landscape) {
+} */
+
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 600px) {
+  div.img img {
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(248, 90, 248);
+    margin: -50px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer button {
+    font-size: small;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  div.column {
+    float: left;
+    width: 48.5%;
+    padding: 10px;
+    background-color: rgba(114, 45, 24, 0.521);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: arial;
+    border: 2.5px solid rgba(212, 102, 102, 0.555);
+    border-radius: 10px;
+  }
+  
+  div.column:hover {
+    box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
+  }
+  
+  div.row div.column img {
+    height: 130px;
+    width: 100px;
+    border-radius: 8px 8px 0 0;
+    border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  div.img img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(248, 90, 248);
+    margin: -50px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    margin: 65px 5px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    align-items: center;
+  }
+
+  footer button {
+    font-size: medium;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  div.column {
+    float: left;
+    width: 49%;
+    padding: 10px;
+    background-color: rgba(114, 45, 24, 0.521);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: arial;
+    border: 2.5px solid rgba(212, 102, 102, 0.555);
+    border-radius: 10px;
+  }
+  
+  div.column:hover {
+    box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
+  }
+  
+  div.row div.column img {
+    height: 130px;
+    width: 100px;
+    border-radius: 8px 8px 0 0;
+    border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  div.img img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(248, 90, 248);
+    margin: -50px 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  footer button {
+    font-size: medium;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  div.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(114, 45, 24, 0.521);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: arial;
+    border: 2.5px solid rgba(212, 102, 102, 0.555);
+    border-radius: 10px;
+  }
+  
+  div.column:hover {
+    box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
+  }
+  
+  div.row div.column img {
+    height: 130px;
+    width: 100px;
+    border-radius: 8px 8px 0 0;
+    border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  div.img img {
+    width: 40%;
+    height: auto;
+    display: block;
+  }
+
+  footer button {
+    font-size: medium;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  div.column {
+    float: left;
+    width: 48.5%;
+    padding: 10px;
+    background-color: rgba(114, 45, 24, 0.521);
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: arial;
+    border: 2.5px solid rgba(212, 102, 102, 0.555);
+    border-radius: 10px;
+  }
+  
+  div.column:hover {
+    box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
+  }
+  
+  div.row div.column img {
+    height: 130px;
+    width: 100px;
+    border-radius: 8px 8px 0 0;
+    border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  div.img img {
+    width: 40%;
+    height: auto;
+    display: block;
+  }
+
+  footer button {
+    font-size: medium;
+  }
+
+  div.column {
+    float: left;
+    width: 24.5%;
+    padding: 10px;
+    background-color: rgba(114, 45, 24, 0.521);
+    margin-left: 5px;
+    font-family: arial;
+    border: 2.5px solid rgba(212, 102, 102, 0.555);
+    border-radius: 10px;
+  }
+
+  div.row div.column img {
+    height: 180px;
+    width: auto;
+    border-radius: 8px 8px 0 0;
+    border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+}
