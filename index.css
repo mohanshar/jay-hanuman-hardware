@@ -220,31 +220,6 @@ div.row:after {
   height: 20vh;
 }
 
-div.row div.column span.title {
-  color: rgb(216, 58, 58);
-  font-weight: bold;
-  font-size: 14px;
-  background: none;
-  padding: 3px;
-  border-left: 2px solid rgba(225, 151, 243, 0.575);
-}
-
-div.row div.column span.price {
-  color: rgb(204, 58, 58);
-  font-size: 13px;
-  background: none;
-  padding: 3px;
-}
-
-div.row div.column span.description {
-  color: rgb(218, 93, 35);
-  font-size: 14px;
-  background: none;
-  display: block;
-  padding: 4px;
-  border-left: 2px solid rgba(225, 151, 243, 0.575);
-}
-
 /* 
 .card button {
   border: none;
@@ -318,6 +293,22 @@ div.row div.column span.description {
     border: 1.5px solid rgba(225, 151, 243, 0.575);
   }
 
+  div.row div.column span.title {
+    color: rgb(216, 58, 58);
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+  
+  div.row div.column span.price {
+    color: rgb(204, 58, 58);
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+  }
+
   div.row div.column span.description {
     color: rgb(218, 93, 35);
     font-size: 13px;
@@ -382,6 +373,22 @@ div.row div.column span.description {
     border: 1.5px solid rgba(225, 151, 243, 0.575);
   }
 
+  div.row div.column span.title {
+    color: rgb(216, 58, 58);
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+  
+  div.row div.column span.price {
+    color: rgb(204, 58, 58);
+    font-size: 15px;
+    background: none;
+    padding: 3px;
+  }
+
   div.row div.column span.description {
     color: rgb(218, 93, 35);
     font-size: 14px;
@@ -444,9 +451,25 @@ div.row div.column span.description {
     border: 1.5px solid rgba(225, 151, 243, 0.575);
   }
 
+  div.row div.column span.title {
+    color: rgb(216, 58, 58);
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+  
+  div.row div.column span.price {
+    color: rgb(204, 58, 58);
+    font-size: 15px;
+    background: none;
+    padding: 3px;
+  }
+
   div.row div.column span.description {
     color: rgb(218, 93, 35);
-    font-size: 15px;
+    font-size: 14px;
     background: none;
     display: block;
     padding: 4px;
@@ -532,9 +555,25 @@ div.row div.column span.description {
     border: 1.5px solid rgba(225, 151, 243, 0.575);
   }
 
+  div.row div.column span.title {
+    color: rgb(216, 58, 58);
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+  
+  div.row div.column span.price {
+    color: rgb(204, 58, 58);
+    font-size: 15px;
+    background: none;
+    padding: 3px;
+  }
+
   div.row div.column span.description {
     color: rgb(218, 93, 35);
-    font-size: 16px;
+    font-size: 14px;
     background: none;
     display: block;
     padding: 4px;
