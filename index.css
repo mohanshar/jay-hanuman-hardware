@@ -18,7 +18,7 @@ header h2 {
   text-align: center;
   padding: 15px 10px;
   border-radius: 0 0 30px 30px;
-  background-color: rgba(94, 123, 250, 0.678);
+  background-color: rgba(49, 77, 199, 0.486);
   backdrop-filter: blur(20px);
   user-select: none;
   display: block;
@@ -238,7 +238,7 @@ div.row div.column span.price {
 
 div.row div.column span.description {
   color: rgb(218, 93, 35);
-  font-size: 12px;
+  font-size: 14px;
   background: none;
   display: block;
   padding: 4px;
@@ -297,6 +297,7 @@ div.row div.column span.description {
   div.column {
     float: left;
     width: 48.5%;
+    height: 45vh;
     padding: 10px;
     background-color: rgba(114, 45, 24, 0.521);
     margin-left: 5px;
@@ -315,6 +316,15 @@ div.row div.column span.description {
     width: 100px;
     border-radius: 8px 8px 0 0;
     border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.row div.column span.description {
+    color: rgb(218, 93, 35);
+    font-size: 13px;
+    background: none;
+    display: block;
+    padding: 4px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 }
 
@@ -350,6 +360,7 @@ div.row div.column span.description {
   div.column {
     float: left;
     width: 49%;
+    height: 55vh;
     padding: 10px;
     background-color: rgba(114, 45, 24, 0.521);
     margin-left: 5px;
@@ -357,6 +368,7 @@ div.row div.column span.description {
     font-family: arial;
     border: 2.5px solid rgba(212, 102, 102, 0.555);
     border-radius: 10px;
+    display: block;
   }
   
   div.column:hover {
@@ -364,10 +376,19 @@ div.row div.column span.description {
   }
   
   div.row div.column img {
-    height: 130px;
+    height: 200px;
     width: 100px;
     border-radius: 8px 8px 0 0;
     border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.row div.column span.description {
+    color: rgb(218, 93, 35);
+    font-size: 14px;
+    background: none;
+    display: block;
+    padding: 4px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
 }
@@ -401,7 +422,8 @@ div.row div.column span.description {
   /* Create two equal columns that floats next to each other */
   div.column {
     float: left;
-    width: 30%;
+    width: 32.5%;
+    height: 55vh;
     padding: 10px;
     background-color: rgba(114, 45, 24, 0.521);
     margin-left: 5px;
@@ -416,10 +438,19 @@ div.row div.column span.description {
   }
   
   div.row div.column img {
-    height: 130px;
+    height: 180px;
     width: 100px;
     border-radius: 8px 8px 0 0;
     border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.row div.column span.description {
+    color: rgb(218, 93, 35);
+    font-size: 15px;
+    background: none;
+    display: block;
+    padding: 4px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 }
 
@@ -438,7 +469,8 @@ div.row div.column span.description {
   /* Create two equal columns that floats next to each other */
   div.column {
     float: left;
-    width: 48.5%;
+    width: 32.7%;
+    height: 55vh;
     padding: 10px;
     background-color: rgba(114, 45, 24, 0.521);
     margin-left: 5px;
@@ -453,10 +485,19 @@ div.row div.column span.description {
   }
   
   div.row div.column img {
-    height: 130px;
-    width: 100px;
+    height: 200px;
+    width: 80px;
     border-radius: 8px 8px 0 0;
     border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.row div.column span.description {
+    color: rgb(218, 93, 35);
+    font-size: 15px;
+    background: none;
+    display: block;
+    padding: 4px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 }
 
@@ -475,6 +516,7 @@ div.row div.column span.description {
   div.column {
     float: left;
     width: 24.5%;
+    height: 55vh;
     padding: 10px;
     background-color: rgba(114, 45, 24, 0.521);
     margin-left: 5px;
@@ -484,9 +526,18 @@ div.row div.column span.description {
   }
 
   div.row div.column img {
-    height: 180px;
+    height: 200px;
     width: auto;
     border-radius: 8px 8px 0 0;
     border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.row div.column span.description {
+    color: rgb(218, 93, 35);
+    font-size: 16px;
+    background: none;
+    display: block;
+    padding: 4px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 }
