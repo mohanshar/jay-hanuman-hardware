@@ -168,50 +168,6 @@ div.copyright {
   border-top-right-radius: 20px;
 }
 
-div.about-text {
-  margin: 65px 5px;
-  padding: 15px;
-  text-align: center;
-  color: #fff;
-  font-size: small;
-  border-radius: 10px;
-  background-color: rgba(248, 188, 98, 0.589);
-  border: 1px solid rgb(224, 224, 183);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.about-text .profilepic {
-  width: auto;
-  height: 110px;
-  border-radius: 10px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.911),
-    rgba(230, 212, 212, 0.5)
-  );
-  margin: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.contact-info {
-  margin-top: -50px;
-  font-size: 12px;
-  padding: 12px 8px;
-  display: block;
-  color: rgb(255, 255, 255);
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.contact-info a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  border-bottom: 1px solid rgb(151, 116, 116);
-}
-
 /* Clear floats after the columns */
 div.row:after {
   content: "";
@@ -245,6 +201,51 @@ div.row:after {
 @media only screen and (orientation: portrait) {
   footer button {
     font-size: small;
+  }
+
+  div.about-text {
+    margin: 65px 5px;
+    padding: 15px;
+    width: fit-content;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgba(248, 188, 98, 0.589);
+    border: 1px solid rgb(224, 224, 183);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.about-text .profilepic {
+    width: auto;
+    height: 110px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.contact-info {
+    margin-top: -50px;
+    font-size: 12px;
+    padding: 12px 8px;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.contact-info a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(151, 116, 116);
   }
 }
 
@@ -316,6 +317,49 @@ div.row:after {
     display: block;
     padding: 4px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.about-text {
+    margin: 65px 5px;
+    padding: 15px;
+    width: 85%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgba(248, 188, 98, 0.589);
+    border: 1px solid rgb(224, 224, 183);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.about-text .profilepic {
+    width: auto;
+    height: 110px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    margin-left: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.contact-info {
+    margin-top: -55px;
+    font-size: 12px;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+  }
+  
+  div.contact-info a {
+    color: rgb(229, 166, 166); 
+    text-decoration: none;
+    border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
 }
 
@@ -398,6 +442,49 @@ div.row:after {
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
+  div.about-text {
+    margin: 65px 5px;
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgba(248, 188, 98, 0.589);
+    border: 1px solid rgb(224, 224, 183);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.about-text .profilepic {
+    width: auto;
+    height: 110px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    margin-left: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.contact-info {
+    margin-top: -55px;
+    font-size: 12px;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: 80px;
+  }
+  
+  div.contact-info a {
+    color: rgb(229, 166, 166); 
+    text-decoration: none;
+    border-bottom: 1px solid rgba(118, 214, 221, 0.856);
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -475,6 +562,49 @@ div.row:after {
     padding: 4px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
+
+  div.about-text {
+    margin: 65px 5px;
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgba(248, 188, 98, 0.589);
+    border: 1px solid rgb(224, 224, 183);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.about-text .profilepic {
+    width: auto;
+    height: 110px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    margin-left: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.contact-info {
+    margin-top: -55px;
+    font-size: 12px;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: 145px;
+  }
+  
+  div.contact-info a {
+    color: rgb(229, 166, 166); 
+    text-decoration: none;
+    border-bottom: 1px solid rgba(118, 214, 221, 0.856);
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -521,6 +651,49 @@ div.row:after {
     display: block;
     padding: 4px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.about-text {
+    margin: 65px 5px;
+    padding: 15px;
+    width: 75%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgba(248, 188, 98, 0.589);
+    border: 1px solid rgb(224, 224, 183);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.about-text .profilepic {
+    width: auto;
+    height: 110px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    margin-left: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.contact-info {
+    margin-top: -55px;
+    font-size: 12px;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: 160px;
+  }
+  
+  div.contact-info a {
+    color: rgb(229, 166, 166); 
+    text-decoration: none;
+    border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
 }
 
@@ -578,5 +751,48 @@ div.row:after {
     display: block;
     padding: 4px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.about-text {
+    margin: 65px 5px;
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgba(248, 188, 98, 0.589);
+    border: 1px solid rgb(224, 224, 183);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.about-text .profilepic {
+    width: auto;
+    height: 110px;
+    border-radius: 10px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    margin-left: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.contact-info {
+    margin-top: -55px;
+    font-size: 12px;
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-left: 260px;
+  }
+  
+  div.contact-info a {
+    color: rgb(229, 166, 166); 
+    text-decoration: none;
+    border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
 }
