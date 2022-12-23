@@ -30,7 +30,7 @@ header h2 {
 }
 
 header h2:hover {
-  text-decoration: 5px underline gold;
+  text-decoration: 2.5px underline rgba(255, 217, 0, 0.733);
 }
 
 p {
@@ -89,7 +89,8 @@ footer button {
   display: block;
   float: left;
   width: 25%;
-  border-right: 0.5px solid #888;
+  border-right: 0.5px solid rgba(175, 80, 80, 0.801);
+  /* border-bottom: 1.5px solid rgba(255, 130, 130, 0.801); */
   cursor: pointer;
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
@@ -97,28 +98,28 @@ footer button {
 
 .active {
   font-weight: bold;
-  background-color: #666;
-  border-bottom: 3px solid cornflowerblue;
+  background-color: rgba(165, 18, 18, 0.582);
+  /* border-bottom: 3px solid cornflowerblue; */
   border-bottom-right-radius: 20px;
   transition: 0.5s;
 }
 
 footer button:hover {
   font-weight: bold;
-  background-color: #666;
-  border-bottom: 3px solid #ddd;
+  background-color: rgba(165, 18, 18, 0.582);
+  /* border-bottom: 3px solid #ddd; */
 }
 
 footer button:active {
   font-weight: bold;
-  background-color: #666;
-  border-bottom: 2px solid #ddd;
+  background-color: rgba(165, 18, 18, 0.582);
+  /* border-bottom: 2px solid #ddd; */
 }
 
 footer button:nth-child(4):active {
   font-weight: bold;
-  background-color: #666;
-  border-bottom: 2px solid #ddd;
+  background-color: rgba(165, 18, 18, 0.582);
+  /* border-bottom: 2px solid #ddd; */
 }
 
 footer button:nth-child(1) {
@@ -149,8 +150,8 @@ footer button:nth-child(1) {
 .btn:hover {
   background-color: rgba(132, 130, 247, 0.726);
   color: #fff;
-  border-left: 3px solid rgb(238, 197, 217);
-  border-right: 3px solid rgb(238, 197, 217);
+  border-left: 3px solid rgba(175, 80, 80, 0.801);
+  border-right: 3px solid rgba(175, 80, 80, 0.801);
 }
 
 .btn:active {
@@ -164,6 +165,8 @@ div.copyright {
   text-align: center;
   color: #fff;
   font-size: small;
+  border-top: 2px solid rgba(253, 120, 120, 0.801);
+  border-bottom: 1px solid rgba(175, 80, 80, 0.801);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -217,7 +220,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.about-text .profilepic {
     width: auto;
     height: 110px;
@@ -231,7 +234,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.contact-info {
     margin-top: -50px;
     font-size: 12px;
@@ -241,7 +244,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -273,25 +276,26 @@ div.row:after {
   div.column {
     float: left;
     width: 48.5%;
-    height: 45vh;
+    height: 55vh;
     padding: 10px;
-    background-color: rgba(114, 45, 24, 0.521);
+    background-color: rgba(145, 39, 39, 0.281);
     margin-left: 5px;
     margin-bottom: 5px;
     font-family: arial;
-    border: 2.5px solid rgba(212, 102, 102, 0.555);
+    border: 2.5px solid rgba(248, 21, 21, 0.63);
     border-radius: 10px;
   }
-  
+
   div.column:hover {
     box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
+    background-color: rgba(221, 32, 32, 0.281);
   }
-  
+
   div.row div.column img {
-    height: 130px;
-    width: 100px;
+    height: 200px;
+    width: auto;
     border-radius: 8px 8px 0 0;
-    border: 1.5px solid rgba(225, 151, 243, 0.575);
+    border: 1.5px solid rgba(217, 125, 240, 0.685);
   }
 
   div.row div.column span.title {
@@ -302,7 +306,7 @@ div.row:after {
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
-  
+
   div.row div.column span.price {
     color: rgb(204, 58, 58);
     font-size: 14px;
@@ -333,7 +337,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.about-text .profilepic {
     width: auto;
     height: 110px;
@@ -347,7 +351,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.contact-info {
     margin-top: -55px;
     font-size: 12px;
@@ -355,9 +359,9 @@ div.row:after {
     color: rgb(255, 255, 255);
     margin-left: 60px;
   }
-  
+
   div.contact-info a {
-    color: rgb(229, 166, 166); 
+    color: rgb(229, 166, 166);
     text-decoration: none;
     border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
@@ -405,11 +409,11 @@ div.row:after {
     border-radius: 10px;
     display: block;
   }
-  
+
   div.column:hover {
     box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
   }
-  
+
   div.row div.column img {
     height: 200px;
     width: 100px;
@@ -425,7 +429,7 @@ div.row:after {
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
-  
+
   div.row div.column span.price {
     color: rgb(204, 58, 58);
     font-size: 15px;
@@ -456,7 +460,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.about-text .profilepic {
     width: auto;
     height: 110px;
@@ -470,7 +474,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.contact-info {
     margin-top: -55px;
     font-size: 12px;
@@ -478,13 +482,12 @@ div.row:after {
     color: rgb(255, 255, 255);
     margin-left: 80px;
   }
-  
+
   div.contact-info a {
-    color: rgb(229, 166, 166); 
+    color: rgb(229, 166, 166);
     text-decoration: none;
     border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -526,11 +529,11 @@ div.row:after {
     border: 2.5px solid rgba(212, 102, 102, 0.555);
     border-radius: 10px;
   }
-  
+
   div.column:hover {
     box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
   }
-  
+
   div.row div.column img {
     height: 180px;
     width: 100px;
@@ -546,7 +549,7 @@ div.row:after {
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
-  
+
   div.row div.column span.price {
     color: rgb(204, 58, 58);
     font-size: 15px;
@@ -577,7 +580,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.about-text .profilepic {
     width: auto;
     height: 110px;
@@ -591,7 +594,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.contact-info {
     margin-top: -55px;
     font-size: 12px;
@@ -599,9 +602,9 @@ div.row:after {
     color: rgb(255, 255, 255);
     margin-left: 145px;
   }
-  
+
   div.contact-info a {
-    color: rgb(229, 166, 166); 
+    color: rgb(229, 166, 166);
     text-decoration: none;
     border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
@@ -632,11 +635,11 @@ div.row:after {
     border: 2.5px solid rgba(212, 102, 102, 0.555);
     border-radius: 10px;
   }
-  
+
   div.column:hover {
     box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
   }
-  
+
   div.row div.column img {
     height: 200px;
     width: 80px;
@@ -667,7 +670,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.about-text .profilepic {
     width: auto;
     height: 110px;
@@ -681,7 +684,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.contact-info {
     margin-top: -55px;
     font-size: 12px;
@@ -689,9 +692,9 @@ div.row:after {
     color: rgb(255, 255, 255);
     margin-left: 160px;
   }
-  
+
   div.contact-info a {
-    color: rgb(229, 166, 166); 
+    color: rgb(229, 166, 166);
     text-decoration: none;
     border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
@@ -736,7 +739,7 @@ div.row:after {
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
-  
+
   div.row div.column span.price {
     color: rgb(204, 58, 58);
     font-size: 15px;
@@ -767,7 +770,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.about-text .profilepic {
     width: auto;
     height: 110px;
@@ -781,7 +784,7 @@ div.row:after {
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   div.contact-info {
     margin-top: -55px;
     font-size: 12px;
@@ -789,10 +792,83 @@ div.row:after {
     color: rgb(255, 255, 255);
     margin-left: 260px;
   }
-  
+
   div.contact-info a {
-    color: rgb(229, 166, 166); 
+    color: rgb(229, 166, 166);
     text-decoration: none;
     border-bottom: 1px solid rgba(118, 214, 221, 0.856);
+  }
+}
+
+/* Extra extra large devices (large laptops and desktops, 1400px and up) */
+
+@media only screen and (min-width: 1400px) {
+  div.img img {
+    width: 40%;
+    height: auto;
+    display: block;
+  }
+
+  footer button {
+    font-size: medium;
+  }
+
+  div.column {
+    float: left;
+    width: 24.5%;
+    height: 55vh;
+    padding: 10px;
+    background-color: rgba(114, 45, 24, 0.521);
+    margin-left: 5px;
+    font-family: arial;
+    border: 2.5px solid rgba(212, 102, 102, 0.555);
+    border-radius: 10px;
+  }
+
+  div.row div.column img {
+    height: 200px;
+    width: auto;
+    border-radius: 8px 8px 0 0;
+    border: 1.5px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.row div.column span.title {
+    color: rgb(216, 58, 58);
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.row div.column span.price {
+    color: rgb(204, 58, 58);
+    font-size: 15px;
+    background: none;
+    padding: 3px;
+  }
+
+  div.row div.column span.description {
+    color: rgb(218, 93, 35);
+    font-size: 14px;
+    background: none;
+    display: block;
+    padding: 4px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div.about-text {
+    margin: 65px 5px;
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    background-color: rgba(248, 188, 98, 0.589);
+    border: 1px solid rgb(224, 224, 183);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
