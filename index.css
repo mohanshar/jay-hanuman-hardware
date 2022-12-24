@@ -33,11 +33,6 @@ header h2:hover {
   text-decoration: 2px underline rgba(255, 217, 0, 0.897);
 }
 
-div#home {
-  margin-top: 8vh;
-  margin-bottom: 22vh;
-}
-
 div#home p {
   background-color: rgba(129, 47, 98, 0.623);
   color: rgb(250, 154, 250);
@@ -74,11 +69,6 @@ div#home div.img img {
   margin-top: 1.5vh;
 }
 
-div#prds {
-  margin-top: 8vh;
-  margin-bottom: 13vh;
-}
-
 /* Clear floats after the columns */
 div.row:after {
   content: "";
@@ -88,11 +78,6 @@ div.row:after {
 
 div#tools {
   margin-top: 8vh;
-  margin-bottom: 22vh;
-}
-
-div#conts {
-  margin-top: 9vh;
   margin-bottom: 22vh;
 }
 
@@ -232,6 +217,11 @@ footer div.copyright {
     font-size: large;
   }
 
+  div#home {
+    margin-top: 9vh;
+    margin-bottom: 14vh;
+  }
+
   div#home p {
     font-size: 15px;
     width: fit-content;
@@ -241,7 +231,7 @@ footer div.copyright {
   }
 
   div#home div.img img {
-    width: 85%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -255,6 +245,11 @@ footer div.copyright {
     text-align: center;
   }
 
+  div#prds {
+    margin-top: 9vh;
+    margin-bottom: 14vh;
+  }
+
   div#prds div.row {
     margin: auto;
   }
@@ -264,7 +259,7 @@ footer div.copyright {
     float: left;
     width: 50%;
     display: block;
-    height: 38vh;
+    height: 45vh;
     padding: 10px;
     background-color: rgba(133, 29, 77, 0.527);
     color: rgb(248, 172, 172);
@@ -281,6 +276,22 @@ footer div.copyright {
     color: rgb(240, 213, 213);
   }
 
+  div#prds div.row div.column div#box1 span#d1,
+  div#box2 span#d2,
+  div#box3 span#d3,
+  div#box4 span#d4,
+  div#box5 span#d5,
+  div#box6 span#d6 {
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
   div#prds div.row div.column div.decrptn,
   div.decrptn1,
   div.decrptn2,
@@ -289,14 +300,14 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    height: 34.5vh;
+    height: 41vh;
     font-weight: bold;
     text-align: center;
     border-radius: 10px;
     padding: 15px;
     background-color: rgba(226, 108, 29, 0.507);
   }
-  
+
   div#prds div.row div.column div.decrptn p,
   div.decrptn1 p,
   div.decrptn2 p,
@@ -306,7 +317,7 @@ footer div.copyright {
     background: none;
     font-size: 15px;
     /* margin-bottom: 20vh; */
-    display: block;    
+    display: block;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -314,7 +325,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
   }
-  
+
   div#prds div.row div.column div.decrptn span#b1,
   div.decrptn1 span#b2,
   div.decrptn2 span#b3,
@@ -325,6 +336,9 @@ footer div.copyright {
     color: #f3eead;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   div#prds div.row div.column img {
@@ -349,7 +363,7 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 8vh;
+    margin-top: 9vh;
     margin-bottom: 13vh;
   }
 
@@ -426,11 +440,12 @@ footer div.copyright {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   header h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   div#home {
-    margin-top: 9vh;
+    margin-top: 10vh;
+    margin-bottom: 13vh;
   }
 
   div#home p {
@@ -442,7 +457,7 @@ footer div.copyright {
   }
 
   div#home div.img img {
-    width: 80%;
+    width: 70%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -451,7 +466,7 @@ footer div.copyright {
   }
 
   footer button {
-    font-size: large;
+    font-size: small;
     margin: auto;
     text-align: center;
   }
@@ -486,6 +501,22 @@ footer div.copyright {
     color: rgb(240, 213, 213);
   }
 
+  div#prds div.row div.column div#box1 span#d1,
+  div#box2 span#d2,
+  div#box3 span#d3,
+  div#box4 span#d4,
+  div#box5 span#d5,
+  div#box6 span#d6 {
+    font-weight: bold;
+    font-size: 12px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
   div#prds div.row div.column div.decrptn,
   div.decrptn1,
   div.decrptn2,
@@ -501,7 +532,7 @@ footer div.copyright {
     padding: 15px;
     background-color: rgba(226, 108, 29, 0.507);
   }
-  
+
   div#prds div.row div.column div.decrptn p,
   div.decrptn1 p,
   div.decrptn2 p,
@@ -509,9 +540,9 @@ footer div.copyright {
   div.decrptn4 p,
   div.decrptn5 p {
     background: none;
-    font-size: 18px;
+    font-size: 14px;
     /* margin-bottom: 20vh; */
-    display: block;    
+    display: block;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -519,7 +550,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
   }
-  
+
   div#prds div.row div.column div.decrptn span#b1,
   div.decrptn1 span#b2,
   div.decrptn2 span#b3,
@@ -529,11 +560,14 @@ footer div.copyright {
     background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
   }
 
   div#prds div.row div.column img {
-    height: 200px;
+    height: 180px;
     width: auto;
     border-radius: 8px 8px 0 0;
     border: 2px solid rgba(93, 50, 104, 0.685);
@@ -541,16 +575,247 @@ footer div.copyright {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     background: none;
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
   div#prds div.row div.column span.price {
-    font-size: 16px;
+    font-size: 12px;
     background: none;
     padding: 3px;
+  }
+
+  div#conts {
+    margin-top: 9vh;
+    margin-bottom: 14vh;
+  }
+
+  div#conts div.about-text {
+    padding: 15px;
+    width: 80%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 10px;
+    line-height: 20px;
+    background-color: rgba(255, 166, 0, 0.541);
+    border: 2px solid rgb(240, 115, 13);
+    display: block;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div#conts kbd {
+    background: none;
+    color: rgba(255, 255, 0, 0.925);
+    font-weight: bold;
+  }
+
+  div#conts div.about-text .profilepic {
+    width: auto;
+    height: 120px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(180, 193, 201); */
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    display: block;
+    margin: auto;
+  }
+
+  div#conts div.contact-info {
+    width: fit-content;
+    display: block;
+    background-color: #83853a6e;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 15px;
+    padding: 12px;
+    border: 1px solid rgba(221, 206, 118, 0.699);
+  }
+
+  div#conts div.contact-info i {
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+
+  div#conts div.contact-info a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: none;
+    font-size: 13px;
+  }
+
+  footer div.copyright {
+    font-size: small;
+    margin: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  header h2 {
+    font-size: 22px;
+  }
+
+  div#home {
+    margin-top: 10vh;
+    margin-bottom: 13px;
+  }
+
+  div#home p {
+    font-size: 16px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div#home div.img img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(252, 102, 194);
+    margin: auto;
+    display: block;
+  }
+
+  footer button {
+    font-size: small;
+    margin: auto;
+  }
+
+  div#prds {
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+
+  div#prds div.row {
+    margin: auto;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  div#prds div.row div.column {
+    float: left;
+    width: 25%;
+    height: 48vh;
+    padding: 12px;
+    background-color: rgba(133, 29, 77, 0.527);
+    color: rgb(248, 172, 172);
+    /* display: block; */
+    margin: auto;
+    font-family: arial;
+    border: 2.5px solid rgba(253, 80, 80, 0.705);
+    border-radius: 20px 10px;
+  }
+
+  div#prds div.row div.column:hover {
+    box-shadow: 0 8px 16px 0 rgb(245, 117, 117);
+    background-color: rgba(185, 51, 114, 0.527);
+    /* border: 2.5px solid rgb(155, 22, 22); */
+    color: rgb(240, 213, 213);
+  }
+
+  div#prds div.row div.column div#box1 span#d1,
+  div#box2 span#d2,
+  div#box3 span#d3,
+  div#box4 span#d4,
+  div#box5 span#d5,
+  div#box6 span#d6 {
+    font-weight: bold;
+    font-size: 12px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  div#prds div.row div.column div.decrptn,
+  div.decrptn1,
+  div.decrptn2,
+  div.decrptn3,
+  div.decrptn4,
+  div.decrptn5 {
+    display: none;
+    color: #fff;
+    height: 44vh;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: rgba(226, 108, 29, 0.507);
+  }
+
+  div#prds div.row div.column div.decrptn p,
+  div.decrptn1 p,
+  div.decrptn2 p,
+  div.decrptn3 p,
+  div.decrptn4 p,
+  div.decrptn5 p {
+    background: none;
+    font-size: 14px;
+    /* margin-bottom: 20vh; */
+    display: block;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+  }
+
+  div#prds div.row div.column div.decrptn span#b1,
+  div.decrptn1 span#b2,
+  div.decrptn2 span#b3,
+  div.decrptn3 span#b4,
+  div.decrptn4 span#b5,
+  div.decrptn5 span#b6 {
+    background: none;
+    color: #f3eead;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: underline 2px;
+    bottom: 0;
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  div#prds div.row div.column img {
+    height: 200px;
+    width: auto;
+    border-radius: 8px 8px 0 0;
+    border: 1.5px solid rgba(217, 125, 240, 0.685);
+  }
+
+  div#prds div.row div.column span.title {
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div#prds div.row div.column span.price {
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+  }
+
+  div#conts {
+    margin-top: 10vh;
+    margin-bottom: 15vh;
   }
 
   div#conts div.about-text {
@@ -594,7 +859,7 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    width: 70%;
+    width: fit-content;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -607,7 +872,7 @@ footer div.copyright {
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 16px;
   }
 
   div#conts div.contact-info a {
@@ -618,20 +883,20 @@ footer div.copyright {
   }
 
   footer div.copyright {
-    font-size: 16px;
+    font-size: small;
     margin: auto;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   header h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   div#home {
     margin-top: 9vh;
-    margin-bottom: 13px;
+    margin-bottom: 14vh;
   }
 
   div#home p {
@@ -642,7 +907,7 @@ footer div.copyright {
   }
 
   div#home div.img img {
-    width: 60%;
+    width: 45%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -651,13 +916,13 @@ footer div.copyright {
   }
 
   footer button {
-    font-size: medium;
+    font-size: 15px;
     margin: auto;
   }
 
   div#prds {
-    margin-top: 9vh;
-    margin-bottom: 13vh;
+    margin-top: 9.5vh;
+    margin-bottom: 15.5vh;
   }
 
   div#prds div.row {
@@ -686,6 +951,22 @@ footer div.copyright {
     color: rgb(240, 213, 213);
   }
 
+  div#prds div.row div.column div#box1 span#d1,
+  div#box2 span#d2,
+  div#box3 span#d3,
+  div#box4 span#d4,
+  div#box5 span#d5,
+  div#box6 span#d6 {
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
   div#prds div.row div.column div.decrptn,
   div.decrptn1,
   div.decrptn2,
@@ -694,14 +975,14 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    height: 41vh;
+    height: 40.5vh;
     font-weight: bold;
     text-align: center;
     border-radius: 10px;
     padding: 12px;
     background-color: rgba(226, 108, 29, 0.507);
   }
-  
+
   div#prds div.row div.column div.decrptn p,
   div.decrptn1 p,
   div.decrptn2 p,
@@ -711,7 +992,7 @@ footer div.copyright {
     background: none;
     font-size: 15px;
     /* margin-bottom: 20vh; */
-    display: block;    
+    display: block;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -719,7 +1000,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
   }
-  
+
   div#prds div.row div.column div.decrptn span#b1,
   div.decrptn1 span#b2,
   div.decrptn2 span#b3,
@@ -730,11 +1011,10 @@ footer div.copyright {
     color: #f3eead;
     font-weight: bold;
     font-size: 14px;
-    bottom: 0;
   }
 
   div#prds div.row div.column img {
-    height: 200px;
+    height: 180px;
     width: auto;
     border-radius: 8px 8px 0 0;
     border: 1.5px solid rgba(217, 125, 240, 0.685);
@@ -742,21 +1022,21 @@ footer div.copyright {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     background: none;
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
   div#prds div.row div.column span.price {
-    font-size: 16px;
+    font-size: 14px;
     background: none;
     padding: 3px;
   }
 
   div#conts div.about-text {
     padding: 15px;
-    width: 80%;
+    width: 70%;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -795,7 +1075,7 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    width: 65%;
+    width: fit-content;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -808,218 +1088,18 @@ footer div.copyright {
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 16px;
   }
 
   div#conts div.contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    background: none;
-    font-size: 16px;
-  }
-
-  footer div.copyright {
-    font-size: 16px;
-    margin: auto;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  header h2 {
-    font-size: 25px;
-  }
-
-  div#home {
-    margin-top: 9vh;
-    margin-bottom: 14vh;
-  }
-
-  div#home p {
-    font-size: 16px;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div#home div.img img {
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid rgb(252, 102, 194);
-    margin: auto;
-    display: block;
-  }
-
-  footer button {
-    font-size: large;
-    margin: auto;
-  }
-
-  div#prds {
-    margin-top: 9.5vh;
-    margin-bottom: 14vh;
-  }
-
-  div#prds div.row {
-    margin: auto;
-  }
-
-  /* Create two equal columns that floats next to each other */
-  div#prds div.row div.column {
-    float: left;
-    width: 25%;
-    height: 40vh;
-    padding: 12px;
-    background-color: rgba(133, 29, 77, 0.527);
-    color: rgb(248, 172, 172);
-    /* display: block; */
-    margin: auto;
-    font-family: arial;
-    border: 2.5px solid rgba(253, 80, 80, 0.705);
-    border-radius: 20px 10px;
-  }
-
-  div#prds div.row div.column:hover {
-    box-shadow: 0 8px 16px 0 rgb(245, 117, 117);
-    background-color: rgba(185, 51, 114, 0.527);
-    /* border: 2.5px solid rgb(155, 22, 22); */
-    color: rgb(240, 213, 213);
-  }
-
-  div#prds div.row div.column div.decrptn,
-  div.decrptn1,
-  div.decrptn2,
-  div.decrptn3,
-  div.decrptn4,
-  div.decrptn5 {
-    display: none;
-    color: #fff;
-    height: 36vh;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 10px;
-    padding: 12px;
-    background-color: rgba(226, 108, 29, 0.507);
-  }
-  
-  div#prds div.row div.column div.decrptn p,
-  div.decrptn1 p,
-  div.decrptn2 p,
-  div.decrptn3 p,
-  div.decrptn4 p,
-  div.decrptn5 p {
     background: none;
     font-size: 15px;
-    /* margin-bottom: 20vh; */
-    display: block;    
-    text-align: start;
-    text-align: end;
-    text-align: left;
-    text-align: right;
-    text-align: center;
-    text-align: justify;
-  }
-  
-  div#prds div.row div.column div.decrptn span#b1,
-  div.decrptn1 span#b2,
-  div.decrptn2 span#b3,
-  div.decrptn3 span#b4,
-  div.decrptn4 span#b5,
-  div.decrptn5 span#b6 {
-    background: none;
-    color: #f3eead;
-    font-weight: bold;
-    font-size: 14px;
-  }
-
-  div#prds div.row div.column img {
-    height: 200px;
-    width: auto;
-    border-radius: 8px 8px 0 0;
-    border: 1.5px solid rgba(217, 125, 240, 0.685);
-  }
-
-  div#prds div.row div.column span.title {
-    font-weight: bold;
-    font-size: 18px;
-    background: none;
-    padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
-  }
-
-  div#prds div.row div.column span.price {
-    font-size: 16px;
-    background: none;
-    padding: 3px;
-  }
-
-  div#conts div.about-text {
-    padding: 15px;
-    width: 70%;
-    text-align: start;
-    text-align: end;
-    text-align: left;
-    text-align: right;
-    text-align: center;
-    text-align: justify;
-    color: #fff;
-    font-size: large;
-    border-radius: 10px;
-    line-height: 20px;
-    background-color: rgba(255, 166, 0, 0.541);
-    border: 2px solid rgb(240, 115, 13);
-    display: block;
-    margin-bottom: 8px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div#conts kbd {
-    background: none;
-    color: rgba(255, 255, 0, 0.925);
-    font-weight: bold;
-  }
-
-  div#conts div.about-text .profilepic {
-    width: auto;
-    height: 120px;
-    border-radius: 10px;
-    /* border: 2px solid rgb(180, 193, 201); */
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.911),
-      rgba(230, 212, 212, 0.5)
-    );
-    display: block;
-    margin: auto;
-  }
-
-  div#conts div.contact-info {
-    width: 70%;
-    display: block;
-    background-color: #83853a6e;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    border-radius: 15px;
-    padding: 12px;
-    border: 1px solid rgba(221, 206, 118, 0.699);
-  }
-
-  div#conts div.contact-info i {
-    background: none;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-  }
-
-  div#conts div.contact-info a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    background: none;
-    font-size: 18px;
   }
 
   footer div.copyright {
-    font-size: large;
+    font-size: small;
     margin: auto;
   }
 }
@@ -1027,21 +1107,22 @@ footer div.copyright {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   header h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   div#home {
-    margin-top: 12vh;
+    margin-top: 10vh;
+    margin-bottom: 16vh;
   }
 
   div#home p {
-    font-size: 16px;
     width: fit-content;
     margin: auto;
+    margin-bottom: 5px;
   }
 
   div#home div.img img {
-    width: 80%;
+    width: 40%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -1050,7 +1131,7 @@ footer div.copyright {
   }
 
   footer button {
-    font-size: large;
+    font-size: 15px;
     margin: auto;
   }
 
@@ -1067,7 +1148,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 20%;
-    height: 40vh;
+    height: 48vh;
     padding: 12px;
     background-color: rgba(133, 29, 77, 0.527);
     color: rgb(248, 172, 172);
@@ -1085,6 +1166,68 @@ footer div.copyright {
     color: rgb(240, 213, 213);
   }
 
+  div#prds div.row div.column div#box1 span#d1,
+  div#box2 span#d2,
+  div#box3 span#d3,
+  div#box4 span#d4,
+  div#box5 span#d5,
+  div#box6 span#d6 {
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  div#prds div.row div.column div.decrptn,
+  div.decrptn1,
+  div.decrptn2,
+  div.decrptn3,
+  div.decrptn4,
+  div.decrptn5 {
+    display: none;
+    color: #fff;
+    height: 43.5vh;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: rgba(226, 108, 29, 0.507);
+  }
+
+  div#prds div.row div.column div.decrptn p,
+  div.decrptn1 p,
+  div.decrptn2 p,
+  div.decrptn3 p,
+  div.decrptn4 p,
+  div.decrptn5 p {
+    background: none;
+    font-size: 15px;
+    /* margin-bottom: 20vh; */
+    display: block;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+  }
+
+  div#prds div.row div.column div.decrptn span#b1,
+  div.decrptn1 span#b2,
+  div.decrptn2 span#b3,
+  div.decrptn3 span#b4,
+  div.decrptn4 span#b5,
+  div.decrptn5 span#b6 {
+    background: none;
+    color: #f3eead;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
   div#prds div.row div.column img {
     height: 200px;
     width: auto;
@@ -1094,21 +1237,21 @@ footer div.copyright {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     background: none;
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
   div#prds div.row div.column span.price {
-    font-size: 16px;
+    font-size: 14px;
     background: none;
     padding: 3px;
   }
 
   div#conts div.about-text {
     padding: 15px;
-    width: 92%;
+    width: 70%;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -1148,7 +1291,7 @@ footer div.copyright {
 
   div#conts div.contact-info {
     font-size: 14px;
-    width: 90%;
+    width: fit-content;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -1171,7 +1314,7 @@ footer div.copyright {
   }
 
   footer div.copyright {
-    font-size: large;
+    font-size: 14px;
     margin: auto;
   }
 }
@@ -1180,22 +1323,26 @@ footer div.copyright {
 
 @media only screen and (min-width: 1400px) {
   header h2 {
-    font-size: 25px;
+    font-size: 23px;
   }
 
   div#home {
-    margin-top: 12vh;
+    margin-top: 9vh;
+    margin-bottom: 15vh;
   }
 
-  div#home p {
-    font-size: 16px;
-    /* width: fit-content; */
+div#home p {
+    font-size: 18px;
     margin-bottom: 1vh;
-    width: 40%;
+    width: fit-content;
+  }
+
+  div#home p kbd.title {
+    font-size: 20px;
   }
 
   div#home div.img img {
-    width: 50%;
+    width: 40%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -1221,7 +1368,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 16.666666667%;
-    height: 40vh;
+    height: 42vh;
     padding: 12px;
     background-color: rgba(133, 29, 77, 0.527);
     color: rgb(248, 172, 172);
@@ -1237,6 +1384,68 @@ footer div.copyright {
     background-color: rgba(185, 51, 114, 0.527);
     /* border: 2.5px solid rgb(155, 22, 22); */
     color: rgb(240, 213, 213);
+  }
+
+  div#prds div.row div.column div#box1 span#d1,
+  div#box2 span#d2,
+  div#box3 span#d3,
+  div#box4 span#d4,
+  div#box5 span#d5,
+  div#box6 span#d6 {
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  div#prds div.row div.column div.decrptn,
+  div.decrptn1,
+  div.decrptn2,
+  div.decrptn3,
+  div.decrptn4,
+  div.decrptn5 {
+    display: none;
+    color: #fff;
+    height: 38vh;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: rgba(226, 108, 29, 0.507);
+  }
+
+  div#prds div.row div.column div.decrptn p,
+  div.decrptn1 p,
+  div.decrptn2 p,
+  div.decrptn3 p,
+  div.decrptn4 p,
+  div.decrptn5 p {
+    background: none;
+    font-size: 15px;
+    /* margin-bottom: 20vh; */
+    display: block;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+  }
+
+  div#prds div.row div.column div.decrptn span#b1,
+  div.decrptn1 span#b2,
+  div.decrptn2 span#b3,
+  div.decrptn3 span#b4,
+  div.decrptn4 span#b5,
+  div.decrptn5 span#b6 {
+    background: none;
+    color: #f3eead;
+    font-weight: bold;
+    font-size: 14px;
   }
 
   div#prds div.row div.column img {
@@ -1270,7 +1479,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     color: #fff;
-    font-size: medium;
+    font-size: large;
     border-radius: 10px;
     line-height: 20px;
     background-color: rgba(255, 166, 0, 0.541);
@@ -1301,8 +1510,7 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    font-size: 14px;
-    width: 90%;
+    width: fit-content;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -1315,13 +1523,14 @@ footer div.copyright {
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 18px;
   }
 
   div#conts div.contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
+    font-size: 18px;
   }
 
   footer div.copyright {
