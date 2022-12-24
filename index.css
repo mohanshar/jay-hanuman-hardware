@@ -294,9 +294,14 @@ footer div.copyright {
   }
 
   div#conts div.about-text {
-    padding: 12px;
-    width: 85%;
+    padding: 15px;
+    width: 95%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
     text-align: center;
+    text-align: justify;
     color: #fff;
     font-size: small;
     border-radius: 10px;
@@ -330,7 +335,7 @@ footer div.copyright {
 
   div#conts div.contact-info {
     font-size: 10px;
-    width: 85%;
+    width: 90%;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
