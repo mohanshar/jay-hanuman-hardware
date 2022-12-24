@@ -18,7 +18,7 @@ header h2 {
   text-align: center;
   padding: 15px 10px;
   border-radius: 0 0 30px 30px;
-  background-color: rgba(49, 77, 199, 0.486);
+  background-color: rgba(236, 111, 170, 0.747);
   backdrop-filter: blur(20px);
   user-select: none;
   display: block;
@@ -33,41 +33,61 @@ header h2:hover {
   text-decoration: 2.5px underline rgba(255, 217, 0, 0.733);
 }
 
-p {
-  margin: 65px 5px;
-  background-color: rgb(51, 79, 129);
+div#home {
+  margin-top: 10vh;
+  margin-bottom: 22vh;
+}
+
+div#home p {
+  background-color: rgba(129, 47, 98, 0.623);
   color: rgb(250, 154, 250);
   text-align: center;
-  padding: 25px;
-  border: 2px solid rgb(248, 90, 248);
+  padding: 20px 10px;
+  border: 2px solid rgba(211, 135, 211, 0.589);
   border-radius: 30px 30px 10px 10px;
   justify-content: center;
   font-weight: bold;
+  margin-bottom: 2vh;
 }
 
-p span {
+div#home p span {
   float: right;
   background: none;
-  margin-top: -5px;
-  padding: 4px 25px;
+  margin-top: -10px;
+  padding: 4px 20px;
   color: #f56868;
 }
 
-kbd {
+div#home p kbd {
   background: none;
   color: rgba(252, 252, 29, 0.829);
   font-weight: bold;
 }
 
-div.img img {
-  width: 85%;
-  height: auto;
-  border-radius: 10px;
-  border: 2px solid rgb(230, 99, 39);
-  margin: -50px 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+div#home div.img img {
+  margin-top: 1.5vh;
+}
+
+div#prds {
+  margin-top: 10vh;
+  margin-bottom: 13vh;
+}
+
+/* Clear floats after the columns */
+div.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div#tools {
+  margin-top: 10vh;
+  margin-bottom: 22vh;
+}
+
+div#conts {
+  margin-top: 10vh;
+  margin-bottom: 22vh;
 }
 
 footer {
@@ -80,14 +100,16 @@ footer {
 }
 
 footer button {
-  background-color: #333;
+  background-color: rgba(36, 14, 14, 0.849);
   color: wheat;
-  font-size: 16px;
+  /* font-size: 16px; */
   border: none;
   outline: none;
   padding: 15px;
   display: block;
   float: left;
+  margin: auto;
+  text-align: center;
   width: 25%;
   border-right: 0.5px solid rgba(175, 80, 80, 0.801);
   /* border-bottom: 1.5px solid rgba(255, 130, 130, 0.801); */
@@ -96,11 +118,11 @@ footer button {
   -webkit-tap-highlight-color: transparent;
 }
 
-.active {
+footer button.active {
   font-weight: bold;
   background-color: rgba(165, 18, 18, 0.582);
   /* border-bottom: 3px solid cornflowerblue; */
-  border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 18px;
   transition: 0.5s;
 }
 
@@ -122,15 +144,7 @@ footer button:nth-child(4):active {
   /* border-bottom: 2px solid #ddd; */
 }
 
-footer button:nth-child(1) {
-  border-top-left-radius: 15px;
-}
-
-footer button:nth-child(1) {
-  border-top-right-radius: 15px;
-}
-
-.btn {
+/* .btn {
   padding: 10px 15px;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -156,9 +170,9 @@ footer button:nth-child(1) {
 
 .btn:active {
   background-color: rgba(204, 114, 114, 0.658);
-}
+} */
 
-div.copyright {
+footer div.copyright {
   /* margin-top: 3px; */
   background-color: rgba(187, 45, 45, 0.568);
   padding: 10px 0;
@@ -169,14 +183,6 @@ div.copyright {
   border-bottom: 1px solid rgba(175, 80, 80, 0.801);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-
-/* Clear floats after the columns */
-div.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  height: 20vh;
 }
 
 /* 
@@ -202,11 +208,32 @@ div.row:after {
 } */
 
 @media only screen and (orientation: portrait) {
-  footer button {
-    font-size: small;
+header h2 {
+  font-size: medium;
+}
+
+  div#home p {
+    font-size: 15px;
+  }  
+  
+  div.img img {
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+    /* border: 2px solid rgba(104, 48, 104, 0.788); */
+    /* margin: -50px 5px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  div.about-text {
+  div#conts kbd {
+    background: none;
+    color: rgba(255, 255, 0, 0.925);
+    font-weight: bold;
+  }
+
+  div#conts div.about-text {
     margin: 65px 5px;
     padding: 15px;
     width: fit-content;
@@ -221,7 +248,7 @@ div.row:after {
     margin-right: auto;
   }
 
-  div.about-text .profilepic {
+  div#conts div.about-text .profilepic {
     width: auto;
     height: 110px;
     border-radius: 10px;
@@ -235,8 +262,7 @@ div.row:after {
     margin-right: auto;
   }
 
-  div.contact-info {
-    margin-top: -50px;
+  div#conts div.contact-info {
     font-size: 12px;
     padding: 12px 8px;
     display: block;
@@ -245,10 +271,15 @@ div.row:after {
     margin-right: auto;
   }
 
-  div.contact-info a {
+  div#conts div.contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     border-bottom: 1px solid rgb(151, 116, 116);
+  }
+
+  footer div.copyright {
+    font-size: 12px;
+    margin: auto;
   }
 }
 
@@ -257,49 +288,53 @@ div.row:after {
 
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 600px) {
-  div.img img {
+  div#home div.img img {
     width: 85%;
     height: auto;
     border-radius: 10px;
-    border: 2px solid rgb(248, 90, 248);
-    margin: -50px 5px;
+    border: 2px solid rgb(252, 102, 194);
+    margin: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   footer button {
     font-size: small;
+    margin: auto;
+    text-align: center;
+  }
+
+  div#prds div.row {
+    margin-left: 12px;
   }
 
   /* Create two equal columns that floats next to each other */
-  div.column {
+  div#prds div.row div.column {
     float: left;
     width: 48.5%;
-    height: 55vh;
+    /* height: 55vh; */
     padding: 10px;
-    background-color: rgba(145, 39, 39, 0.281);
-    margin-left: 5px;
-    margin-bottom: 5px;
+    background-color: rgba(133, 29, 77, 0.527);
+    color: rgb(248, 172, 172);
+    margin: auto;
     font-family: arial;
-    border: 2.5px solid rgba(248, 21, 21, 0.63);
+    border: 2.5px solid rgba(253, 80, 80, 0.705);
     border-radius: 10px;
   }
 
-  div.column:hover {
-    box-shadow: 0 8px 16px 0 rgba(224, 41, 41, 0.568);
-    background-color: rgba(221, 32, 32, 0.281);
+  div#prds div.row div.column:hover {
+    box-shadow: 0 8px 16px 0 rgb(245, 117, 117);
+    background-color: rgba(216, 127, 111, 0.479);
+    color: rgb(240, 213, 213);
   }
 
-  div.row div.column img {
-    height: 200px;
+  div#prds div.row div.column img {
+    height: 160px;
     width: auto;
     border-radius: 8px 8px 0 0;
     border: 1.5px solid rgba(217, 125, 240, 0.685);
   }
 
-  div.row div.column span.title {
-    color: rgb(216, 58, 58);
+  div#prds div.row div.column span.title {
     font-weight: bold;
     font-size: 15px;
     background: none;
@@ -307,15 +342,13 @@ div.row:after {
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
-  div.row div.column span.price {
-    color: rgb(204, 58, 58);
+  div#prds div.row div.column span.price {
     font-size: 14px;
     background: none;
     padding: 3px;
   }
 
-  div.row div.column span.description {
-    color: rgb(218, 93, 35);
+  div#prds div.row div.column span.description {
     font-size: 13px;
     background: none;
     display: block;
@@ -323,7 +356,7 @@ div.row:after {
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
-  div.about-text {
+  div#conts div.about-text {
     margin: 65px 5px;
     padding: 15px;
     width: 85%;
@@ -338,7 +371,7 @@ div.row:after {
     margin-right: auto;
   }
 
-  div.about-text .profilepic {
+  div#conts div.about-text .profilepic {
     width: auto;
     height: 110px;
     border-radius: 10px;
@@ -352,7 +385,7 @@ div.row:after {
     margin-right: auto;
   }
 
-  div.contact-info {
+  div#conts div.contact-info {
     margin-top: -55px;
     font-size: 12px;
     display: block;
@@ -360,11 +393,12 @@ div.row:after {
     margin-left: 60px;
   }
 
-  div.contact-info a {
+  div#conts div.contact-info a {
     color: rgb(229, 166, 166);
     text-decoration: none;
     border-bottom: 1px solid rgba(118, 214, 221, 0.856);
   }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
