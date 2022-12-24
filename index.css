@@ -264,7 +264,7 @@ footer div.copyright {
     float: left;
     width: 50%;
     display: block;
-    /* height: 55vh; */
+    height: 38vh;
     padding: 10px;
     background-color: rgba(133, 29, 77, 0.527);
     color: rgb(248, 172, 172);
@@ -279,6 +279,52 @@ footer div.copyright {
     background-color: rgba(185, 51, 114, 0.527);
     /* border: 2.5px solid rgb(155, 22, 22); */
     color: rgb(240, 213, 213);
+  }
+
+  div#prds div.row div.column div.decrptn,
+  div.decrptn1,
+  div.decrptn2,
+  div.decrptn3,
+  div.decrptn4,
+  div.decrptn5 {
+    display: none;
+    color: #fff;
+    height: 32.5vh;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(226, 108, 29, 0.507);
+  }
+  
+  div#prds div.row div.column div.decrptn p,
+  div.decrptn1 p,
+  div.decrptn2 p,
+  div.decrptn3 p,
+  div.decrptn4 p,
+  div.decrptn5 p {
+    background: none;
+    font-size: 15px;
+    /* margin-bottom: 20vh; */
+    display: block;    
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+  }
+  
+  div#prds div.row div.column div.decrptn span#b1,
+  div.decrptn1 span#b2,
+  div.decrptn2 span#b3,
+  div.decrptn3 span#b4,
+  div.decrptn4 span#b5,
+  div.decrptn5 span#b6 {
+    background: none;
+    color: #f3eead;
+    font-weight: bold;
+    font-size: 14px;
   }
 
   div#prds div.row div.column img {
@@ -446,6 +492,52 @@ footer div.copyright {
     background-color: rgba(185, 51, 114, 0.527);
     /* border: 2.5px solid rgb(155, 22, 22); */
     color: rgb(240, 213, 213);
+  }
+
+  div#prds div.row div.column div.decrptn,
+  div.decrptn1,
+  div.decrptn2,
+  div.decrptn3,
+  div.decrptn4,
+  div.decrptn5 {
+    display: none;
+    color: #fff;
+    height: 32.5vh;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(226, 108, 29, 0.507);
+  }
+  
+  div#prds div.row div.column div.decrptn p,
+  div.decrptn1 p,
+  div.decrptn2 p,
+  div.decrptn3 p,
+  div.decrptn4 p,
+  div.decrptn5 p {
+    background: none;
+    font-size: 15px;
+    /* margin-bottom: 20vh; */
+    display: block;    
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+  }
+  
+  div#prds div.row div.column div.decrptn span#b1,
+  div.decrptn1 span#b2,
+  div.decrptn2 span#b3,
+  div.decrptn3 span#b4,
+  div.decrptn4 span#b5,
+  div.decrptn5 span#b6 {
+    background: none;
+    color: #f3eead;
+    font-weight: bold;
+    font-size: 14px;
   }
 
   div#prds div.row div.column img {
