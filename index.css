@@ -234,6 +234,10 @@ footer div.copyright {
 
   div#home p {
     font-size: 15px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
   }
 
   div#home div.img img {
@@ -306,9 +310,14 @@ footer div.copyright {
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
+  div#conts {
+    margin-top: 8vh;
+    margin-bottom: 13vh;
+  }
+
   div#conts div.about-text {
     padding: 15px;
-    width: 95%;
+    width: fit-content;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -322,7 +331,7 @@ footer div.copyright {
     background-color: rgba(255, 166, 0, 0.541);
     border: 2px solid rgb(240, 115, 13);
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -348,7 +357,7 @@ footer div.copyright {
 
   div#conts div.contact-info {
     font-size: 10px;
-    width: 90%;
+    width: fit-content;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -361,7 +370,7 @@ footer div.copyright {
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
-    font-size: 12px;
+    font-size: 14px;
   }
 
   div#conts div.contact-info a {
