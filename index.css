@@ -34,7 +34,7 @@ header h2:hover {
 }
 
 div#home {
-  margin-top: 10vh;
+  margin-top: 8vh;
   margin-bottom: 22vh;
 }
 
@@ -69,7 +69,7 @@ div#home div.img img {
 }
 
 div#prds {
-  margin-top: 8.5vh;
+  margin-top: 8vh;
   margin-bottom: 13vh;
 }
 
@@ -81,12 +81,12 @@ div.row:after {
 }
 
 div#tools {
-  margin-top: 10vh;
+  margin-top: 8vh;
   margin-bottom: 22vh;
 }
 
 div#conts {
-  margin-top: 10vh;
+  margin-top: 8vh;
   margin-bottom: 22vh;
 }
 
