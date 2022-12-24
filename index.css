@@ -64,6 +64,12 @@ div#home p kbd {
   font-weight: bold;
 }
 
+div#home p kbd.title {
+  color: #e4d3eb;
+  font-size: 15px;
+  text-decoration: 2px dashed underline #f85757;
+}
+
 div#home div.img img {
   margin-top: 1.5vh;
 }
@@ -86,7 +92,7 @@ div#tools {
 }
 
 div#conts {
-  margin-top: 8vh;
+  margin-top: 9vh;
   margin-bottom: 22vh;
 }
 
@@ -186,7 +192,7 @@ footer div.copyright {
 }
 
 @media only screen and (min-width: 500px) {
-  div#conts div.contact-info a{
+  div#conts div.contact-info a {
     font-size: 12px;
   }
 }
@@ -373,15 +379,23 @@ footer div.copyright {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   header h2 {
-    font-size: 20px;
+    font-size: 24px;
+  }
+
+  div#home {
+    margin-top: 9vh;
   }
 
   div#home p {
     font-size: 16px;
+    width: max-content;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   div#home div.img img {
-    width: 85%;
+    width: 80%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -390,9 +404,14 @@ footer div.copyright {
   }
 
   footer button {
-    font-size: medium;
+    font-size: large;
     margin: auto;
     text-align: center;
+  }
+
+  div#prds {
+    margin-top: 9vh;
+    margin-bottom: 14vh;
   }
 
   div#prds div.row {
@@ -403,7 +422,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 33.33%;
-    height: 40vh;
+    height: 41vh;
     padding: 10px;
     background-color: rgba(133, 29, 77, 0.527);
     color: rgb(248, 172, 172);
@@ -450,7 +469,7 @@ footer div.copyright {
 
   div#conts div.about-text {
     padding: 15px;
-    width: 92%;
+    width: 80%;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -489,8 +508,7 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    font-size: 14px;
-    width: 90%;
+    width: 70%;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -503,17 +521,18 @@ footer div.copyright {
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 18px;
   }
 
   div#conts div.contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
+    font-size: 14px;
   }
 
   footer div.copyright {
-    font-size: 14px;
+    font-size: 16px;
     margin: auto;
   }
 }
@@ -525,17 +544,19 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 12vh;
+    margin-top: 9vh;
+    margin-bottom: 13px;
   }
 
   div#home p {
     font-size: 16px;
     width: fit-content;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   div#home div.img img {
-    width: 80%;
+    width: 60%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -609,7 +630,7 @@ footer div.copyright {
 
   div#conts div.about-text {
     padding: 15px;
-    width: 92%;
+    width: 80%;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -648,8 +669,7 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    font-size: 14px;
-    width: 90%;
+    width: 65%;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -662,17 +682,18 @@ footer div.copyright {
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 18px;
   }
 
   div#conts div.contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
+    font-size: 16px;
   }
 
   footer div.copyright {
-    font-size: 14px;
+    font-size: 16px;
     margin: auto;
   }
 }
@@ -684,17 +705,19 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 12vh;
+    margin-top: 9vh;
+    margin-bottom: 14vh;
   }
 
   div#home p {
     font-size: 16px;
     width: fit-content;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   div#home div.img img {
-    width: 80%;
+    width: 60%;
     height: auto;
     border-radius: 10px;
     border: 2px solid rgb(252, 102, 194);
@@ -703,7 +726,7 @@ footer div.copyright {
   }
 
   footer button {
-    font-size: medium;
+    font-size: large;
     margin: auto;
   }
 
@@ -768,7 +791,7 @@ footer div.copyright {
 
   div#conts div.about-text {
     padding: 15px;
-    width: 92%;
+    width: 70%;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -776,7 +799,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     color: #fff;
-    font-size: medium;
+    font-size: large;
     border-radius: 10px;
     line-height: 20px;
     background-color: rgba(255, 166, 0, 0.541);
@@ -807,8 +830,7 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    font-size: 14px;
-    width: 90%;
+    width: 70%;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -821,17 +843,18 @@ footer div.copyright {
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 20px;
   }
 
   div#conts div.contact-info a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
+    font-size: 18px;
   }
 
   footer div.copyright {
-    font-size: 14px;
+    font-size: large;
     margin: auto;
   }
 }
