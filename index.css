@@ -69,8 +69,8 @@ div#home div.img img {
 }
 
 div#prds {
-  margin-top: 10vh;
-  margin-bottom: 13vh;
+  margin-top: 9vh;
+  margin-bottom: 14vh;
 }
 
 /* Clear floats after the columns */
@@ -323,7 +323,8 @@ header h2 {
 
   div#prds div.row div.column:hover {
     box-shadow: 0 8px 16px 0 rgb(245, 117, 117);
-    background-color: rgba(216, 127, 111, 0.479);
+    background-color: rgba(185, 51, 114, 0.527);
+    /* border: 2.5px solid rgb(155, 22, 22); */
     color: rgb(240, 213, 213);
   }
 
@@ -336,14 +337,14 @@ header h2 {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     background: none;
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
   div#prds div.row div.column span.price {
-    font-size: 14px;
+    font-size: 12px;
     background: none;
     padding: 3px;
   }
