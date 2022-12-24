@@ -185,6 +185,12 @@ footer div.copyright {
   border-top-right-radius: 20px;
 }
 
+@media only screen and (min-width: 500px) {
+  div#conts div.contact-info a{
+    font-size: 12px;
+  }
+}
+
 /* 
 .card button {
   border: none;
@@ -214,8 +220,8 @@ footer div.copyright {
 /* @media only screen and (orientation: landscape) {
 } */
 
-/* Extra small devices (phones, 400px and down)  */
-@media only screen and (max-width: 400px) {
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 600px) {
   header h2 {
     font-size: large;
   }
@@ -237,161 +243,6 @@ footer div.copyright {
     font-size: small;
     margin: auto;
     text-align: center;
-  }
-
-  div#prds div.row {
-    margin: auto;
-  }
-
-  /* Create two equal columns that floats next to each other */
-  div#prds div.row div.column {
-    /* float: left; */
-    width: 100%;
-    display: block;
-    /* height: 55vh; */
-    padding: 10px;
-    background: linear-gradient(
-      90deg,
-      rgba(224, 65, 65, 0.541) 0%,
-      rgba(240, 70, 70, 0.637) 50%,
-      rgba(236, 106, 54, 0.582) 100%
-    );
-    color: rgb(248, 172, 172);
-    margin-bottom: 5px;
-    font-family: arial;
-    border: 2.5px solid rgba(253, 80, 80, 0.705);
-    border-radius: 10px;
-  }
-
-  div#prds div.row div.column:hover {
-    box-shadow: 0 8px 16px 0 rgb(245, 117, 117);
-    background-color: rgba(185, 51, 114, 0.527);
-    /* border: 2.5px solid rgb(155, 22, 22); */
-    color: rgb(240, 213, 213);
-  }
-
-  div#prds div.row div.column img {
-    height: 60%;
-    width: auto;
-    border-radius: 8px 8px 0 0;
-    border: 1.5px solid rgba(217, 125, 240, 0.685);
-  }
-
-  div#prds div.row div.column span.title {
-    font-weight: bold;
-    font-size: 16px;
-    background: none;
-    padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
-  }
-
-  div#prds div.row div.column span.price {
-    font-size: 14px;
-    background: none;
-    padding: 3px;
-  }
-
-  div#prds div.row div.column span.description {
-    font-size: 13px;
-    background: none;
-    display: block;
-    padding: 4px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
-  }
-
-  div#conts div.about-text {
-    padding: 15px;
-    width: 95%;
-    text-align: start;
-    text-align: end;
-    text-align: left;
-    text-align: right;
-    text-align: center;
-    text-align: justify;
-    color: #fff;
-    font-size: small;
-    border-radius: 10px;
-    line-height: 16px;
-    background-color: rgba(255, 166, 0, 0.541);
-    border: 2px solid rgb(240, 115, 13);
-    display: block;
-    margin-bottom: 8px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div#conts kbd {
-    background: none;
-    color: rgba(255, 255, 0, 0.925);
-    font-weight: bold;
-  }
-
-  div#conts div.about-text .profilepic {
-    width: auto;
-    height: 110px;
-    border-radius: 10px;
-    /* border: 2px solid rgb(180, 193, 201); */
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.911),
-      rgba(230, 212, 212, 0.5)
-    );
-    display: block;
-    margin: auto;
-  }
-
-  div#conts div.contact-info {
-    font-size: 10px;
-    width: 90%;
-    display: block;
-    background-color: #83853a6e;
-    color: rgb(255, 255, 255);
-    margin: auto;
-    border-radius: 15px;
-    padding: 12px;
-    border: 1px solid rgba(221, 206, 118, 0.699);
-  }
-
-  div#conts div.contact-info i {
-    background: none;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-  }
-
-  div#conts div.contact-info a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    background: none;
-  }
-
-  footer div.copyright {
-    font-size: 12px;
-    margin: auto;
-  }
-}
-
-/* Extra small devices (phones, 400px and down)  */
-@media only screen and (min-width: 400px) {
-  header h2 {
-    font-size: large;
-  }
-
-  div#home p {
-    font-size: 15px;
-  }
-
-  div#home div.img img {
-    width: 85%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid rgb(252, 102, 194);
-    margin: auto;
-    display: block;
-  }
-
-  footer button {
-    font-size: medium;
-    margin: auto;
-    /* text-align: center; */
   }
 
   div#prds div.row {
