@@ -207,87 +207,23 @@ footer div.copyright {
   opacity: 0.5;
 } */
 
-@media only screen and (orientation: portrait) {
-header h2 {
-  font-size: medium;
-}
+/* @media only screen and (orientation: portrait) {
 
-  div#home p {
-    font-size: 15px;
-  }  
-  
-  div.img img {
-    width: 85%;
-    height: auto;
-    border-radius: 10px;
-    /* border: 2px solid rgba(104, 48, 104, 0.788); */
-    /* margin: -50px 5px; */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div#conts kbd {
-    background: none;
-    color: rgba(255, 255, 0, 0.925);
-    font-weight: bold;
-  }
-
-  div#conts div.about-text {
-    margin: 65px 5px;
-    padding: 15px;
-    width: fit-content;
-    text-align: center;
-    color: #fff;
-    font-size: small;
-    border-radius: 10px;
-    background-color: rgba(248, 188, 98, 0.589);
-    border: 1px solid rgb(224, 224, 183);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div#conts div.about-text .profilepic {
-    width: auto;
-    height: 110px;
-    border-radius: 10px;
-    background-image: linear-gradient(
-      rgba(255, 255, 255, 0.911),
-      rgba(230, 212, 212, 0.5)
-    );
-    margin: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div#conts div.contact-info {
-    font-size: 12px;
-    padding: 12px 8px;
-    display: block;
-    color: rgb(255, 255, 255);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  div#conts div.contact-info a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    border-bottom: 1px solid rgb(151, 116, 116);
-  }
-
-  footer div.copyright {
-    font-size: 12px;
-    margin: auto;
-  }
-}
+} */
 
 /* @media only screen and (orientation: landscape) {
 } */
 
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 600px) {
+  header h2 {
+    font-size: medium;
+  }
+
+  div#home p {
+    font-size: 15px;
+  }
+
   div#home div.img img {
     width: 85%;
     height: auto;
@@ -358,48 +294,67 @@ header h2 {
   }
 
   div#conts div.about-text {
-    margin: 65px 5px;
-    padding: 15px;
+    padding: 12px;
     width: 85%;
     text-align: center;
     color: #fff;
     font-size: small;
     border-radius: 10px;
-    background-color: rgba(248, 188, 98, 0.589);
-    border: 1px solid rgb(224, 224, 183);
+    background-color: rgba(255, 166, 0, 0.541);
+    border: 2px solid rgb(240, 115, 13);
     display: block;
+    margin-bottom: 8px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  div#conts kbd {
+    background: none;
+    color: rgba(255, 255, 0, 0.925);
+    font-weight: bold;
   }
 
   div#conts div.about-text .profilepic {
     width: auto;
     height: 110px;
     border-radius: 10px;
+    /* border: 2px solid rgb(180, 193, 201); */
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
-    margin-left: 5px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
   }
 
   div#conts div.contact-info {
-    margin-top: -55px;
     font-size: 12px;
+    width: 80%;
     display: block;
+    background-color: #8d8f2dad;
     color: rgb(255, 255, 255);
-    margin-left: 60px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 12px;
+    border: 1px solid rgba(221, 206, 118, 0.699);
+  }
+
+  div#conts div.contact-info i {
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: medium;
   }
 
   div#conts div.contact-info a {
-    color: rgb(229, 166, 166);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    border-bottom: 1px solid rgba(118, 214, 221, 0.856);
+    background: none;
   }
 
+  footer div.copyright {
+    font-size: 12px;
+    margin: auto;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
