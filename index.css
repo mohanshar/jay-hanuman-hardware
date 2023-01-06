@@ -263,7 +263,7 @@ footer div.copyright {
     padding: 18px;
     margin: 5px 50px 0 50px;
     border: 2px solid rgba(228, 118, 118, 0.678);
-    background-color: rgba(163, 45, 24, 0.685);
+    background-color: rgba(119, 53, 41, 0.685);
     color: rgb(240, 213, 213);
     font-family: arial;
     border-radius: 10px;
@@ -320,7 +320,7 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    height: 42vh;
+    height: auto;
     font-weight: bold;
     border-radius: 10px;
     padding: 15px;
