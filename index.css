@@ -231,13 +231,13 @@ footer div.copyright {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   div#home div.img img {
     width: 80%;
     height: auto;
-    border: #c4c729 5px solid;
+    border: #c4c729 2px solid;
     border-radius: 10px;
     margin: auto;
     display: block;
@@ -260,9 +260,12 @@ footer div.copyright {
 
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
-    max-width: 100%;
+    float: left;
+    width: 50%;
+    display: block;
+    height: 50vh;
     padding: 18px;
-    margin: 5px 50px 0 50px;
+    margin: auto;
     border: 2px solid rgba(228, 118, 118, 0.678);
     background-color: rgba(255, 0, 0, 0.233);
     color: rgb(240, 213, 213);
@@ -277,7 +280,7 @@ footer div.copyright {
   div#prds div.row div.column img {
     margin: auto;
     display: block;
-    height: auto;
+    height: 30vh;
     width: fit-content;
     border-radius: 10px 10px 0 0;
     margin-bottom: 5px;
@@ -285,14 +288,14 @@ footer div.copyright {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     background: none;
     padding: 3px;
     border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
   div#prds div.row div.column span.price {
-    font-size: 14px;
+    font-size: 13px;
     background: none;
     padding: 3px;
   }
@@ -529,7 +532,7 @@ footer div.copyright {
     color: rgb(240, 213, 213);
     margin: auto;
     font-family: arial;
-    /* border: 2.5px solid rgba(253, 80, 80, 0.705); */
+    border: 2px solid rgba(253, 80, 80, 0.705);
     border-radius: 10px;
   }
 
@@ -792,7 +795,7 @@ footer div.copyright {
     /* display: block; */
     margin: auto;
     font-family: arial;
-    /* border: 2.5px solid rgba(253, 80, 80, 0.705); */
+    border: 2.5px solid rgba(253, 80, 80, 0.705);
     border-radius: 20px 10px;
   }
 
