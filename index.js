@@ -44,65 +44,65 @@ $(document).ready(function () {
         $('#conts').slideDown();
     });
 
-    // $('#d1').on("click", function () {
-    //     $('#box1').slideUp();
-    //     $('.decrptn').slideDown();
-    // });
+    $('#d1').on("click", function () {
+        $('#box1').slideUp();
+        $('.decrptn').slideDown();
+    });
 
-    // $('#b1').on("click", function () {
-    //     $('#box1').slideDown();
-    //     $('.decrptn').slideUp();
-    // });
+    $('#b1').on("click", function () {
+        $('#box1').slideDown();
+        $('.decrptn').slideUp();
+    });
 
-    // $('#d2').on("click", function () {
-    //     $('#box2').slideUp();
-    //     $('.decrptn1').slideDown();
-    // });
+    $('#d2').on("click", function () {
+        $('#box2').slideUp();
+        $('.decrptn1').slideDown();
+    });
 
-    // $('#b2').on("click", function () {
-    //     $('#box2').slideDown();
-    //     $('.decrptn1').slideUp();
-    // });
+    $('#b2').on("click", function () {
+        $('#box2').slideDown();
+        $('.decrptn1').slideUp();
+    });
 
-    // $('#d3').on("click", function () {
-    //     $('#box3').slideUp();
-    //     $('.decrptn2').slideDown();
-    // });
+    $('#d3').on("click", function () {
+        $('#box3').slideUp();
+        $('.decrptn2').slideDown();
+    });
 
-    // $('#b3').on("click", function () {
-    //     $('#box3').slideDown();
-    //     $('.decrptn2').slideUp();
-    // });
+    $('#b3').on("click", function () {
+        $('#box3').slideDown();
+        $('.decrptn2').slideUp();
+    });
 
-    // $('#d4').on("click", function () {
-    //     $('#box4').slideUp();
-    //     $('.decrptn3').slideDown();
-    // });
+    $('#d4').on("click", function () {
+        $('#box4').slideUp();
+        $('.decrptn3').slideDown();
+    });
 
-    // $('#b4').on("click", function () {
-    //     $('#box4').slideDown();
-    //     $('.decrptn3').slideUp();
-    // });
+    $('#b4').on("click", function () {
+        $('#box4').slideDown();
+        $('.decrptn3').slideUp();
+    });
 
-    // $('#d5').on("click", function () {
-    //     $('#box5').slideUp();
-    //     $('.decrptn4').slideDown();
-    // });
+    $('#d5').on("click", function () {
+        $('#box5').slideUp();
+        $('.decrptn4').slideDown();
+    });
 
-    // $('#b5').on("click", function () {
-    //     $('#box5').slideDown();
-    //     $('.decrptn4').slideUp();
-    // });
+    $('#b5').on("click", function () {
+        $('#box5').slideDown();
+        $('.decrptn4').slideUp();
+    });
 
-    // $('#d6').on("click", function () {
-    //     $('#box6').slideUp();
-    //     $('.decrptn5').slideDown();
-    // });
+    $('#d6').on("click", function () {
+        $('#box6').slideUp();
+        $('.decrptn5').slideDown();
+    });
 
-    // $('#b6').on("click", function () {
-    //     $('#box6').slideDown();
-    //     $('.decrptn5').slideUp();
-    // });
+    $('#b6').on("click", function () {
+        $('#box6').slideDown();
+        $('.decrptn5').slideUp();
+    });
 
 });
 
@@ -158,5 +158,3 @@ function firstAudioFunction() {
         z.pause();
     }
 }
-
-
