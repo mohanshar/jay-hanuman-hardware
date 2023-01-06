@@ -282,6 +282,20 @@ footer div.copyright {
     margin-bottom: 5px;
   }
 
+  div#prds div.row div.column span.title {
+    font-weight: bold;
+    font-size: 16px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div#prds div.row div.column span.price {
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+  }
+
   div#prds div.row div.column div#box1 span#d1,
   div#box2 span#d2,
   div#box3 span#d3,
@@ -321,8 +335,7 @@ footer div.copyright {
   div.decrptn4 p,
   div.decrptn5 p {
     background: none;
-    font-size: 14px;
-    /* margin-bottom: 20vh; */
+    font-size: 16px;
     display: block;
     text-align: start;
     text-align: end;
@@ -341,25 +354,11 @@ footer div.copyright {
     background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(225, 151, 243, 0.575);
-    padding: 3px;
-  }
-
-  div#prds div.row div.column span.title {
-    font-weight: bold;
-    font-size: 12px;
-    background: none;
-    padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
-  }
-
-  div#prds div.row div.column span.price {
-    font-size: 12px;
-    background: none;
     padding: 3px;
   }
 
