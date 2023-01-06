@@ -39,7 +39,7 @@
 
         </p>
 
-        <p id="demo"></p>
+        <!-- <p id="demo"></p> -->
 
         <script>
             var w = window.innerWidth;
@@ -58,7 +58,7 @@
     <div id="prds" style="display: none;">
 
         <header>
-            <h2>All Products</h2>
+            <h2>Products</h2>
         </header>
 
         <div class="row">
@@ -67,14 +67,20 @@
                     <img src="Photos/nails.jpg" alt="Nails" style="width:100%">
                     <span class="title">Nails</span><br>
                     <span class="price">Rs.160 per K.G.</span><br><br>
-                    <span class="title" id="d1">Go to Description</span>
+                    <!-- Trigger/Open The Modal -->
+                    <button class="title" id="d1">Go to Description</button>
                 </div>
-                <div class="decrptn">
-                    <p>Nails are used to join two pieces of wood together.</p>
-                    <br>
-                    <span id="b1">Go to Product Info</span>
+
+                <!-- The Modal -->
+                <div id="b1" class="decrptn">
+
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Nails are used to join two pieces of wood together.</p>
+                    </div>
+
                 </div>
-                <!-- <button>Add to Cart</button> -->
             </div>
 
             <div class="column">
@@ -84,6 +90,7 @@
                     <span class="price">Rs.100 per 250gm.</span><br><br>
                     <span class="title" id="d2">Go to Description</span>
                 </div>
+
                 <div class="decrptn1">
                     <p>Cap Nails are used to join two pieces of wood together.</p>
                     <br>
@@ -222,3 +229,32 @@
 </body>
 
 </html>
+
+<script>
+
+// Get the modal
+var modal = document.getElementById("b1");
+
+// Get the button that opens the modal
+var btn = document.getElementById("d1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>

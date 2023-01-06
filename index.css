@@ -231,12 +231,13 @@ footer div.copyright {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
 
   div#home div.img img {
     width: 80%;
     height: auto;
+    border: #c4c729 5px solid;
     border-radius: 10px;
     margin: auto;
     display: block;
@@ -263,7 +264,7 @@ footer div.copyright {
     padding: 18px;
     margin: 5px 50px 0 50px;
     border: 2px solid rgba(228, 118, 118, 0.678);
-    background-color: rgba(119, 53, 41, 0.685);
+    background-color: rgba(255, 0, 0, 0.233);
     color: rgb(240, 213, 213);
     font-family: arial;
     border-radius: 10px;
@@ -296,12 +297,16 @@ footer div.copyright {
     padding: 3px;
   }
 
-  div#prds div.row div.column div#box1 span#d1,
-  div#box2 span#d2,
-  div#box3 span#d3,
-  div#box4 span#d4,
-  div#box5 span#d5,
-  div#box6 span#d6 {
+  div#prds div.row div.column div#box1 button#d1,
+  div#box2 button#d2,
+  div#box3 button#d3,
+  div#box4 button#d4,
+  div#box5 button#d5,
+  div#box6 button#d6 {
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
     font-weight: bold;
     font-size: 14px;
     background: none;
@@ -312,7 +317,49 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
   }
 
-  div#prds div.row div.column div.decrptn,
+  /* The Modal (background) */
+  div#prds div.row div.column div.decrptn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 45px; /*Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content */
+  div#prds div.row div.column div.decrptn div.modal-content {
+    background-color: #3e1064;
+    margin: auto;
+    padding: 25px;
+    width: 80%;
+    height: 60vh;
+    border: 2px solid rgba(228, 118, 118, 0.678);
+    border-radius: 10px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 30px;
+    margin-top: -3vh;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: rgb(104, 102, 102);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* div#prds div.row div.column div.decrptn,
   div.decrptn1,
   div.decrptn2,
   div.decrptn3,
@@ -320,7 +367,7 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    height: auto;
+    height: 45vh;
     font-weight: bold;
     border-radius: 10px;
     padding: 15px;
@@ -360,7 +407,7 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(225, 151, 243, 0.575);
     padding: 3px;
-  }
+  } */
 
   div#conts {
     margin-top: 7.5vh;
