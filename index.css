@@ -344,7 +344,7 @@ footer div.copyright {
   div.decrptn3 div.modal-content,
   div.decrptn4 div.modal-content,
   div.decrptn5 div.modal-content {
-    background-color: #3e1064;
+    background-color: #c59510de;
     margin: auto;
     padding: 25px;
     width: 60%;
@@ -360,7 +360,7 @@ footer div.copyright {
   div.decrptn3 div.modal-content span.close4,
   div.decrptn4 div.modal-content span.close5,
   div.decrptn5 div.modal-content span.close6 {
-    color: #aaaaaa;
+    color: #f7e3e3;
     float: right;
     font-size: 30px;
     margin-top: -3vh;
@@ -391,7 +391,7 @@ footer div.copyright {
   div.decrptn3 div.modal-content p,
   div.decrptn4 div.modal-content p,
   div.decrptn5 div.modal-content p {
-    color: #d19494;
+    color: rgb(11, 10, 73);
     font-size: 18px;
     font-weight: bold;
   }
