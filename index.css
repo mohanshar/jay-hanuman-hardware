@@ -224,7 +224,7 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 9vh;
+    margin-top: 7.5vh;
     margin-bottom: 14vh;
   }
 
@@ -306,7 +306,7 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    height: 41vh;
+    height: auto;
     font-weight: bold;
     text-align: center;
     border-radius: 10px;
@@ -350,7 +350,7 @@ footer div.copyright {
   div#prds div.row div.column img {
     height: 180px;
     width: auto;
-    border-radius: 8px 8px 0 0;
+    border-radius: 10px 10px 0 0;
     border: 1.5px solid rgba(217, 125, 240, 0.685);
   }
 
@@ -369,7 +369,7 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 9vh;
+    margin-top: 7.5vh;
     margin-bottom: 13vh;
   }
 
