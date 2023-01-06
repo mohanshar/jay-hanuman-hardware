@@ -327,7 +327,7 @@ footer div.copyright {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 45px; /*Location of the box */
+    padding-top: 65px; /*Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -347,19 +347,19 @@ footer div.copyright {
     background-color: #3e1064;
     margin: auto;
     padding: 25px;
-    width: 80%;
-    height: 60vh;
+    width: 60%;
+    height: 30%;
     border: 2px solid rgba(228, 118, 118, 0.678);
     border-radius: 10px;
   }
 
   /* The Close Button */
-  div#prds div.row div.column div.decrptn div.modal-content span.close,
-  div.decrptn1 div.modal-content span.close,
-  div.decrptn2 div.modal-content span.close,
-  div.decrptn3 div.modal-content span.close,
-  div.decrptn4 div.modal-content span.close,
-  div.decrptn5 div.modal-content span.close {
+  div#prds div.row div.column div.decrptn div.modal-content span.close1,
+  div.decrptn1 div.modal-content span.close2,
+  div.decrptn2 div.modal-content span.close3,
+  div.decrptn3 div.modal-content span.close4,
+  div.decrptn4 div.modal-content span.close5,
+  div.decrptn5 div.modal-content span.close6 {
     color: #aaaaaa;
     float: right;
     font-size: 30px;
@@ -367,18 +367,18 @@ footer div.copyright {
     font-weight: bold;
   }
 
-  div#prds div.row div.column div.decrptn div.modal-content span.close:hover,
-  div.decrptn1 div.modal-content span.close:hover,
-  div.decrptn2 div.modal-content span.close:hover,
-  div.decrptn3 div.modal-content span.close:hover,
-  div.decrptn4 div.modal-content span.close:hover,
-  div.decrptn5 div.modal-content span.close:hover,
-  div#prds div.row div.column div.decrptn div.modal-content span.close:focus,
-  div.decrptn1 div.modal-content span.close:focus,
-  div.decrptn2 div.modal-content span.close:focus,
-  div.decrptn3 div.modal-content span.close:focus,
-  div.decrptn4 div.modal-content span.close:focus,
-  div.decrptn5 div.modal-content span.close:focus {
+  div#prds div.row div.column div.decrptn div.modal-content span.close1:hover,
+  div.decrptn1 div.modal-content span.close2:hover,
+  div.decrptn2 div.modal-content span.close3:hover,
+  div.decrptn3 div.modal-content span.close4:hover,
+  div.decrptn4 div.modal-content span.close5:hover,
+  div.decrptn5 div.modal-content span.close6:hover,
+  div#prds div.row div.column div.decrptn div.modal-content span.close1:focus,
+  div.decrptn1 div.modal-content span.close2:focus,
+  div.decrptn2 div.modal-content span.close3:focus,
+  div.decrptn3 div.modal-content span.close4:focus,
+  div.decrptn4 div.modal-content span.close5:focus,
+  div.decrptn5 div.modal-content span.close6:focus {
     color: rgb(104, 102, 102);
     text-decoration: none;
     cursor: pointer;
@@ -392,7 +392,7 @@ footer div.copyright {
   div.decrptn4 div.modal-content p,
   div.decrptn5 div.modal-content p {
     color: #d19494;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
   }
 
