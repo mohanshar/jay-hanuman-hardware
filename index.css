@@ -98,9 +98,8 @@ footer {
 }
 
 footer button {
-  background-color: rgba(36, 14, 14, 0.849);
+  background-color: rgb(36, 14, 14);
   color: wheat;
-  /* font-size: 16px; */
   border: none;
   outline: none;
   padding: 15px;
@@ -109,8 +108,7 @@ footer button {
   margin: auto;
   text-align: center;
   width: 25%;
-  border-right: 0.5px solid rgba(175, 80, 80, 0.801);
-  /* border-bottom: 1.5px solid rgba(255, 130, 130, 0.801); */
+  border-right: 0.5px solid rgb(211, 174, 174);
   cursor: pointer;
   -webkit-tap-highlight-color: none;
   -webkit-tap-highlight-color: transparent;
@@ -118,27 +116,24 @@ footer button {
 
 footer button.active {
   font-weight: bold;
-  background-color: rgba(165, 18, 18, 0.582);
-  /* border-bottom: 3px solid cornflowerblue; */
+  background-color: rgb(165, 18, 18);
   border-bottom-right-radius: 18px;
   transition: 0.5s;
 }
 
 footer button:hover {
   font-weight: bold;
-  background-color: rgba(165, 18, 18, 0.582);
-  /* border-bottom: 3px solid #ddd; */
+  background-color: rgb(165, 18, 18);
 }
 
 footer button:active {
   font-weight: bold;
-  background-color: rgba(165, 18, 18, 0.582);
-  /* border-bottom: 2px solid #ddd; */
+  background-color: rgb(165, 18, 18);
 }
 
 footer button:nth-child(4):active {
   font-weight: bold;
-  background-color: rgba(165, 18, 18, 0.582);
+  background-color: rgb(165, 18, 18);
   /* border-bottom: 2px solid #ddd; */
 }
 
@@ -172,7 +167,7 @@ footer button:nth-child(4):active {
 
 footer div.copyright {
   /* margin-top: 3px; */
-  background-color: rgba(187, 45, 45, 0.568);
+  background-color: rgb(59, 11, 11);
   padding: 10px 0;
   text-align: center;
   color: #fff;
@@ -262,19 +257,16 @@ footer div.copyright {
     display: block;
     height: 52vh;
     padding: 10px;
-    background-color: rgba(133, 29, 77, 0.527);
-    color: rgb(248, 172, 172);
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 213, 213);
     margin: auto;
     font-family: arial;
-    border: 2.5px solid rgba(253, 80, 80, 0.705);
     border-radius: 10px;
   }
 
   div#prds div.row div.column:hover {
-    box-shadow: 0 8px 16px 0 rgb(245, 117, 117);
-    background-color: rgba(185, 51, 114, 0.527);
-    /* border: 2.5px solid rgb(155, 22, 22); */
-    color: rgb(240, 213, 213);
+    border: 2px solid rgb(68, 6, 6);
+    color: rgb(253, 123, 123);
   }
 
   div#prds div.row div.column div#box1 span#d1,
@@ -315,7 +307,7 @@ footer div.copyright {
   div.decrptn4 p,
   div.decrptn5 p {
     background: none;
-    font-size: 15px;
+    font-size: 14px;
     /* margin-bottom: 20vh; */
     display: block;
     text-align: start;
@@ -335,7 +327,7 @@ footer div.copyright {
     background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -489,7 +481,8 @@ footer div.copyright {
     display: block;
     height: 45vh;
     padding: 10px;
-    color: rgb(248, 172, 172);
+    background-color: rgba(0, 0, 0, 0.829);
+    color: rgb(240, 213, 213);
     margin: auto;
     font-family: arial;
     border-radius: 10px;
@@ -497,9 +490,8 @@ footer div.copyright {
 
   div#prds div.row div.column:hover {
     box-shadow: 0 5px 5px 0 rgb(65, 64, 64);
-    background-color: rgb(0, 0, 0);
-    /* border: 2.5px solid rgb(155, 22, 22); */
-    color: rgb(240, 213, 213);
+    border: 2px solid rgb(155, 22, 22);
+    color: rgb(253, 123, 123);
   }
 
   div#prds div.row div.column div#box1 span#d1,
