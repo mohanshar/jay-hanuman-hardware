@@ -223,7 +223,7 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 7.5vh;
+    margin-top: 7vh;
   }
 
   div#home p {
@@ -231,7 +231,7 @@ footer div.copyright {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   div#home div.img img {
@@ -249,7 +249,7 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 7.5vh;
+    margin-top: 7vh;
     margin-bottom: 16vh;
   }
 
@@ -261,7 +261,7 @@ footer div.copyright {
   div#prds div.row div.column {
     max-width: 100%;
     padding: 18px;
-    margin: 5px 80px 0 80px;
+    margin: 5px 50px 0 50px;
     border: 2px solid rgba(228, 118, 118, 0.678);
     background-color: rgba(163, 45, 24, 0.685);
     color: rgb(240, 213, 213);
