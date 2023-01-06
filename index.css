@@ -213,9 +213,9 @@ footer div.copyright {
 
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 600px) {
-  /* header h2 {
-    font-size: large;
-  } */
+  header h2 {
+    font-size: 20px;
+  }
 
   div#home {
     margin-top: 9vh;
@@ -1331,7 +1331,7 @@ footer div.copyright {
     margin-bottom: 15vh;
   }
 
-div#home p {
+  div#home p {
     font-size: 18px;
     margin-bottom: 1vh;
     width: fit-content;
