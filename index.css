@@ -318,7 +318,12 @@ footer div.copyright {
   }
 
   /* The Modal (background) */
-  div#prds div.row div.column div.decrptn {
+  div#prds div.row div.column div.decrptn,
+  div.decrptn1,
+  div.decrptn2,
+  div.decrptn3,
+  div.decrptn4,
+  div.decrptn5 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -333,7 +338,12 @@ footer div.copyright {
   }
 
   /* Modal Content */
-  div#prds div.row div.column div.decrptn div.modal-content {
+  div#prds div.row div.column div.decrptn div.modal-content,
+  div.decrptn1 div.modal-content,
+  div.decrptn2 div.modal-content,
+  div.decrptn3 div.modal-content,
+  div.decrptn4 div.modal-content,
+  div.decrptn5 div.modal-content {
     background-color: #3e1064;
     margin: auto;
     padding: 25px;
@@ -344,7 +354,12 @@ footer div.copyright {
   }
 
   /* The Close Button */
-  .close {
+  div#prds div.row div.column div.decrptn div.modal-content span.close,
+  div.decrptn1 div.modal-content span.close,
+  div.decrptn2 div.modal-content span.close,
+  div.decrptn3 div.modal-content span.close,
+  div.decrptn4 div.modal-content span.close,
+  div.decrptn5 div.modal-content span.close {
     color: #aaaaaa;
     float: right;
     font-size: 30px;
@@ -352,62 +367,34 @@ footer div.copyright {
     font-weight: bold;
   }
 
-  .close:hover,
-  .close:focus {
+  div#prds div.row div.column div.decrptn div.modal-content span.close:hover,
+  div.decrptn1 div.modal-content span.close:hover,
+  div.decrptn2 div.modal-content span.close:hover,
+  div.decrptn3 div.modal-content span.close:hover,
+  div.decrptn4 div.modal-content span.close:hover,
+  div.decrptn5 div.modal-content span.close:hover,
+  div#prds div.row div.column div.decrptn div.modal-content span.close:focus,
+  div.decrptn1 div.modal-content span.close:focus,
+  div.decrptn2 div.modal-content span.close:focus,
+  div.decrptn3 div.modal-content span.close:focus,
+  div.decrptn4 div.modal-content span.close:focus,
+  div.decrptn5 div.modal-content span.close:focus {
     color: rgb(104, 102, 102);
     text-decoration: none;
     cursor: pointer;
   }
 
-  /* div#prds div.row div.column div.decrptn,
-  div.decrptn1,
-  div.decrptn2,
-  div.decrptn3,
-  div.decrptn4,
-  div.decrptn5 {
-    display: none;
-    color: #fff;
-    height: 45vh;
+  /* The Close Button */
+  div#prds div.row div.column div.decrptn div.modal-content p,
+  div.decrptn1 div.modal-content p,
+  div.decrptn2 div.modal-content p,
+  div.decrptn3 div.modal-content p,
+  div.decrptn4 div.modal-content p,
+  div.decrptn5 div.modal-content p {
+    color: #d19494;
+    font-size: 20px;
     font-weight: bold;
-    border-radius: 10px;
-    padding: 15px;
-    border: #f3eead 1px solid;
-    background-color: rgba(226, 108, 29, 0.507);
   }
-
-  div#prds div.row div.column div.decrptn p,
-  div.decrptn1 p,
-  div.decrptn2 p,
-  div.decrptn3 p,
-  div.decrptn4 p,
-  div.decrptn5 p {
-    background: none;
-    font-size: 16px;
-    display: block;
-    text-align: start;
-    text-align: end;
-    text-align: left;
-    text-align: right;
-    text-align: center;
-    text-align: justify;
-  }
-
-  div#prds div.row div.column div.decrptn span#b1,
-  div.decrptn1 span#b2,
-  div.decrptn2 span#b3,
-  div.decrptn3 span#b4,
-  div.decrptn4 span#b5,
-  div.decrptn5 span#b6 {
-    background: none;
-    color: #f3eead;
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    -webkit-tap-highlight-color: none;
-    -webkit-tap-highlight-color: transparent;
-    border-left: 3px solid rgba(225, 151, 243, 0.575);
-    padding: 3px;
-  } */
 
   div#conts {
     margin-top: 7.5vh;
