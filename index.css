@@ -210,15 +210,9 @@ footer div.copyright {
   opacity: 0.5;
 } */
 
-/* @media only screen and (orientation: portrait) {
 
-} */
-
-/* @media only screen and (orientation: landscape) {
-} */
-
-/* Extra small devices (phones, 600px and down)  */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 400px and down)  */
+@media only screen and (max-width: 400px) {
   header h2 {
     font-size: 18px;
   }
@@ -345,6 +339,8 @@ footer div.copyright {
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
+    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    padding: 3px;
   }
 
   div#prds div.row div.column img {
@@ -375,7 +371,7 @@ footer div.copyright {
 
   div#conts div.about-text {
     padding: 15px;
-    width: fit-content;
+    width: 90%;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -442,6 +438,238 @@ footer div.copyright {
     margin: auto;
   }
 }
+
+/* Extra small devices (phones, 400px and up)  */
+@media only screen and (min-width: 400px) {
+  header h2 {
+    font-size: 18px;
+  }
+
+  div#home {
+    margin-top: 9vh;
+    margin-bottom: 14vh;
+  }
+
+  div#home p {
+    font-size: 15px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
+
+  div#home div.img img {
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(252, 102, 194);
+    margin: auto;
+    display: block;
+  }
+
+  footer button {
+    font-size: small;
+    margin: auto;
+    text-align: center;
+  }
+
+  div#prds {
+    margin-top: 9vh;
+    margin-bottom: 16vh;
+  }
+
+  div#prds div.row {
+    margin: auto;
+  }
+
+  /* Create two equal columns that floats next to each other */
+  div#prds div.row div.column {
+    float: left;
+    width: 50%;
+    display: block;
+    height: 45vh;
+    padding: 10px;
+    background-color: rgba(133, 29, 77, 0.527);
+    color: rgb(248, 172, 172);
+    margin: auto;
+    font-family: arial;
+    border: 2.5px solid rgba(253, 80, 80, 0.705);
+    border-radius: 10px;
+  }
+
+  div#prds div.row div.column:hover {
+    box-shadow: 0 8px 16px 0 rgb(245, 117, 117);
+    background-color: rgba(185, 51, 114, 0.527);
+    /* border: 2.5px solid rgb(155, 22, 22); */
+    color: rgb(240, 213, 213);
+  }
+
+  div#prds div.row div.column div#box1 span#d1,
+  div#box2 span#d2,
+  div#box3 span#d3,
+  div#box4 span#d4,
+  div#box5 span#d5,
+  div#box6 span#d6 {
+    font-weight: bold;
+    font-size: 14px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  div#prds div.row div.column div.decrptn,
+  div.decrptn1,
+  div.decrptn2,
+  div.decrptn3,
+  div.decrptn4,
+  div.decrptn5 {
+    display: none;
+    color: #fff;
+    height: auto;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(226, 108, 29, 0.507);
+  }
+
+  div#prds div.row div.column div.decrptn p,
+  div.decrptn1 p,
+  div.decrptn2 p,
+  div.decrptn3 p,
+  div.decrptn4 p,
+  div.decrptn5 p {
+    background: none;
+    font-size: 15px;
+    /* margin-bottom: 20vh; */
+    display: block;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+  }
+
+  div#prds div.row div.column div.decrptn span#b1,
+  div.decrptn1 span#b2,
+  div.decrptn2 span#b3,
+  div.decrptn3 span#b4,
+  div.decrptn4 span#b5,
+  div.decrptn5 span#b6 {
+    background: none;
+    color: #f3eead;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    padding: 3px;
+  }
+
+  div#prds div.row div.column img {
+    height: 180px;
+    width: auto;
+    border-radius: 10px 10px 0 0;
+    border: 1.5px solid rgba(217, 125, 240, 0.685);
+  }
+
+  div#prds div.row div.column span.title {
+    font-weight: bold;
+    font-size: 12px;
+    background: none;
+    padding: 3px;
+    border-left: 2px solid rgba(225, 151, 243, 0.575);
+  }
+
+  div#prds div.row div.column span.price {
+    font-size: 12px;
+    background: none;
+    padding: 3px;
+  }
+
+  div#conts {
+    margin-top: 9vh;
+    margin-bottom: 13vh;
+  }
+
+  div#conts div.about-text {
+    padding: 15px;
+    width: fit-content;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    color: #fff;
+    font-size: small;
+    border-radius: 10px;
+    line-height: 16px;
+    background-color: rgba(255, 166, 0, 0.541);
+    border: 2px solid rgb(240, 115, 13);
+    display: block;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div#conts kbd {
+    background: none;
+    color: rgba(255, 255, 0, 0.925);
+    font-weight: bold;
+  }
+
+  div#conts div.about-text .profilepic {
+    width: auto;
+    height: 110px;
+    border-radius: 10px;
+    /* border: 2px solid rgb(180, 193, 201); */
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+    display: block;
+    margin: auto;
+  }
+
+  div#conts div.contact-info {
+    font-size: 10px;
+    width: 90%;
+    display: block;
+    background-color: #83853a6e;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px 15px;
+    border: 1px solid rgba(221, 206, 118, 0.699);
+    text-align: end;
+  }
+
+  div#conts div.contact-info i {
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  }
+
+  div#conts div.contact-info a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: none;
+  }
+
+  footer div.copyright {
+    font-size: 12px;
+    margin: auto;
+  }
+}
+
+/* @media only screen and (orientation: landscape) {
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -570,6 +798,8 @@ footer div.copyright {
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
+    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    padding: 3px;
   }
 
   div#prds div.row div.column img {
@@ -796,6 +1026,8 @@ footer div.copyright {
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
+    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    padding: 3px;
   }
 
   div#prds div.row div.column img {
