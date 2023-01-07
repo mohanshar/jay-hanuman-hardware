@@ -261,10 +261,10 @@ footer div.copyright {
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
     max-width: 100%;
-    padding: 18px;
+    padding: 15px 15px 8px 15px;
     margin: 5px 50px 0 50px;
     border: 2px solid rgba(228, 118, 118, 0.678);
-    background-color: rgba(255, 0, 0, 0.233);
+    background-color: #a825255b;
     color: rgb(240, 213, 213);
     font-family: arial;
     border-radius: 10px;
@@ -303,14 +303,15 @@ footer div.copyright {
   div#box4 span#d4,
   div#box5 span#d5,
   div#box6 span#d6 {
+    background: none;
+    color: #f3eead;
     font-weight: bold;
     font-size: 14px;
-    background: none;
-    padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
+    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    padding: 3px;
   }
 
   div#prds div.row div.column div.decrptn,
@@ -321,9 +322,8 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    /* font-weight: bold; */
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     border: #f3eead 1px solid;
     background-color: rgba(226, 108, 29, 0.507);
   }
@@ -335,7 +335,7 @@ footer div.copyright {
   div.decrptn4 p,
   div.decrptn5 p {
     background: none;
-    font-size: 12px;
+    font-size: 14px;
     display: block;
     text-align: start;
     text-align: end;
@@ -351,7 +351,7 @@ footer div.copyright {
   div.decrptn3 p.title,
   div.decrptn4 p.title,
   div.decrptn5 p.title {
-    font-size: 14px;
+    font-size: 16px;
     color: rgb(7, 255, 172);
     text-decoration: underline;
     font-weight: bold;
@@ -367,7 +367,7 @@ footer div.copyright {
     background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
