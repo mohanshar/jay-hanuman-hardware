@@ -285,16 +285,17 @@ footer div.copyright {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 16px;
-    background: none;
-    padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
-  }
-
-  div#prds div.row div.column span.price {
     font-size: 14px;
     background: none;
     padding: 3px;
+    color: #e6e94c;
+  }
+
+  div#prds div.row div.column span.price {
+    font-size: 12px;
+    background: none;
+    padding: 3px;
+    border-bottom: 2px solid rgba(216, 103, 245, 0.87);
   }
 
   div#prds div.row div.column div#box1 span#d1,
@@ -306,7 +307,7 @@ footer div.copyright {
     background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -351,7 +352,7 @@ footer div.copyright {
   div.decrptn3 p.title,
   div.decrptn4 p.title,
   div.decrptn5 p.title {
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(7, 255, 172);
     text-decoration: underline;
     font-weight: bold;
@@ -367,7 +368,7 @@ footer div.copyright {
     background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
