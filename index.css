@@ -264,7 +264,7 @@ footer div.copyright {
     float: left;
     width: 50%;
     display: block;
-    height: 48vh;
+    height: 50vh;
     padding: 12px 12px 5px 12px;
     margin: auto;
     border: 2px solid rgba(228, 118, 118, 0.678);
@@ -282,23 +282,19 @@ footer div.copyright {
     margin: auto;
     display: block;
     height: 30vh;
-    width: fit-content;
+    width: auto;
     border-radius: 10px 10px 0 0;
     margin-bottom: 5px;
   }
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 14px;
-    background: none;
-    padding: 3px;
+    font-size: 10px;
     color: #e6e94c;
   }
 
   div#prds div.row div.column span.price {
-    font-size: 12px;
-    background: none;
-    padding: 3px;
+    font-size: 10px;
     border-bottom: 2px solid rgba(216, 103, 245, 0.87);
   }
 
@@ -308,10 +304,9 @@ footer div.copyright {
   div#box4 span#d4,
   div#box5 span#d5,
   div#box6 span#d6 {
-    background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -326,15 +321,16 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
-    width: 45%;
+    background: none;
+    margin-top: -160px;
     color: #fff;
-    height: 28vh;
-    position: absolute;
-    margin-top: -100px;
+    height: 40vh;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(226, 108, 29);
+    background-color: rgb(122, 54, 8);
+    position: relative;
+    z-index: 1;
   }
 
   div#prds div.row div.column div.decrptn p,
@@ -343,8 +339,7 @@ footer div.copyright {
   div.decrptn3 p,
   div.decrptn4 p,
   div.decrptn5 p {
-    background: none;
-    font-size: 14px;
+    font-size: 12px;
     display: block;
     text-align: start;
     text-align: end;
@@ -360,7 +355,7 @@ footer div.copyright {
   div.decrptn3 p.title,
   div.decrptn4 p.title,
   div.decrptn5 p.title {
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(7, 255, 172);
     text-decoration: underline;
     font-weight: bold;
@@ -373,7 +368,6 @@ footer div.copyright {
   div.decrptn3 span#b4,
   div.decrptn4 span#b5,
   div.decrptn5 span#b6 {
-    background: none;
     color: #f3eead;
     font-weight: bold;
     font-size: 12px;
