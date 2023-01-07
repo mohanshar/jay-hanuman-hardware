@@ -264,8 +264,8 @@ footer div.copyright {
     float: left;
     width: 50%;
     display: block;
-    height: 50vh;
-    padding: 12px;
+    height: 48vh;
+    padding: 12px 12px 5px 12px;
     margin: auto;
     border: 2px solid rgba(228, 118, 118, 0.678);
     background-color: #a825255b;
@@ -281,11 +281,10 @@ footer div.copyright {
   div#prds div.row div.column img {
     margin: auto;
     display: block;
-    height: 73%;
+    height: 30vh;
     width: fit-content;
     border-radius: 10px 10px 0 0;
     margin-bottom: 5px;
-    /* z-index: 1; */
   }
 
   div#prds div.row div.column span.title {
