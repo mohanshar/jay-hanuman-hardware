@@ -237,7 +237,7 @@ footer div.copyright {
   div#home div.img img {
     width: 80%;
     height: auto;
-    border: #c4c729 5px solid;
+    border: #c4c729 2px solid;
     border-radius: 10px;
     margin: auto;
     display: block;
@@ -321,8 +321,7 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    height: 45vh;
-    font-weight: bold;
+    /* font-weight: bold; */
     border-radius: 10px;
     padding: 15px;
     border: #f3eead 1px solid;
@@ -336,7 +335,7 @@ footer div.copyright {
   div.decrptn4 p,
   div.decrptn5 p {
     background: none;
-    font-size: 16px;
+    font-size: 12px;
     display: block;
     text-align: start;
     text-align: end;
@@ -344,6 +343,19 @@ footer div.copyright {
     text-align: right;
     text-align: center;
     text-align: justify;
+  }
+
+  div#prds div.row div.column div.decrptn p.title,
+  div.decrptn1 p.title,
+  div.decrptn2 p.title,
+  div.decrptn3 p.title,
+  div.decrptn4 p.title,
+  div.decrptn5 p.title {
+    font-size: 14px;
+    color: rgb(7, 255, 172);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
 
   div#prds div.row div.column div.decrptn span#b1,
@@ -355,7 +367,7 @@ footer div.copyright {
     background: none;
     color: #f3eead;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
