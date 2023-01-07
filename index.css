@@ -31,6 +31,7 @@ header h2 {
   -webkit-position: sticky;
   position: sticky;
   position: fixed;
+  z-index: 3;
 }
 
 header h2:hover {
@@ -284,6 +285,7 @@ footer div.copyright {
     width: fit-content;
     border-radius: 10px 10px 0 0;
     margin-bottom: 5px;
+    /* z-index: 1; */
   }
 
   div#prds div.row div.column span.title {
