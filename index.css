@@ -140,7 +140,6 @@ footer button:active {
 footer button:nth-child(4):active {
   font-weight: bold;
   background-color: rgb(165, 18, 18);
-  /* border-bottom: 2px solid #ddd; */
 }
 
 /* .btn {
@@ -232,16 +231,18 @@ footer div.copyright {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   div#home div.img img {
     width: 80%;
-    height: auto;
-    border: #c4c729 2px solid;
-    border-radius: 10px;
-    margin: auto;
+    height: 98%;
     display: block;
+    margin: auto;
+    object-fit: cover;
+    position: relative;
+    border: #8f044a 2px solid;
+    border-radius: 10px;
   }
 
   footer button {
@@ -250,41 +251,49 @@ footer div.copyright {
     text-align: center;
   }
 
+  footer div.copyright {
+    font-size: 10px;
+    margin: auto;
+  }
+
   div#prds {
     margin-top: 7vh;
     margin-bottom: 16vh;
   }
 
   div#prds div.row {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
-    float: left;
-    width: 50%;
+    margin: 4px;
+    position: relative;
+    max-width: 250px;
+    max-height: 350px;
+    box-shadow: 0 40px 60px -6px black;
     display: block;
-    height: 50vh;
-    padding: 12px 12px 5px 12px;
-    margin: auto;
+    padding: 12px;
     border: 2px solid rgba(228, 118, 118, 0.678);
     background-color: #a825255b;
     color: rgb(240, 213, 213);
     font-family: arial;
-    border-radius: 10px;
+    border-radius: 10px; 
   }
 
   div#prds div.row div.column:hover {
-    border: 2.5px solid rgba(197, 37, 37, 0.815);
+    border: 2px solid rgba(197, 37, 37, 0.815);
   }
 
   div#prds div.row div.column img {
-    margin: auto;
+    width: 100%;
+    height: 98%;
+    object-fit: cover;
     display: block;
-    height: 30vh;
-    width: auto;
-    border-radius: 10px 10px 0 0;
-    margin-bottom: 5px;
+    position: relative;
   }
 
   div#prds div.row div.column span.title {
@@ -322,31 +331,14 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     background: none;
-    margin-top: -172px;
+    margin-top: -22vh;
     color: #fff;
-    height: 40vh;
+    height: 33.5vh;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(122, 54, 8);
     position: relative;
-    z-index: 1;
-  }
-
-  div#prds div.row div.column div.decrptn p,
-  div.decrptn1 p,
-  div.decrptn2 p,
-  div.decrptn3 p,
-  div.decrptn4 p,
-  div.decrptn5 p {
-    font-size: 12px;
-    display: block;
-    text-align: start;
-    text-align: end;
-    text-align: left;
-    text-align: right;
-    text-align: center;
-    text-align: justify;
   }
 
   div#prds div.row div.column div.decrptn p.title,
@@ -362,6 +354,23 @@ footer div.copyright {
     margin-bottom: 5px;
   }
 
+  div#prds div.row div.column div.decrptn p,
+  div.decrptn1 p,
+  div.decrptn2 p,
+  div.decrptn3 p,
+  div.decrptn4 p,
+  div.decrptn5 p {
+    font-size: 10px;
+    display: block;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 5px;
+  }
+
   div#prds div.row div.column div.decrptn span#b1,
   div.decrptn1 span#b2,
   div.decrptn2 span#b3,
@@ -370,7 +379,7 @@ footer div.copyright {
   div.decrptn5 span#b6 {
     color: #f3eead;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -445,11 +454,6 @@ footer div.copyright {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
-  }
-
-  footer div.copyright {
-    font-size: 12px;
-    margin: auto;
   }
 }
 
