@@ -191,28 +191,6 @@ footer div.copyright {
   }
 }
 
-/* 
-.card button {
-  border: none;
-  outline: 0;
-  padding: 8px;
-  border-radius: 0 0 8px 8px;
-  color: white;
-  background-color: rgba(121, 7, 7, 0.404);
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.card button:hover {
-  opacity: 0.7;
-}
-
-.card button:active {
-  opacity: 0.5;
-} */
-
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 550px) {
   header h2 {
@@ -407,8 +385,8 @@ footer div.copyright {
     margin-right: auto;
   }
 
-  div#conts kbd {
-    background: none;
+  div#conts div.contact-info kbd {
+    font-size: 12px;
     color: rgba(255, 255, 0, 0.925);
     font-weight: bold;
   }
@@ -417,7 +395,6 @@ footer div.copyright {
     width: auto;
     height: 110px;
     border-radius: 10px;
-    /* border: 2px solid rgb(180, 193, 201); */
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
@@ -427,7 +404,6 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    font-size: 10px;
     width: fit-content;
     display: block;
     background-color: #83853a6e;
@@ -448,6 +424,7 @@ footer div.copyright {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
+    font-size: 13px;
   }
 }
 
@@ -646,23 +623,22 @@ footer div.copyright {
     margin-right: auto;
   }
 
-  div#conts kbd {
-    background: none;
-    color: rgba(255, 255, 0, 0.925);
-    font-weight: bold;
-  }
-
   div#conts div.about-text .profilepic {
     width: auto;
     height: 120px;
     border-radius: 10px;
-    /* border: 2px solid rgb(180, 193, 201); */
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
     display: block;
     margin: auto;
+  }
+
+  div#conts div.contact-info kbd {
+    font-size: 14px;
+    color: rgba(255, 255, 0, 0.925);
+    font-weight: bold;
   }
 
   div#conts div.contact-info {
@@ -693,7 +669,7 @@ footer div.copyright {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   header h2 {
-    font-size: 22px; 
+    font-size: 22px;
   }
 
   div#home {
@@ -724,7 +700,7 @@ footer div.copyright {
   }
 
   footer div.copyright {
-    font-size: 12px;
+    font-size: 14px;
     margin: auto;
   }
 
@@ -873,7 +849,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     color: #fff;
-    font-size: medium;
+    font-size: 14px;
     border-radius: 10px;
     line-height: 20px;
     background-color: rgba(255, 166, 0, 0.541);
@@ -882,12 +858,6 @@ footer div.copyright {
     margin-bottom: 8px;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  div#conts kbd {
-    background: none;
-    color: rgba(255, 255, 0, 0.925);
-    font-weight: bold;
   }
 
   div#conts div.about-text .profilepic {
@@ -912,6 +882,12 @@ footer div.copyright {
     border-radius: 15px;
     padding: 12px;
     border: 1px solid rgba(221, 206, 118, 0.699);
+  }
+
+  div#conts div.contact-info kbd {
+    font-size: 14px;
+    color: rgba(255, 255, 0, 0.925);
+    font-weight: bold;
   }
 
   div#conts div.contact-info i {
@@ -1111,7 +1087,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     color: #fff;
-    font-size: medium;
+    font-size: 14px;
     border-radius: 10px;
     line-height: 20px;
     background-color: rgba(255, 166, 0, 0.541);
@@ -1122,17 +1098,10 @@ footer div.copyright {
     margin-right: auto;
   }
 
-  div#conts kbd {
-    background: none;
-    color: rgba(255, 255, 0, 0.925);
-    font-weight: bold;
-  }
-
   div#conts div.about-text .profilepic {
     width: auto;
     height: 120px;
     border-radius: 10px;
-    /* border: 2px solid rgb(180, 193, 201); */
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
@@ -1152,6 +1121,12 @@ footer div.copyright {
     border: 1px solid rgba(221, 206, 118, 0.699);
   }
 
+  div#conts div.contact-info kbd {
+    font-size: 14px;
+    color: rgba(255, 255, 0, 0.925);
+    font-weight: bold;
+  }
+
   div#conts div.contact-info i {
     background: none;
     color: rgb(255, 255, 255);
@@ -1162,7 +1137,7 @@ footer div.copyright {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -1173,23 +1148,25 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 10vh;
-    margin-bottom: 16vh;
+    margin-top: 46px;
   }
 
   div#home p {
-    width: fit-content;
-    margin: auto;
-    margin-bottom: 5px;
+    font-size: 16px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
   }
 
   div#home div.img img {
     width: 40%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid rgb(252, 102, 194);
-    margin: auto;
     display: block;
+    margin: auto;
+    object-fit: cover;
+    position: relative;
+    border: #8f044a 2px solid;
+    border-radius: 10px;
   }
 
   footer button {
@@ -1197,9 +1174,14 @@ footer div.copyright {
     margin: auto;
   }
 
+  footer div.copyright {
+    font-size: 14px;
+    margin: auto;
+  }
+
   div#prds {
-    margin-top: 9.5vh;
-    margin-bottom: 14vh;
+    margin-top: 46px;
+    margin-bottom: 90px;
   }
 
   div#prds div.row {
@@ -1211,20 +1193,42 @@ footer div.copyright {
     float: left;
     width: 20%;
     height: 48vh;
+    position: relative;
+    display: block;
     padding: 12px;
-    background-color: rgb(0, 0, 0);
+    border: 2px solid rgba(228, 118, 118, 0.678);
+    background-color: #a825255b;
+    float: left;
+    padding: 10px;
     color: rgb(240, 213, 213);
-    /* display: block; */
     margin: auto;
     font-family: arial;
-    border: 2.5px solid rgba(253, 80, 80, 0.705);
-    border-radius: 20px 10px;
+    border-radius: 10px;
   }
 
   div#prds div.row div.column:hover {
-    box-shadow: 0 5px 5px 0 rgb(65, 64, 64);
-    border: 2px solid rgb(155, 22, 22);
-    color: rgb(253, 123, 123);
+    border: 2px solid rgba(197, 37, 37, 0.815);
+  }
+
+  div#prds div.row div.column img {
+    height: 200px;
+    width: auto;
+    border-radius: 8px 8px 0 0;
+    border: 2px solid rgb(125, 25, 150);
+    object-fit: cover;
+    display: block;
+    position: relative;
+  }
+
+  div#prds div.row div.column span.title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #e6e94c;
+  }
+
+  div#prds div.row div.column span.price {
+    font-size: 12px;
+    border-bottom: 1.5px solid rgb(245, 207, 103);
   }
 
   div#prds div.row div.column div#box1 span#d1,
@@ -1234,10 +1238,9 @@ footer div.copyright {
   div#box5 span#d5,
   div#box6 span#d6 {
     font-weight: bold;
-    font-size: 14px;
-    background: none;
+    font-size: 12px;
     padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
+    border-left: 3px solid rgba(225, 151, 243, 0.575);
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -1250,12 +1253,27 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
+    margin-top: -18vh;
     color: #fff;
-    height: 43.5vh;
+    height: 30vh;
     font-weight: bold;
     border-radius: 10px;
-    padding: 12px;
-    background-color: rgba(226, 108, 29, 0.507);
+    padding: 10px;
+    position: relative;
+    background-color: rgb(182, 89, 35);
+  }
+
+  div#prds div.row div.column div.decrptn p.title,
+  div.decrptn1 p.title,
+  div.decrptn2 p.title,
+  div.decrptn3 p.title,
+  div.decrptn4 p.title,
+  div.decrptn5 p.title {
+    font-size: 14px;
+    color: rgb(253, 221, 178);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
 
   div#prds div.row div.column div.decrptn p,
@@ -1264,9 +1282,7 @@ footer div.copyright {
   div.decrptn3 p,
   div.decrptn4 p,
   div.decrptn5 p {
-    background: none;
-    font-size: 15px;
-    /* margin-bottom: 20vh; */
+    font-size: 12px;
     display: block;
     text-align: start;
     text-align: end;
@@ -1274,6 +1290,7 @@ footer div.copyright {
     text-align: right;
     text-align: center;
     text-align: justify;
+    margin-bottom: 5px;
   }
 
   div#prds div.row div.column div.decrptn span#b1,
@@ -1282,35 +1299,23 @@ footer div.copyright {
   div.decrptn3 span#b4,
   div.decrptn4 span#b5,
   div.decrptn5 span#b6 {
-    background: none;
-    color: #f3eead;
+    color: #fff459;
     font-weight: bold;
-    font-size: 14px;
-  }
-
-  div#prds div.row div.column img {
-    height: 200px;
-    width: auto;
-    border-radius: 8px 8px 0 0;
-    border: 1.5px solid rgba(217, 125, 240, 0.685);
-  }
-
-  div#prds div.row div.column span.title {
-    font-weight: bold;
-    font-size: 15px;
-    background: none;
+    font-size: 12px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+    border-left: 3px solid rgba(225, 151, 243, 0.575);
     padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
   }
 
-  div#prds div.row div.column span.price {
-    font-size: 14px;
-    background: none;
-    padding: 3px;
+  div#conts {
+    margin-top: 46px;
+    /* margin-bottom: 80px; */
   }
 
   div#conts div.about-text {
-    padding: 15px;
+    padding: 30px;
     width: 70%;
     text-align: start;
     text-align: end;
@@ -1319,7 +1324,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     color: #fff;
-    font-size: medium;
+    font-size: 14px;
     border-radius: 10px;
     line-height: 20px;
     background-color: rgba(255, 166, 0, 0.541);
@@ -1371,11 +1376,6 @@ footer div.copyright {
     color: rgb(255, 255, 255);
     text-decoration: none;
     background: none;
-  }
-
-  footer div.copyright {
-    font-size: 14px;
-    margin: auto;
   }
 }
 
