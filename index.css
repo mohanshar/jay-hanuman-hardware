@@ -289,16 +289,17 @@ footer div.copyright {
     object-fit: cover;
     display: block;
     position: relative;
+    margin-bottom: 5px;
   }
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 10px;
+    font-size: 14px;
     color: #e6e94c;
   }
 
   div#prds div.row div.column span.price {
-    font-size: 10px;
+    font-size: 12px;
     border-bottom: 2px solid rgba(216, 103, 245, 0.87);
   }
 
@@ -310,7 +311,7 @@ footer div.copyright {
   div#box6 span#d6 {
     color: #f3eead;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
