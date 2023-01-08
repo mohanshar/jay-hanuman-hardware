@@ -39,10 +39,9 @@ header h2:hover {
 }
 
 div#home p {
-  background-color: rgba(129, 47, 98, 0.623);
+  background-color: rgba(70, 4, 45, 0.808);
   color: rgb(255, 169, 169);
-  padding: 20px;
-  /* border: 1.8px solid rgba(255, 255, 255, 0.801); */
+  padding: 20px 18px;
   border-radius: 20px;
   font-weight: bold;
   margin-bottom: 2vh;
@@ -55,11 +54,10 @@ div#home p {
 }
 
 div#home p span {
-  float: right;
   background: none;
-  margin-top: -10px;
   padding: 4px 20px;
   color: #f56868;
+  display: relative;
 }
 
 div#home p kbd {
@@ -84,10 +82,10 @@ div.row::after {
   display: table;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
   float: left;
   padding: 15px;
-}
+} */
 
 div#tools {
   margin-top: 8vh;
@@ -100,7 +98,6 @@ footer {
   text-align: center;
   user-select: none;
   width: 100%;
-  /* border-bottom: 3px solid rgba(247, 65, 104, 0.651); */
 }
 
 footer button {
@@ -223,12 +220,12 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 7vh;
+    margin-top: 42px;
   }
 
   div#home p {
-    font-size: 15px;
-    width: 90%;
+    font-size: 14px;
+    max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -236,7 +233,6 @@ footer div.copyright {
 
   div#home div.img img {
     width: 80%;
-    height: 98%;
     display: block;
     margin: auto;
     object-fit: cover;
@@ -257,8 +253,8 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 7vh;
-    margin-bottom: 16vh;
+    margin-top: 38px;
+    margin-bottom: 80px;
   }
 
   div#prds div.row {
@@ -274,7 +270,6 @@ footer div.copyright {
     position: relative;
     max-width: 250px;
     max-height: 350px;
-    box-shadow: 0 40px 60px -6px black;
     display: block;
     padding: 12px;
     border: 2px solid rgba(228, 118, 118, 0.678);
@@ -333,7 +328,7 @@ footer div.copyright {
     background: none;
     margin-top: -22vh;
     color: #fff;
-    height: 33.5vh;
+    height: 32vh;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -388,8 +383,8 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 7.5vh;
-    margin-bottom: 13vh;
+    margin-top: 42px;
+    /* margin-bottom: 80px; */
   }
 
   div#conts div.about-text {
