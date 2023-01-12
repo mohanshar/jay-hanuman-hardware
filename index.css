@@ -170,20 +170,6 @@ footer div.copyright {
   }
 }
 
-@media only screen and (max-height: 550px) {
-  div#home {
-    margin-bottom: 85px;
-  }
-
-  div#prds {
-    margin-bottom: 85px;
-  }
-
-  div#conts {
-    margin-bottom: 85px;
-  }
-}
-
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 550px) {
   header h2 {
@@ -430,7 +416,8 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 48px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#home div.description-box {
@@ -462,8 +449,8 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 44px;
-    margin-bottom: 84px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#prds div.row {
@@ -593,8 +580,8 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 44px;
-    /* margin-bottom: 80px; */
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#conts div.about-text {
@@ -668,12 +655,13 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 44px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
-  div#home p {
+  div#home div.description-box {
     font-size: 16px;
-    max-width: fit-content;
+    max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -700,8 +688,8 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 44px;
-    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#prds div.row {
@@ -712,7 +700,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 25%;
-    height: 43vh;
+    height: 280px;
     position: relative;
     display: block;
     padding: 12px;
@@ -773,9 +761,9 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
-    margin-top: -18vh;
+    margin-top: -68px;
+    height: 145px;
     color: #fff;
-    height: 30vh;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -830,8 +818,8 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 44px;
-    /* margin-bottom: 80px; */
+    margin-top: 48px;
+    margin-bottom: 100px;
   }
 
   div#conts div.about-text {
