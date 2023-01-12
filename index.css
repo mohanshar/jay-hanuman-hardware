@@ -181,9 +181,9 @@ footer div.copyright {
 }
 
 /* For mobile phones: */
-[class*="col-"] {
+/* [class*="col-"] {
   width: 100%;
-}
+} */
 
 @media only screen and (min-width: 500px) {
   div#conts div.contact-info a {
@@ -305,7 +305,7 @@ footer div.copyright {
     display: none;
     margin-top: -20vh;
     color: #fff;
-    height: 30vh;
+    height: 32vh;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
