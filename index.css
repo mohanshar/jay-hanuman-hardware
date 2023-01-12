@@ -152,9 +152,8 @@ footer button:nth-child(4):active {
 } */
 
 footer div.copyright {
-  /* margin-top: 3px; */
   background-color: rgb(59, 11, 11);
-  padding: 10px 0;
+  padding: 10px;
   text-align: center;
   color: #fff;
   font-size: small;
@@ -164,12 +163,6 @@ footer div.copyright {
   border-top-right-radius: 20px;
 }
 
-@media only screen and (min-width: 500px) {
-  div#conts div.contact-info a {
-    font-size: 12px;
-  }
-}
-
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 550px) {
   header h2 {
@@ -177,7 +170,8 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#home div.description-box {
@@ -185,6 +179,7 @@ footer div.copyright {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
   }
 
   div#home div.img img {
@@ -208,8 +203,8 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 38px;
-    margin-bottom: 80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#prds div.row {
@@ -280,7 +275,9 @@ footer div.copyright {
   div.decrptn5 {
     display: none;
     color: #fff;
-    height: auto;
+    margin-top: -68px;
+    height: 140px;
+    padding: 10px;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -335,8 +332,8 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 42px;
-    /* margin-bottom: 80px; */
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#conts div.about-text {
@@ -525,7 +522,6 @@ footer div.copyright {
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
-    max-height: auto;
     margin-top: -68px;
     height: 145px;
     padding: 10px;
@@ -894,7 +890,8 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 45px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#home p {
@@ -926,8 +923,8 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 44px;
-    margin-bottom: 88px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#prds div.row {
@@ -938,7 +935,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 25%;
-    height: 43vh;
+    height: 300px;
     position: relative;
     display: block;
     padding: 12px;
@@ -960,7 +957,7 @@ footer div.copyright {
     border-radius: 8px 8px 0 0;
     border: 2px solid rgb(125, 25, 150);
     width: 100%;
-    height: 180px;
+    height: 200px;
     object-fit: cover;
     display: block;
     position: relative;
@@ -1001,7 +998,8 @@ footer div.copyright {
     display: none;
     margin-top: -18vh;
     color: #fff;
-    height: 29.5vh;
+    margin-top: -68px;
+    height: 145px;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -1056,8 +1054,8 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 44px;
-    /* margin-bottom: 80px; */
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#conts div.about-text {
@@ -1134,10 +1132,11 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 46px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
-  div#home p {
+  div#home div.description-box {
     font-size: 16px;
     max-width: fit-content;
     margin-left: auto;
@@ -1166,8 +1165,8 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 46px;
-    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#prds div.row {
@@ -1178,7 +1177,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 20%;
-    height: 46vh;
+    height: 300px;
     position: relative;
     display: block;
     padding: 12px;
@@ -1197,8 +1196,8 @@ footer div.copyright {
   }
 
   div#prds div.row div.column img {
+    width: 100%;
     height: 200px;
-    width: auto;
     border-radius: 8px 8px 0 0;
     border: 2px solid rgb(125, 25, 150);
     object-fit: cover;
@@ -1239,9 +1238,9 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
-    margin-top: -18vh;
     color: #fff;
-    height: 29.5vh;
+    margin-top: -68px;
+    height: 145px;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -1296,8 +1295,8 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 46px;
-    /* margin-bottom: 80px; */
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#conts div.about-text {
@@ -1378,19 +1377,16 @@ footer div.copyright {
   }
 
   div#home {
-    margin-top: 47px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
-  div#home p {
+  div#home div.description-box {
     font-size: 18px;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-  }
-
-  div#home p kbd.title {
-    font-size: 18px;
   }
 
   div#home div.img img {
@@ -1414,8 +1410,8 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 48px;
-    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#prds div.row {
@@ -1426,7 +1422,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 16.666666667%;
-    height: 45vh;
+    height: 300px;
     position: relative;
     display: block;
     padding: 12px;
@@ -1488,9 +1484,9 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
-    margin-top: -18vh;
     color: #fff;
-    height: 29.5vh;
+    margin-top: -72px;
+    height: 150px;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -1545,8 +1541,8 @@ footer div.copyright {
   }
 
   div#conts {
-    margin-top: 48px;
-    /* margin-bottom: 80px; */
+    margin-top: 50px;
+    margin-bottom: 100px;
   }
 
   div#conts div.about-text {
