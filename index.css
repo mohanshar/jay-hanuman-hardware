@@ -41,9 +41,9 @@ header h2:hover {
 div#home div.description-box {
   background-color: rgba(70, 4, 45, 0.808);
   color: rgb(255, 169, 169);
-  border-radius: 10px;
+  border-radius: 15px;
   font-weight: bold;
-  padding: 10px;
+  padding: 20px 15px;
   text-align: start;
   text-align: end;
   text-align: left;
@@ -63,21 +63,12 @@ div#home div.description-box kbd.title {
   color: #e4d3eb;
 }
 
-div#home div.img img {
-  margin-top: 1.5vh;
-}
-
 /* Clear floats after the columns */
 div.row::after {
   content: "";
   clear: both;
   display: table;
 }
-
-/* [class*="col-"] {
-  float: left;
-  padding: 15px;
-} */
 
 div#tools {
   margin-top: 8vh;
@@ -247,7 +238,6 @@ footer div.copyright {
     margin: 4px;
     position: relative;
     max-width: 250px;
-    /* max-height: 350px; */
     display: block;
     padding: 12px;
     border: 2px solid rgba(228, 118, 118, 0.678);
@@ -263,7 +253,6 @@ footer div.copyright {
 
   div#prds div.row div.column img {
     width: 100%;
-    height: auto;
     object-fit: cover;
     display: block;
     position: relative;
@@ -304,9 +293,8 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
-    margin-top: -20vh;
     color: #fff;
-    height: 32vh;
+    height: auto;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -454,7 +442,7 @@ footer div.copyright {
   }
 
   div#home div.img img {
-    width: 80%;
+    width: 70%;
     display: block;
     margin: auto;
     object-fit: cover;
@@ -466,7 +454,6 @@ footer div.copyright {
   footer button {
     font-size: small;
     margin: auto;
-    text-align: center;
   }
 
   footer div.copyright {
@@ -492,7 +479,7 @@ footer div.copyright {
     background-color: #a825255b;
     float: left;
     width: 33.33%;
-    height: 43vh;
+    height: 250px;
     padding: 10px;
     color: rgb(240, 213, 213);
     margin: auto;
@@ -508,7 +495,7 @@ footer div.copyright {
     border-radius: 8px 8px 0 0;
     border: 2px solid rgb(125, 25, 150);
     width: 100%;
-    height: 180px;
+    height: 150px;
     object-fit: cover;
     display: block;
     position: relative;
@@ -548,11 +535,12 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
-    margin-top: -16.5vh;
     color: #fff;
-    height: 28vh;
     font-weight: bold;
     border-radius: 10px;
+    max-height: auto;
+    margin-top: -68px;
+    height: 145px;
     padding: 10px;
     position: relative;
     background-color: rgb(182, 89, 35);
