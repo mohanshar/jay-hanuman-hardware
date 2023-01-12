@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://solocode.azurewebsites.net/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>window.onerror=function(e,t,n,a,o){return console.error(o),!0};window.SL={exitedLoop:function(e){this.CodeTimer.exitedLoop(e)},shouldStopExecution:function(e){var t=this.CodeTimer.shouldStopLoop(e);return!0===t&&console.warn("Execution stopped as an infinite loop was detected."),t},CodeTimer:{programNoLongerBeingMonitored:!1,timeOfFirstCallToShouldStopLoop:0,loopExits:{},loopTimers:{},START_MONITORING_AFTER:2e3,STOP_ALL_MONITORING_TIMEOUT:5e3,MAX_TIME_IN_LOOP_WO_EXIT:2200,exitedLoop:function(e){this.loopExits[e]=!0},shouldStopLoop:function(e){if(this.programKilledSoStopMonitoring)return!0;if(this.programNoLongerBeingMonitored)return!1;if(this.loopExits[e])return!1;var t=this.getTime();if(0===this.timeOfFirstCallToShouldStopLoop)return this.timeOfFirstCallToShouldStopLoop=t,!1;var n=t-this.timeOfFirstCallToShouldStopLoop;if(n<this.START_MONITORING_AFTER)return!1;if(n>this.STOP_ALL_MONITORING_TIMEOUT)return this.programNoLongerBeingMonitored=!0,!1;try{this.checkOnInfiniteLoop(e,t)}catch(e){return this.sendErrorMessageToEditor(),this.programKilledSoStopMonitoring=!0,!0}return!1},sendErrorMessageToEditor:function(){try{if(this.shouldPostMessage()){var e={action:"infinite-loop",line:this.findAroundLineNumber()};parent.postMessage(JSON.stringify(e),"*")}else this.throwAnErrorToStopCode()}catch(e){this.throwAnErrorToStopCode()}},shouldPostMessage:function(){return document.location.href.match(/boomerang/)},throwAnErrorToStopCode:function(){throw new Error("Execution stopped as an infinite loop was detected.")},findAroundLineNumber:function(){var e=new Error,t=0;if(e.stack){var n=e.stack.match(/boomerang\S+:(\d+):\d+/);n&&(t=+n[1])}return t},checkOnInfiniteLoop:function(e,t){if(!this.loopTimers[e])return this.loopTimers[e]=t,!1;if(t-this.loopTimers[e]>this.MAX_TIME_IN_LOOP_WO_EXIT)throw new Error("Execution stopped as an infinite loop was detected.");return!0},getTime:function(){return+new Date}}};</script><style>body {
+	
+}
+
+.button {
+    background-color:#ef2d2d;
+    height:50px;
+    width:40px;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color:#b72222;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.button:hover, .button:focus, .button:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+} </style>
+		<title>Page Title</title>
+	</head>
+	<body>
+	    <div id="container" align="center">
+		<form name="calculator">
+		    <table>
+		        <tbody><tr>
+		            <td colspan="4">
+		                <input type="text" name="display" disabled="" id="d"></td>
+		        </tr>
+		        
+		        <tr>
+		            <td><input class="button" type="button" value="1" onclick="calculator.display.value += &#39;1&#39;"> </td>
+		            <td><input class="button" type="button" value="2" onclick="calculator.display.value += &#39;2&#39;"></td>
+		            <td><input class="button" type="button" value="3" onclick="calculator.display.value += &#39;3&#39;"></td>
+		            <td><input class="button" type="button" value="+" onclick="calculator.display.value += &#39;+&#39;"></td>
+		        </tr>
+		        		        <tr>
+		            <td><input class="button" type="button" value="4" onclick="calculator.display.value += &#39;4&#39;"> </td>
+		            <td><input class="button" type="button" value="5" onclick="calculator.display.value += &#39;5&#39;"></td>
+		            <td><input class="button" type="button" value="6" onclick="calculator.display.value += &#39;6&#39;"></td>
+		            <td><input class="button" type="button" value="x" onclick="calculator.display.value += &#39;*&#39;"></td>
+		        </tr>
+		        		        <tr>
+		            <td><input class="button" type="button" value="7" onclick="calculator.display.value += &#39;7&#39;"> </td>
+		            <td><input class="button" type="button" value="8" onclick="calculator.display.value += &#39;8&#39;"></td>
+		            <td><input class="button" type="button" value="9" onclick="calculator.display.value += &#39;9&#39;"></td>
+		            <td><input class="button" type="button" value="/" onclick="calculator.display.value += &#39;/&#39;"></td>
+		        </tr>
+		        
+		        		        <tr>
+		            <td><input class="button" type="button" value="C" onclick="calculator.display.value = &#39;&#39;"> </td>
+		            <td><input class="button" type="button" value="0" onclick="calculator.display.value += &#39;0&#39;"></td>
+		            <td><input class="button" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)"></td>
+		            <td><input class="button" type="button" value="-" onclick="calculator.display.value += &#39;-&#39;"></td>
+		        </tr>
+		        <tr>
+		             <td><input class="button" type="button" value="DEL" onclick="calculator.display.value = calculator.display.value.substr(0,calculator.display.value.length-1)"></td>
+		             <td><input class="button" type="button" value="." onclick="calculator.display.value += &#39;.&#39;"></td>
+		        </tr>
+		    </tbody></table>
+		</form>
+		</div>
+	
+</body></html>
