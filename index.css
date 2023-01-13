@@ -222,14 +222,21 @@ footer div.copyright {
     display: block;
     padding: 12px;
     border: 2px solid rgba(228, 118, 118, 0.678);
-    background-color: #a825255b;
-    color: rgb(240, 213, 213);
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(70, 138, 240, 0.582),
+      rgba(216, 63, 63, 0.534) 10px,
+      rgba(138, 21, 167, 0.425) 10px,
+      rgba(4, 24, 114, 0.486) 20px
+    )
+      rgb(247, 90, 187);
+    color: rgb(255, 255, 255);
     font-family: arial;
     border-radius: 10px;
   }
 
   div#prds div.row div.column:hover {
-    border: 2px solid rgba(197, 37, 37, 0.815);
+    border: 2px solid rgba(231, 52, 255, 0.849);
   }
 
   div#prds div.row div.column img {
@@ -522,8 +529,8 @@ footer div.copyright {
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
-    margin-top: -68px;
-    height: 145px;
+    margin-top: -92px;
+    height: 170px;
     padding: 10px;
     position: relative;
     background-color: rgb(182, 89, 35);
