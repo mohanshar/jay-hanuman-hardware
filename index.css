@@ -500,7 +500,6 @@ footer div.copyright {
 
   div#prds div.row div.column span.price {
     font-size: 12px;
-    border-bottom: 1.5px solid rgb(245, 207, 103);
   }
 
   div#prds div.row div.column div#box1 span#d1,
@@ -703,7 +702,7 @@ footer div.copyright {
   div#prds div.row div.column {
     float: left;
     width: 25%;
-    height: 280px;
+    height: 285px;
     position: relative;
     display: block;
     padding: 12px;
@@ -764,8 +763,8 @@ footer div.copyright {
   div.decrptn4,
   div.decrptn5 {
     display: none;
-    margin-top: -68px;
-    height: 145px;
+    margin-top: -98px;
+    height: 180px;
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
