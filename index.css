@@ -69,6 +69,58 @@ div.row::after {
   display: table;
 }
 
+div#tools {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+div#tools div.description-box{
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #f3eead;
+  margin: auto;
+  width: 85%;
+  text-align: start;
+  text-align: end;
+  text-align: left;
+  text-align: right;
+  text-align: center;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+div#tools div.calculator {
+  width: 65%;
+  display: block;
+  margin: auto;
+}
+
+div#tools div.calculator input[type=text] {
+  border: none;
+  outline: none;
+  padding: 12px;
+  width: 85%;
+  outline: 1px solid rgb(14, 98, 224);
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 2px;;
+}
+
+div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+  border: none;
+  outline: 1px solid rgb(17, 0, 255);
+  padding: 15px 10px;
+  float: left;
+  margin: auto;
+  margin: 1.5px;
+  width: 20%;
+  border-radius: 8px;
+}
+
+div#tools div.calculator input[type=button].btn {
+  width: 42%;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -338,58 +390,6 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(255, 253, 157, 0.575);
     padding: 3px;
-  }
-
-  div#tools {
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-
-  div#tools div.description-box{
-    padding: 15px;
-    border-radius: 15px;
-    background-color: #f3eead;
-    margin: auto;
-    width: 85%;
-    text-align: start;
-    text-align: end;
-    text-align: left;
-    text-align: right;
-    text-align: center;
-    text-align: justify;
-    margin-bottom: 10px;
-  }
-
-  div#tools div.calculator {
-    width: 65%;
-    display: block;
-    margin: auto;
-  }
-
-  div#tools div.calculator input[type=text] {
-    border: none;
-    outline: none;
-    padding: 12px;
-    width: 85%;
-    outline: 1px solid rgb(14, 98, 224);
-    border-radius: 5px;
-    margin: auto;
-    margin-bottom: 2px;;
-  }
-
-  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
-    border: none;
-    outline: 1px solid rgb(17, 0, 255);
-    padding: 15px 10px;
-    float: left;
-    margin: auto;
-    margin: 1.5px;
-    width: 20%;
-    border-radius: 8px;
-  }
-
-  div#tools div.calculator input[type=button].btn {
-    width: 42%;
   }
 
   div#conts {
