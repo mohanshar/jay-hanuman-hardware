@@ -656,7 +656,58 @@ footer div.copyright {
 
   div#tools {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 330px;
+  }
+
+  div#tools div.description-box{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f3eead;
+    margin: auto;
+    width: 85%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  div#tools div.calculator {
+    width: 80%;
+    margin: auto;
+    font-size: medium;
+  }
+  
+  div#tools div.calculator input[type=text] {
+    font-size: medium;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    outline: 1px solid rgb(14, 98, 224);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+    border: none;
+    outline: 1px solid rgba(255, 38, 0, 0.623);
+    padding: 15px;
+    float: left;
+    margin: auto;
+    width: 25%;
+    border-radius: 8px;
+  }
+  
+  div#tools div.calculator input[type=button].btn {
+    width: 50%;
   }
 
   div#conts {
