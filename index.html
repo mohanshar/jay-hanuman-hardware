@@ -20,7 +20,7 @@
 
 <body>
 
-    <div id="home">
+    <div id="home" style="display: none;">
 
         <header>
             <h2>Jay Hanuman Hardware</h2>
@@ -153,14 +153,61 @@
         </div>
     </div>
 
-    <div id="tools" style="display:none;">
+    <div id="tools">
 
         <header>
             <h2>Tools</h2>
         </header>
 
         <div class="description-box">
-            <p>Tools are <br> used to <br> represent <br> the things,</p>
+            <p>This tools category contains calculator which is used to calculate the price of the items which users
+                like.</p>
+        </div>
+
+        <div class="calculator">
+            <form name="calc">
+
+                <input type="text" placeholder="See Your Result" name="ans" value="">
+
+                <input type="button" value="7" onClick="document.calc.ans.value+='7'">
+
+                <input type="button" value="8" onClick="document.calc.ans.value+='8'">
+
+                <input type="button" value="9" onClick="document.calc.ans.value+='9'">
+
+                <input type="button" value="/" onClick="document.calc.ans.value+='/'">
+
+                <input type="button" value="4" onClick="document.calc.ans.value+='4'">
+
+                <input type="button" value="5" onClick="document.calc.ans.value+='5'">
+                
+                <input type="button" value="6" onClick="document.calc.ans.value+='6'">
+
+                <input type="button" value="x" onClick="document.calc.ans.value+='*'">
+
+                <input type="button" value="1" onClick="document.calc.ans.value+='1'">
+
+                <input type="button" value="2" onClick="document.calc.ans.value+='2'">
+
+                <input type="button" value="3" onClick="document.calc.ans.value+='3'">
+
+                <input type="button" value="+" onClick="document.calc.ans.value+='+'">
+
+                <input type="button" value="0" onClick="document.calc.ans.value+='0'">
+
+                <input type="button" value="." onClick="document.calc.ans.value+='.'">
+
+                <input type="button" value="%" onClick="document.calc.ans.value+='%'">
+
+                <input type="button" value="-" onClick="document.calc.ans.value+='-'">
+
+                <input type="reset" value="AC">
+
+                <input type="button" value="del" onclick="document.calc.ans.value=calc.ans.value.substr(0,calc.ans.value.length-1)">
+
+                <input type="button" class="btn" id="ANS" value="=" onclick="compute()">
+
+            </form>
         </div>
 
     </div>

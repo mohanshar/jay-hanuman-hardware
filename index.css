@@ -69,14 +69,6 @@ div.row::after {
   display: table;
 }
 
-div#tools {
-  background-color: rgba(77, 120, 199, 0.589);
-  min-height: 100vh;
-  position: relative;
-  margin: auto;
-  display: block;
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -348,10 +340,45 @@ footer div.copyright {
     padding: 3px;
   }
 
+  div#tools {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
   div#tools div.description-box{
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
+    margin-bottom: 10px;
+  }
+
+  div#tools div.calculator {
+    width: 50%;
+    margin: auto;
+  }
+
+  div#tools div.calculator input[type=text] {
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 85%;
+    outline: 1px solid rgb(14, 98, 224);
+    border-radius: 5px;
+    margin-bottom: 2px;;
+  }
+
+  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+    border: none;
+    outline: 1px solid rgb(17, 0, 255);
+    padding: 15px 10px;
+    float: left;
+    margin: 1.5px;
+    width: 20%;
+    border-radius: 8px;
+  }
+
+  div#tools div.calculator input[type=button].btn {
+    width: 42%;
   }
 
   div#conts {

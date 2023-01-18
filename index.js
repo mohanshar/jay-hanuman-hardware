@@ -158,3 +158,16 @@ function firstAudioFunction() {
         z.pause();
     }
 }
+
+
+function myFunction(clickedId) {
+    document.calc.ans.value += clickedId;
+}
+function compute() {
+    try {
+        var input = eval(document.calc.ans.value);
+        document.calc.ans.value = input;
+    } catch (err) {
+        document.calc.ans.value = "error";
+    }
+}
