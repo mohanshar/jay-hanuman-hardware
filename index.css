@@ -361,7 +361,8 @@ footer div.copyright {
   }
 
   div#tools div.calculator {
-    width: 50%;
+    width: 65%;
+    display: block;
     margin: auto;
   }
 
