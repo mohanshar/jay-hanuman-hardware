@@ -229,7 +229,7 @@ footer div.copyright {
       rgba(240, 70, 217, 0.582),
       rgba(211, 63, 216, 0.534) 10px,
       rgba(138, 21, 167, 0.425) 10px,
-      rgba(105, 4, 114, 0.486) 20px
+      rgba(165, 31, 177, 0.486) 20px
     )
       rgb(105, 39, 80);
     color: rgb(255, 255, 255);
@@ -257,7 +257,7 @@ footer div.copyright {
 
   div#prds div.row div.column span.price {
     font-size: 12px;
-    border-bottom: 1.5px solid rgb(245, 207, 103);
+    /* border-bottom: 1.5px solid rgb(245, 207, 103); */
   }
 
   div#prds div.row div.column div#box1 span#d1,
@@ -290,7 +290,15 @@ footer div.copyright {
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(182, 89, 35);
+    /* background-color: rgb(182, 89, 35); */
+    background: repeating-linear-gradient(
+      45deg,
+      rgb(173, 151, 24),
+      rgb(173, 144, 12) 10px,
+      rgb(184, 181, 20) 10px,
+      rgb(126, 119, 25) 20px
+    )
+      rgb(255, 146, 38);
     position: relative;
   }
 
@@ -478,9 +486,9 @@ footer div.copyright {
     /* background-color: #a825255b; */
     background: repeating-linear-gradient(
       45deg,
-      rgba(240, 70, 217, 0.582),
+      rgba(192, 62, 175, 0.582),
       rgba(211, 63, 216, 0.534) 10px,
-      rgba(138, 21, 167, 0.425) 10px,
+      rgba(121, 14, 148, 0.425) 10px,
       rgba(105, 4, 114, 0.486) 20px
     )
       rgb(105, 39, 80);
