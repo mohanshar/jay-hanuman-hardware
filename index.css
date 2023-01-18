@@ -551,11 +551,11 @@ footer div.copyright {
     background: repeating-linear-gradient(
       45deg,
       rgb(173, 151, 24),
-      rgb(247, 217, 84) 10px,
+      rgb(173, 144, 12) 10px,
       rgb(184, 181, 20) 10px,
       rgb(126, 119, 25) 20px
     )
-      rgb(255, 196, 0);
+      rgb(255, 146, 38);
   }
 
   div#prds div.row div.column div.decrptn p.title,
