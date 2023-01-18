@@ -349,6 +349,14 @@ footer div.copyright {
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
+    margin: auto;
+    width: 85%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
     margin-bottom: 10px;
   }
 
@@ -364,6 +372,7 @@ footer div.copyright {
     width: 85%;
     outline: 1px solid rgb(14, 98, 224);
     border-radius: 5px;
+    margin: auto;
     margin-bottom: 2px;;
   }
 
@@ -372,6 +381,7 @@ footer div.copyright {
     outline: 1px solid rgb(17, 0, 255);
     padding: 15px 10px;
     float: left;
+    margin: auto;
     margin: 1.5px;
     width: 20%;
     border-radius: 8px;
