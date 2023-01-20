@@ -216,9 +216,10 @@ footer div.copyright {
   div#prds div.row div.column {
     margin: 4px;
     position: relative;
-    max-width: 250px;
+    width: 250px;
+    height: 322px;
     display: block;
-    padding: 10px;
+    padding: 15px;
     border: 2px solid rgba(228, 118, 118, 0.678);
     background-color: #7c3e04a2;
     /* background: repeating-linear-gradient(
@@ -240,7 +241,8 @@ footer div.copyright {
 
   div#prds div.row div.column img {
     width: 100%;
-    object-fit: cover;
+    height: 220px;
+    /* object-fit: cover; */
     display: block;
     position: relative;
     margin-bottom: 5px;
@@ -258,8 +260,8 @@ footer div.copyright {
   div#prds div.row div.column span.title {
     font-weight: bold;
     font-size: 16px;
-    color: #ffffff;
-    text-decoration: 1.5px underline #f5b2b2;
+    color: #fac7c7;
+    /* text-decoration: 1.5px underline #f5b2b2; */
   }
 
   div#prds div.row div.column span.price {
@@ -530,6 +532,7 @@ footer div.copyright {
     float: left;
     width: 33.33%;
     height: 260px;
+    /* height: fit-content; */
     padding: 10px;
     color: rgb(240, 213, 213);
     margin: auto;
@@ -560,8 +563,9 @@ footer div.copyright {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 14px;
-    color: #ffffff;
+    font-size: 12px;
+    color: #fcc0c0;
+    width: fit-content;
     /* text-decoration: 1px underline #f5b2b2; */
   }
 
@@ -590,8 +594,8 @@ footer div.copyright {
     color: rgb(255, 255, 255);
     font-weight: bold;
     border-radius: 15px 15px 10px 10px;
-    margin-top: -160px;
-    height: 225px;
+    margin-top: -168px;
+    height: 235px;
     padding: 8px;
     position: relative;
     background-color: rgb(160, 82, 4);
@@ -615,9 +619,8 @@ footer div.copyright {
     text-align: right;
     text-align: center;
     text-align: justify;
-    margin-bottom: 5px;
-    padding: 5px;
-    margin-bottom: 15px;
+    padding: 2px;
+    margin-bottom: 10px;
     border-radius: 6px;
   }
 
