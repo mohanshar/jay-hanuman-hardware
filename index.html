@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 
     <script src="index.js"></script>
 </head>
@@ -59,94 +59,124 @@
         </header>
 
         <div class="row">
-            <div class="column" id="box">
-                <img src="Photos/nails.jpg" alt="Nails" style="width:100%;">
-                <div id="box1" style="background: none;">
+            <div class="column">
+                <img src="Photos/nails.webp" alt="Nails" style="width:100%;">
+                <div id="box1" class="box" style="background: none;">
                     <span class="title">Nails</span><br>
-                    <span class="price">Rs.160 per K.G.</span><br><br>
-                    <span class="title" id="d1">Go to Description</span>
+                    <span class="price">Rs.160 per K.G.</span>
+                    <p id="d1" class="go-to">Go to Description</p>
                 </div>
-                <div class="decrptn">
+                <div class="decrptn" id="description-box">
                     <p class="title">Description</p>
                     <p>Nails are used to join two pieces of wood together.</p>
-                    <span id="b1">Go to Product Info </span>
+                    <span id="b1" class="go-back">Go to Product Info </span>
                 </div>
                 <!-- <button>Add to Cart</button> -->
             </div>
 
             <div class="column">
                 <img src="Photos/nails1.jpg" alt="Cap Nails" style="width:100%;">
-                <div id="box2" style="background: none;">
+                <div id="box2" class="box" style="background: none;">
                     <span class="title">Cap Nails</span><br>
-                    <span class="price">Rs.100 per 250gm.</span><br><br>
-                    <span class="title" id="d2">Go to Description</span>
+                    <span class="price">Rs.100 per 250gm.</span>
+                    <p class="go-to" id="d2">Go to Description</p>
                 </div>
-                <div class="decrptn1">
+                <div class="decrptn1" id="description-box">
                     <p class="title">Description</p>
                     <p>Cap Nails are used to join two pieces of wood together.</p>
-                    <span id="b2">Go to Product Info </span>
+                    <span id="b2" class="go-back">Go to Product Info </span>
                 </div>
                 <!-- <button>Add to Cart</button> -->
             </div>
 
             <div class="column">
                 <img src="Photos/concrete nails.jpeg" alt="Concrete Nails" style="width:100%;">
-                <div id="box3" style="background: none;">
+                <div id="box3" class="box" style="background: none;">
                     <span class="title">Concrete Nails</span><br>
-                    <span class="price">Rs.50 per 200gm.</span><br><br>
-                    <span class="title" id="d3">Go to Description</span>
+                    <span class="price">Rs.50 per 200gm.</span>
+                    <p class="go-to" id="d3">Go to Description</p>
                 </div>
-                <div class="decrptn2">
+                <div class="decrptn2" id="description-box">
                     <p class="title">Description</p>
                     <p>Concrete Nails are used to join two pieces of wood together. </p>
-                    <span id="b3">Go to Product Info </span>
+                    <span id="b3" class="go-back">Go to Product Info </span>
                 </div>
                 <!-- <button>Add to Cart</button> -->
             </div>
 
             <div class="column">
                 <img src="Photos/kirloskar water pump.jpg" alt="kirloskar water pump" style="width:100%;">
-                <div id="box4" style="background: none;">
+                <div id="box4" class="box" style="background: none;">
                     <span class="title">Kirloskar Water Pump</span><br>
-                    <span class="price">Rs.4,500 per piece.</span><br><br>
-                    <span class="title" id="d4">Go to Description</span>
+                    <span class="price">Rs.4,500 per piece.</span>
+                    <p class="go-to" id="d4">Go to Description</p>
                 </div>
-                <div class="decrptn3">
+                <div class="decrptn3" id="description-box">
                     <p class="title">Description</p>
                     <p> Kirloskar Water Pump is an electromechanical machine used to increase the
                         pressure of water to move it from one point to another. </p>
-                    <span id="b4">Go to Product Info </span>
+                    <span id="b4" class="go-back">Go to Product Info </span>
                 </div>
                 <!-- <button>Add to Cart</button> -->
             </div>
 
             <div class="column">
                 <img src="Photos/flowstar-1000.png" alt="flowstar water pump" style="width:100%;">
-                <div id="box5" style="background: none;">
+                <div id="box5" class="box" style="background: none;">
                     <span class="title">Flowstar Water Pump</span><br>
-                    <span class="price">Rs.5,500 per piece.</span><br><br>
-                    <span class="title" id="d5">Go to Description</span>
+                    <span class="price">Rs.5,500 per piece.</span>
+                    <p class="go-to" id="d5">Go to Description</p>
                 </div>
-                <div class="decrptn4">
+                <div class="decrptn4" id="description-box">
                     <p class="title">Description</p>
                     <p> Flowstar Water Pump is an electromechanical machine used to increase the
                         pressure of water to move it from one point to another. </p>
-                    <span id="b5">Go to Product Info </span>
+                    <span id="b5" class="go-back">Go to Product Info </span>
                 </div>
                 <!-- <button>Add to Cart</button> -->
             </div>
 
             <div class="column">
                 <img src="Photos/garden-pipe-1.jpeg" alt="garden pipe" style="width:100%;">
-                <div id="box6" style="background: none;">
+                <div id="box6" class="box" style="background: none;">
                     <span class="title">Garden Pipe</span><br>
-                    <span class="price">Rs.750 per piece.</span><br><br>
-                    <span class="title" id="d6">Go to Description </span>
+                    <span class="price">Rs.750 per piece.</span>
+                    <p class="go-to" id="d6">Go to Description </p>
                 </div>
-                <div class="decrptn5">
+                <div class="decrptn5" id="description-box">
                     <p class="title">Description</p>
                     <p> Garden Pipe is used to transfer water from motor to field. </p>
-                    <span id="b6">Go to Product Info </span>
+                    <span id="b6" class="go-back">Go to Product Info </span>
+                    <!-- <button>Add to Cart</button > -->
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="Photos/900ml-tarpentine-oil.webp" alt="900ml-turpentine oil" style="width:100%;">
+                <div id="box7" class="box" style="background: none;">
+                    <span class="title">Turpentine Oil 900ml</span><br>
+                    <span class="price">Rs.200 per piece.</span>
+                    <p class="go-to" id="d7">Go to Description </p>
+                </div>
+                <div class="decrptn6" id="description-box">
+                    <p class="title">Description</p>
+                    <p> Turpentine oil is used in soap and cosmetics and also as a paint solvent. </p>
+                    <span id="b7" class="go-back">Go to Product Info </span>
+                    <!-- <button>Add to Cart</button > -->
+                </div>
+            </div>
+
+            <div class="column">
+                <img src="Photos/tarpin oil 250ml.jpg" alt="250ml-turpentine oil" style="width:100%;">
+                <div id="box8" class="box" style="background: none;">
+                    <span class="title">Turpentine Oil 250ml</span><br>
+                    <span class="price">Rs.80 per piece.</span>
+                    <p class="go-to" id="d8">Go to Description </p>
+                </div>
+                <div class="decrptn7" id="description-box">
+                    <p class="title">Description</p>
+                    <p> Turpentine oil is used in soap and cosmetics and also as a paint solvent. </p>
+                    <span id="b8" class="go-back">Go to Product Info </span>
                     <!-- <button>Add to Cart</button > -->
                 </div>
             </div>

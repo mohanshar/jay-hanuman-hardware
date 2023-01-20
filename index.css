@@ -184,6 +184,10 @@ footer div.copyright {
     position: relative;
     border: #8f044a 2px solid;
     border-radius: 10px;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
   }
 
   footer button {
@@ -214,23 +218,24 @@ footer div.copyright {
     position: relative;
     max-width: 250px;
     display: block;
-    padding: 12px;
+    padding: 10px;
     border: 2px solid rgba(228, 118, 118, 0.678);
-    background: repeating-linear-gradient(
+    background-color: #7c3e04a2;
+    /* background: repeating-linear-gradient(
       45deg,
-      rgba(240, 70, 217, 0.582),
-      rgba(211, 63, 216, 0.534) 10px,
-      rgba(138, 21, 167, 0.425) 10px,
-      rgba(165, 31, 177, 0.486) 20px
+      rgba(186, 70, 240, 0.884) 5px,
+      rgba(235, 38, 241, 0.534) 8px,
+      rgba(172, 1, 214, 0.425) 10px,
+      rgba(162, 4, 177, 0.753) 20px
     )
-      rgb(105, 39, 80);
+      rgba(150, 8, 95, 0.568); */
     color: rgb(255, 255, 255);
     font-family: arial;
     border-radius: 10px;
   }
 
   div#prds div.row div.column:hover {
-    border: 2px solid rgba(231, 52, 255, 0.849);
+    border: 2px solid rgba(255, 160, 52, 0.849);
   }
 
   div#prds div.row div.column img {
@@ -239,80 +244,75 @@ footer div.copyright {
     display: block;
     position: relative;
     margin-bottom: 5px;
+    border-radius: 8px 8px 0 0;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+  }
+
+  div#prds div.row div.column div.box {
+    padding-left: 3px;
   }
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 14px;
-    color: #e6e94c;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: 1.5px underline #f5b2b2;
   }
 
   div#prds div.row div.column span.price {
     font-size: 12px;
+    color: #fde6e6;
+    font-weight: bold;
     /* border-bottom: 1.5px solid rgb(245, 207, 103); */
   }
 
-  div#prds div.row div.column div#box1 span#d1,
-  div#box2 span#d2,
-  div#box3 span#d3,
-  div#box4 span#d4,
-  div#box5 span#d5,
-  div#box6 span#d6 {
+  div#prds div.row div.column div.box p.go-to {
     color: #f3eead;
     font-weight: bold;
     font-size: 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
-    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    border-left: 2.5px solid rgba(247, 214, 70, 0.925);
     padding: 3px;
+    margin-top: 5px;
+    width: fit-content;
   }
 
-  div#prds div.row div.column div.decrptn,
-  div.decrptn1,
-  div.decrptn2,
-  div.decrptn3,
-  div.decrptn4,
-  div.decrptn5 {
+  div#prds div.row div.column div#description-box {
     display: none;
     color: #fff;
-    margin-top: -68px;
-    height: 140px;
+    margin-top: -184px;
+    height: 250px;
     padding: 10px;
     font-weight: bold;
-    border-radius: 10px;
-    padding: 10px;
-    /* background-color: rgb(182, 89, 35); */
-    background: repeating-linear-gradient(
+    border-radius: 20px 20px 10px 10px;
+    padding: 15px;
+    background-color: rgb(177, 66, 3);
+    /* background: repeating-linear-gradient(
       45deg,
-      rgb(173, 151, 24),
-      rgb(173, 144, 12) 10px,
-      rgb(184, 181, 20) 10px,
-      rgb(126, 119, 25) 20px
+      rgb(236, 216, 113) 5px,
+      rgb(243, 209, 56) 5px,
+      rgb(233, 230, 41) 5px,
+      rgba(160, 150, 10, 0.788) 10px
     )
-      rgb(255, 146, 38);
+    rgb(115, 255, 0); */
     position: relative;
   }
 
-  div#prds div.row div.column div.decrptn p.title,
-  div.decrptn1 p.title,
-  div.decrptn2 p.title,
-  div.decrptn3 p.title,
-  div.decrptn4 p.title,
-  div.decrptn5 p.title {
+  div#prds div.row div.column div#description-box p.title {
     font-size: 14px;
     color: rgb(253, 221, 178);
     text-decoration: underline;
     font-weight: bold;
     margin-bottom: 5px;
+    border: none;
   }
 
-  div#prds div.row div.column div.decrptn p,
-  div.decrptn1 p,
-  div.decrptn2 p,
-  div.decrptn3 p,
-  div.decrptn4 p,
-  div.decrptn5 p {
+  div#prds div.row div.column div#description-box p {
     font-size: 12px;
     display: block;
     text-align: start;
@@ -322,14 +322,14 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     margin-bottom: 5px;
+    /* border-left: #f58a0f 2px solid; */
+    border-bottom: #f58a0f 3px solid;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
   }
 
-  div#prds div.row div.column div.decrptn span#b1,
-  div.decrptn1 span#b2,
-  div.decrptn2 span#b3,
-  div.decrptn3 span#b4,
-  div.decrptn4 span#b5,
-  div.decrptn5 span#b6 {
+  div#prds div.row div.column div#description-box span.go-back {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
@@ -523,7 +523,6 @@ footer div.copyright {
   div#prds div.row div.column {
     position: relative;
     display: block;
-    padding: 12px;
     border: 2px solid rgba(228, 118, 118, 0.678);
     /* background-color: #a825255b; */
     background: repeating-linear-gradient(
@@ -535,12 +534,14 @@ footer div.copyright {
     )
       rgb(105, 39, 80);
     float: left;
-    width: 33.33%;
-    height: 255px;
+    /* width: 33.33%; */
+    width: 48%;
+    height: 355px;
     padding: 10px;
     color: rgb(240, 213, 213);
     margin: auto;
     font-family: arial;
+    margin: 5px;
     border-radius: 10px;
   }
 
@@ -551,7 +552,7 @@ footer div.copyright {
   div#prds div.row div.column img {
     border-radius: 8px 8px 0 0;
     width: 100%;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
     display: block;
     position: relative;
@@ -565,6 +566,7 @@ footer div.copyright {
 
   div#prds div.row div.column span.price {
     font-size: 12px;
+    margin-bottom: 5px;
   }
 
   div#prds div.row div.column div#box1 span#d1,
@@ -664,7 +666,7 @@ footer div.copyright {
     border-radius: 15px;
     background-color: #f3eead;
     margin: auto;
-    width: 85%;
+    width: 50%;
     text-align: start;
     text-align: end;
     text-align: left;
@@ -675,7 +677,7 @@ footer div.copyright {
   }
   
   div#tools div.calculator {
-    width: 80%;
+    width: 50%;
     margin: auto;
     font-size: medium;
   }
@@ -948,6 +950,62 @@ footer div.copyright {
     padding: 3px;
   }
 
+  div#tools {
+    margin-top: 50px;
+    margin-bottom: 330px;
+  }
+
+  div#tools div.description-box{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f3eead;
+    margin: auto;
+    width: 50%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  div#tools div.calculator {
+    width: 40%;
+    margin: auto;
+    font-size: medium;
+  }
+  
+  div#tools div.calculator input[type=text] {
+    font-size: medium;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    outline: 1px solid rgb(14, 98, 224);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+    border: none;
+    outline: 1px solid rgba(255, 38, 0, 0.623);
+    padding: 15px;
+    float: left;
+    margin: auto;
+    width: 25%;
+    border-radius: 8px;
+  }
+  
+  div#tools div.calculator input[type=button].btn {
+    width: 50%;
+  }
+
   div#conts {
     margin-top: 48px;
     margin-bottom: 100px;
@@ -1185,6 +1243,62 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(225, 151, 243, 0.575);
     padding: 3px;
+  }
+
+  div#tools {
+    margin-top: 50px;
+    margin-bottom: 330px;
+  }
+
+  div#tools div.description-box{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f3eead;
+    margin: auto;
+    width: 50%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  div#tools div.calculator {
+    width: 30%;
+    margin: auto;
+    font-size: medium;
+  }
+  
+  div#tools div.calculator input[type=text] {
+    font-size: medium;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    outline: 1px solid rgb(14, 98, 224);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+    border: none;
+    outline: 1px solid rgba(255, 38, 0, 0.623);
+    padding: 15px;
+    float: left;
+    margin: auto;
+    width: 25%;
+    border-radius: 8px;
+  }
+  
+  div#tools div.calculator input[type=button].btn {
+    width: 50%;
   }
 
   div#conts {
@@ -1426,6 +1540,62 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(225, 151, 243, 0.575);
     padding: 3px;
+  }
+
+  div#tools {
+    margin-top: 50px;
+    margin-bottom: 330px;
+  }
+
+  div#tools div.description-box{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f3eead;
+    margin: auto;
+    width: 30%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  div#tools div.calculator {
+    width: 20%;
+    margin: auto;
+    font-size: medium;
+  }
+  
+  div#tools div.calculator input[type=text] {
+    font-size: medium;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    outline: 1px solid rgb(14, 98, 224);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+    border: none;
+    outline: 1px solid rgba(255, 38, 0, 0.623);
+    padding: 15px;
+    float: left;
+    margin: auto;
+    width: 25%;
+    border-radius: 8px;
+  }
+  
+  div#tools div.calculator input[type=button].btn {
+    width: 50%;
   }
 
   div#conts {
@@ -1672,6 +1842,62 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(225, 151, 243, 0.575);
     padding: 3px;
+  }
+
+  div#tools {
+    margin-top: 50px;
+    margin-bottom: 330px;
+  }
+
+  div#tools div.description-box{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #f3eead;
+    margin: auto;
+    width: 50%;
+    text-align: start;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  div#tools div.calculator {
+    width: 10%;
+    margin: auto;
+    font-size: medium;
+  }
+  
+  div#tools div.calculator input[type=text] {
+    font-size: medium;
+    border: none;
+    outline: none;
+    padding: 12px;
+    width: 100%;
+    outline: 1px solid rgb(14, 98, 224);
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+    border: none;
+    outline: 1px solid rgba(255, 38, 0, 0.623);
+    padding: 15px;
+    float: left;
+    margin: auto;
+    width: 25%;
+    border-radius: 8px;
+  }
+  
+  div#tools div.calculator input[type=button].btn {
+    width: 50%;
   }
 
   div#conts {
