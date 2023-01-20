@@ -370,7 +370,7 @@ footer div.copyright {
     outline: none;
     padding: 12px;
     width: 100%;
-    outline: 1px solid rgb(14, 98, 224);
+    outline: 2px solid rgb(139, 126, 247);
     border-radius: 5px;
     margin: auto;
     margin-bottom: 2px;
@@ -382,7 +382,7 @@ footer div.copyright {
   
   div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
     border: none;
-    outline: 1px solid rgba(255, 38, 0, 0.623);
+    outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
     float: left;
     margin: auto;
@@ -664,7 +664,7 @@ footer div.copyright {
     outline: none;
     padding: 12px;
     width: 100%;
-    outline: 1px solid rgb(14, 98, 224);
+    outline: 2px solid rgb(139, 126, 247);
     border-radius: 5px;
     margin: auto;
     margin-bottom: 2px;
@@ -676,7 +676,7 @@ footer div.copyright {
   
   div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
     border: none;
-    outline: 1px solid rgba(255, 38, 0, 0.623);
+    outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
     float: left;
     margin: auto;
