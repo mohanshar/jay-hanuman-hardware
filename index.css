@@ -240,8 +240,8 @@ footer div.copyright {
     margin: auto;
     margin: 3px;
     position: relative;
-    width: 250px;
-    height: 322px;
+    width: 260px;
+    height: 325px;
     display: block;
     padding: 15px;
     border: 2px solid rgba(212, 155, 32, 0.829);
@@ -265,7 +265,7 @@ footer div.copyright {
   div#prds div.row div.column img {
     width: 100%;
     height: 220px;
-    object-fit: cover;
+    /* object-fit: cover; */
     position: relative;
     margin: auto;
     margin-bottom: 5px;
@@ -638,7 +638,7 @@ footer div.copyright {
     color: rgb(255, 255, 255);
     font-weight: bold;
     border-radius: 15px 15px 10px 10px;
-    margin-top: -168px;
+    margin-top: -170px;
     height: 235px;
     padding: 8px;
     position: relative;
@@ -889,7 +889,7 @@ footer div.copyright {
   }
 
   div#prds div.row div.column:hover {
-    border: 2px solid rgba(255, 160, 52, 0.849);
+    border: 1.8px solid rgba(255, 160, 52, 0.849);
   }
 
   div#prds div.row div.column img {
@@ -938,8 +938,8 @@ footer div.copyright {
 
   div#prds div.row div.column div#description-box {
     display: none;
-    margin-top: -133px;
-    height: 200px;
+    margin-top: -175px;
+    height: 240px;
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
@@ -1236,8 +1236,8 @@ footer div.copyright {
   div#prds div.row div.column div#description-box {
     display: none;
     color: #fff;
-    margin-top: -133px;
-    height: 200px;
+    margin-top: -150px;
+    height: 215px;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
@@ -1713,25 +1713,37 @@ footer div.copyright {
 /* Extra extra large devices (large laptops and desktops, 1400px and up) */
 
 @media only screen and (min-width: 1400px) {
-  header h2 {
-    font-size: 22px;
-  }
 
   div#home {
     margin-top: 50px;
     margin-bottom: 100px;
   }
 
+  header h2 {
+    font-size: 24px;
+  }
+
+  div#home div.date-time iframe {
+    background-color:rgb(255, 233, 37);
+    padding: 4px 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 233, 37);
+    width: 14%;
+    height: 70px;
+    float: right;
+  }
+
   div#home div.description-box {
-    font-size: 18px;
-    max-width: fit-content;
+    font-size: 16px;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    padding: 25px;
   }
 
   div#home div.img img {
-    width: 40%;
+    width: 50%;
     display: block;
     margin: auto;
     object-fit: cover;
@@ -1740,13 +1752,21 @@ footer div.copyright {
     border-radius: 10px;
   }
 
+  footer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
   footer button {
-    font-size: medium;
+    font-size: 20px;
     margin: auto;
   }
 
   footer div.copyright {
-    font-size: medium;
+    font-size: 18px;
     margin: auto;
   }
 
@@ -1757,19 +1777,19 @@ footer div.copyright {
 
   div#prds div.row {
     margin: auto;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
     float: left;
     width: 16.666666667%;
-    height: 305px;
+    height: 365px;
     position: relative;
     display: block;
-    padding: 12px;
-    border: 2px solid rgba(228, 118, 118, 0.678);
-    background-color: #a825255b;
-    float: left;
+    border: 2px solid rgba(119, 150, 9, 0.753);
+    background-color: #7c3e04a2;
     padding: 10px;
     color: rgb(240, 213, 213);
     margin: auto;
@@ -1778,83 +1798,76 @@ footer div.copyright {
   }
 
   div#prds div.row div.column:hover {
-    border: 2px solid rgba(197, 37, 37, 0.815);
+    border: 2px solid rgba(255, 160, 52, 0.849);
   }
 
   div#prds div.row div.column img {
     border-radius: 8px 8px 0 0;
-    border: 2px solid rgb(125, 25, 150);
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 250px;
+    /* object-fit: cover; */
     display: block;
     position: relative;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+  }
+
+  div#prds div.row div.column div.box {
+    padding-left: 2px;
   }
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 16px;
-    color: #e6e94c;
+    font-size: 20px;
+    color: #f8ed89;
+    width: fit-content;
   }
 
   div#prds div.row div.column span.price {
-    font-size: 14px;
-    border-bottom: 1px solid rgb(245, 207, 103);
-  }
-
-  div#prds div.row div.column div#box1 span#d1,
-  div#box2 span#d2,
-  div#box3 span#d3,
-  div#box4 span#d4,
-  div#box5 span#d5,
-  div#box6 span#d6 {
-    font-weight: bold;
-    font-size: 14px;
-    background: none;
-    padding: 3px;
-    border-left: 2px solid rgba(225, 151, 243, 0.575);
-    cursor: pointer;
-    -webkit-tap-highlight-color: none;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  div#prds div.row div.column div.decrptn,
-  div.decrptn1,
-  div.decrptn2,
-  div.decrptn3,
-  div.decrptn4,
-  div.decrptn5 {
-    display: none;
-    color: #fff;
-    margin-top: -90px;
-    height: 170px;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 10px;
-    position: relative;
-    background-color: rgb(182, 89, 35);
-  }
-
-  div#prds div.row div.column div.decrptn p.title,
-  div.decrptn1 p.title,
-  div.decrptn2 p.title,
-  div.decrptn3 p.title,
-  div.decrptn4 p.title,
-  div.decrptn5 p.title {
-    font-size: 16px;
-    color: rgb(253, 221, 178);
-    text-decoration: underline;
+    font-size: 18px;
+    color: #fde6e6;
     font-weight: bold;
     margin-bottom: 5px;
   }
 
-  div#prds div.row div.column div.decrptn p,
-  div.decrptn1 p,
-  div.decrptn2 p,
-  div.decrptn3 p,
-  div.decrptn4 p,
-  div.decrptn5 p {
-    font-size: 14px;
+  div#prds div.row div.column div.box p.go-to {
+    color: #f3eead;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: transparent;
+    border-left: 2.5px solid rgba(247, 214, 70, 0.925);
+    padding: 5px;
+    margin-top: 10px;
+    width: fit-content;
+  }
+
+  div#prds div.row div.column div#description-box {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 15px 15px 10px 10px;
+    margin-top: -240px;
+    height: 325px;
+    padding: 8px;
+    position: relative;
+    background-color: rgb(160, 82, 4);
+  }
+
+  div#prds div.row div.column div#description-box p.title {
+    font-size: 20px;
+    color: rgb(253, 221, 178);
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: none;
+  }
+
+  div#prds div.row div.column div#description-box p {
+    font-size: 18px;
     display: block;
     text-align: start;
     text-align: end;
@@ -1862,22 +1875,20 @@ footer div.copyright {
     text-align: right;
     text-align: center;
     text-align: justify;
+    padding: 10px;
     margin-bottom: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.575);
+    border-radius: 6px;
   }
 
-  div#prds div.row div.column div.decrptn span#b1,
-  div.decrptn1 span#b2,
-  div.decrptn2 span#b3,
-  div.decrptn3 span#b4,
-  div.decrptn4 span#b5,
-  div.decrptn5 span#b6 {
+  div#prds div.row div.column div#description-box span.go-back {
     color: #fff459;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
-    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    border-left: 3px solid rgba(255, 253, 157, 0.575);
     padding: 3px;
   }
 
