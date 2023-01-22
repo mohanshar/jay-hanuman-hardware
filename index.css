@@ -170,8 +170,8 @@ footer div.copyright {
 @media only screen and (max-width: 550px) {
 
   div#home {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin-top: 42px;
+    margin-bottom: 90px;
   }
 
   div#home header h2 {
@@ -224,7 +224,7 @@ footer div.copyright {
 
   div#prds {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 85px;
   }
 
   div#prds div.row {
@@ -232,17 +232,19 @@ footer div.copyright {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: auto;
   }
 
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
-    margin: 4px;
+    margin: auto;
+    margin: 3px;
     position: relative;
     width: 250px;
     height: 322px;
     display: block;
     padding: 15px;
-    border: 2px solid rgba(228, 118, 118, 0.678);
+    border: 2px solid rgba(212, 155, 32, 0.829);
     background-color: #7c3e04a2;
     /* background: repeating-linear-gradient(
       45deg,
@@ -253,7 +255,6 @@ footer div.copyright {
     )
       rgba(150, 8, 95, 0.568); */
     color: rgb(255, 255, 255);
-    font-family: arial;
     border-radius: 10px;
   }
 
@@ -264,9 +265,9 @@ footer div.copyright {
   div#prds div.row div.column img {
     width: 100%;
     height: 220px;
-    /* object-fit: cover; */
-    display: block;
+    object-fit: cover;
     position: relative;
+    margin: auto;
     margin-bottom: 5px;
     border-radius: 8px 8px 0 0;
     background-image: linear-gradient(
@@ -276,14 +277,13 @@ footer div.copyright {
   }
 
   div#prds div.row div.column div.box {
-    padding-left: 3px;
+    padding-left: 2px;
   }
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 16px;
-    color: #fac7c7;
-    /* text-decoration: 1.5px underline #f5b2b2; */
+    font-size: 14px;
+    color: #fccd75;
   }
 
   div#prds div.row div.column span.price {
@@ -1113,7 +1113,7 @@ footer div.copyright {
 @media only screen and (min-width: 992px) {  
   
   div#home {
-    margin-top: 45px;
+    margin-top: 48px;
     margin-bottom: 100px;
   }
 
@@ -1130,12 +1130,12 @@ footer div.copyright {
     height: 65px;
     display: block;
     margin: auto;
-    margin-bottom: 5px;
   }
 
   div#home div.description-box {
     font-size: 12px;
     max-width: 40%;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
@@ -1165,14 +1165,14 @@ footer div.copyright {
   }
 
   div#prds div.row {
-    margin-left: 120px;
+    margin-left: 160px;
     margin-right: 40px;
   }
 
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
     float: left;
-    width: 30%;
+    width: 28%;
     height: 290px;
     position: relative;
     display: block;
@@ -1412,7 +1412,7 @@ footer div.copyright {
 @media only screen and (min-width: 1200px) {
   
   div#home {
-    margin-top: 45px;
+    margin-top: 50px;
     margin-bottom: 100px;
   }
 
@@ -1429,17 +1429,17 @@ footer div.copyright {
     height: 65px;
     display: block;
     margin: auto;
-    margin-bottom: 5px;
   }
 
   div#home div.description-box {
     font-size: 14px;
     max-width: 45%;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
   div#home div.img img {
-    width: 35%;
+    width: 45%;
     display: block;
     margin: auto;
     object-fit: cover;
@@ -1459,108 +1459,102 @@ footer div.copyright {
   }
 
   div#prds {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 45px;
+    margin-bottom: 90px;
   }
 
   div#prds div.row {
-    margin: auto;
+    margin: auto;    
+    margin-left: 180px;
   }
 
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
     float: left;
     width: 20%;
-    height: 305px;
+    height: 290px;
     position: relative;
     display: block;
-    padding: 12px;
-    border: 2px solid rgba(228, 118, 118, 0.678);
-    background-color: #a825255b;
-    float: left;
+    border: 1.8px solid rgba(235, 202, 59, 0.753);
+    background-color: #7c3e04a2;
     padding: 10px;
+    margin: 2px;
     color: rgb(240, 213, 213);
-    margin: auto;
     font-family: arial;
     border-radius: 10px;
   }
 
   div#prds div.row div.column:hover {
-    border: 2px solid rgba(197, 37, 37, 0.815);
+    border: 1.8px solid rgba(255, 160, 52, 0.849);
   }
 
   div#prds div.row div.column img {
     width: 100%;
     height: 200px;
     border-radius: 8px 8px 0 0;
-    border: 2px solid rgb(125, 25, 150);
-    object-fit: cover;
+    /* object-fit: cover; */
     display: block;
     position: relative;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.911),
+      rgba(230, 212, 212, 0.5)
+    );
+  }
+
+  div#prds div.row div.column div.box {
+    padding-left: 2px;
   }
 
   div#prds div.row div.column span.title {
     font-weight: bold;
     font-size: 14px;
-    color: #e6e94c;
+    color: #fdd44b;
+    width: fit-content;
   }
 
   div#prds div.row div.column span.price {
     font-size: 12px;
-    border-bottom: 1.5px solid rgb(245, 207, 103);
+    color: #fde6e6;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
 
-  div#prds div.row div.column div#box1 span#d1,
-  div#box2 span#d2,
-  div#box3 span#d3,
-  div#box4 span#d4,
-  div#box5 span#d5,
-  div#box6 span#d6 {
+  div#prds div.row div.column div.box p.go-to {
+    color: #f3eead;
     font-weight: bold;
     font-size: 12px;
-    padding: 3px;
-    border-left: 3px solid rgba(225, 151, 243, 0.575);
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
+    border-left: 2.5px solid rgba(247, 214, 70, 0.925);
+    padding: 3px;
+    margin-top: 5px;
+    width: fit-content;
   }
 
-  div#prds div.row div.column div.decrptn,
-  div.decrptn1,
-  div.decrptn2,
-  div.decrptn3,
-  div.decrptn4,
-  div.decrptn5 {
+  div#prds div.row div.column div#description-box {
     display: none;
     color: #fff;
-    margin-top: -68px;
-    height: 148px;
+    margin-top: -133px;
+    height: 200px;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
     position: relative;
-    background-color: rgb(182, 89, 35);
+    background-color: rgb(160, 82, 4);
+    border-radius: 15px 15px 10px 10px;
   }
 
-  div#prds div.row div.column div.decrptn p.title,
-  div.decrptn1 p.title,
-  div.decrptn2 p.title,
-  div.decrptn3 p.title,
-  div.decrptn4 p.title,
-  div.decrptn5 p.title {
+  div#prds div.row div.column div#description-box p.title {
     font-size: 14px;
     color: rgb(253, 221, 178);
     text-decoration: underline;
     font-weight: bold;
     margin-bottom: 5px;
+    border: none;
   }
 
-  div#prds div.row div.column div.decrptn p,
-  div.decrptn1 p,
-  div.decrptn2 p,
-  div.decrptn3 p,
-  div.decrptn4 p,
-  div.decrptn5 p {
+  div#prds div.row div.column div#description-box p {
     font-size: 12px;
     display: block;
     text-align: start;
@@ -1569,22 +1563,19 @@ footer div.copyright {
     text-align: right;
     text-align: center;
     text-align: justify;
-    margin-bottom: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
+    border-radius: 6px;
   }
 
-  div#prds div.row div.column div.decrptn span#b1,
-  div.decrptn1 span#b2,
-  div.decrptn2 span#b3,
-  div.decrptn3 span#b4,
-  div.decrptn4 span#b5,
-  div.decrptn5 span#b6 {
+  div#prds div.row div.column div#description-box span.go-back {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
-    border-left: 3px solid rgba(225, 151, 243, 0.575);
+    border-left: 3px solid rgba(255, 253, 157, 0.575);
     padding: 3px;
   }
 
@@ -1620,7 +1611,7 @@ footer div.copyright {
     outline: none;
     padding: 12px;
     width: 100%;
-    outline: 1px solid rgb(14, 98, 224);
+    outline: 2px solid rgb(139, 126, 247);
     border-radius: 5px;
     margin: auto;
     margin-bottom: 2px;
@@ -1632,7 +1623,7 @@ footer div.copyright {
   
   div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
     border: none;
-    outline: 1px solid rgba(255, 38, 0, 0.623);
+    outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
     float: left;
     margin: auto;
