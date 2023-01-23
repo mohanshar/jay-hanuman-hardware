@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test page</title>
+    <style>
+        div.box {
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        div.box img {
+            width: 100%;
+            height: 100%;
+        }
+
+        div.box h1 {
+            text-align: center;
+        }
+
+        div.box p {
+            text-align: center;
+        }
+
+        div.box details {
+            padding: 10px;
+            margin-left: 20px;
+        }
+
+        div.box details summary{
+            background-color: rgb(243, 210, 121);
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            list-style: none;
+        }
+
+        div.box details p.description-box {
+            background-color: rgb(243, 210, 121);
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            position: relative;
+            margin-top: -100px;
+        }
+
+        div.box button:hover {
+            background-color: #ccc;
+        }
+
+        div.box button:active {
+            background-color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="content">
+            <img src="Photos/nails.jpg" alt="iron nail" srcset="Photos/nails.jpg">
+            <h1>Iron nails</h1>
+            <p>Price: 1000</p>
+
+            <details>
+                <summary>Go to description</summary>
+                <p class="description-box">
+                    Iron nails are used for construction purposes.
+                </p>
+            </details>
+
+                <!-- <a href="javascript:void(0)">&times;</a> -->
+        </div>
+    </div>
+</body>
+
+</html>

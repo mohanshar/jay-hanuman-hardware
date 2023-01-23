@@ -20,7 +20,7 @@
 
 <body>
 
-    <div id="home">
+    <div id="home" style="display: none;">
 
         <header>
             <h2>Jay Hanuman Hardware</h2>
@@ -60,7 +60,7 @@
                 in the heart of the city on the east side of the main road of Jeetpur. We are one of the best sellers in
                 the market.
             </p>
-             <br>
+            <br>
             <p>
                 Our best selling products are given below:
             </p>
@@ -82,14 +82,76 @@
 
     </div>
 
-    <div id="prds" style="display: none;">
+    <div id="prds">
 
         <header>
             <h2>Products</h2>
         </header>
 
+        <style>
+
+            div.box details summary.go-to {
+                list-style: none;
+                margin-top: 10px;
+                cursor: pointer;
+                color: #f3eead;
+                font-weight: bold;
+                font-size: 12px;
+                cursor: pointer;
+                -webkit-tap-highlight-color: none;
+                -webkit-tap-highlight-color: transparent;
+                border-left: 2.5px solid rgba(247, 214, 70, 0.925);
+                padding: 3px;
+                width: fit-content;
+            }
+
+            div.box details div.description-box {
+                background-color: rgb(94, 73, 15);
+                height: 172px;
+                width: 103%;
+                padding: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                position: relative;
+                margin-left: -3px;
+                margin-top: -238px;
+                transition: 5s;
+            }
+
+            div.box details div.description-box p {
+                padding: 10px;
+                border: 1px solid rgb(224, 142, 142);
+                border-radius: 5px;
+                background-color: rgb(65, 51, 13);
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+                hyphens: auto;
+                font-size: 1vw;
+                font-size: 12px;
+                text-align: center;
+            }
+
+        </style>
+
         <div class="row">
             <div class="column">
+
+                <img src="Photos/nails.webp" alt="Iron nail" style="width:100%;">
+                <div class="box">
+                    <span class="title">Iron Nail 1" 1.5" 2" 3" 4"</span><br>
+                    <span class="price">Rs.150 per K.G.</span>
+                    <details>
+                        <summary class="go-to">Go to Description</summary>
+                        <div class="description-box">
+                            <p><b>Description</b> <br>
+                            Nails are used to join two pieces of wood together.</p>
+                        </div>
+                    </details>
+                </div>
+
+            </div>
+
+            <!-- <div class="column">
                 <img src="Photos/nails.webp" alt="Iron nail" style="width:100%;">
                 <div id="box1" class="box" style="background: none;">
                     <span class="title">Iron Nail 1" 1.5" 2" 3" 4"</span><br>
@@ -101,8 +163,7 @@
                     <p>Nails are used to join two pieces of wood together.</p>
                     <span id="b1" class="go-back">Go to Product Info </span>
                 </div>
-                <!-- <button>Add to Cart</button> -->
-            </div>
+            </div> -->
 
             <div class="column">
                 <img src="Photos/nails1.jpg" alt="Cap Nails" style="width:100%;">
@@ -365,7 +426,7 @@
                 <img src="Photos/Hilltake-Extra-Heavy-Tank-1000litre.jpg" alt="Hilltake-Extra-Heavy-Tank-1000litre"
                     style="width:100%;">
                 <div id="box18" class="box" style="background: none;">
-                    <span class="title" style="font-size: 10px;">Hilltake Extra Heavy Water Tank</span><br>
+                    <span class="title">Hilltake Extra Heavy Water Tank</span><br>
                     <span class="price">Rs.10,000 per piece.</span>
                     <p class="go-to" id="d18">Go to Description </p>
                 </div>
@@ -384,7 +445,7 @@
                 <img src="Photos/hilltake-extra-heavy-water-tank-1000litre.png"
                     alt="Hilltake-Extra-Heavy-Tank-1000litre" style="width:100%;">
                 <div id="box19" class="box" style="background: none;">
-                    <span class="title" style="font-size: 10px;">Hilltake Extra Heavy Water Tank</span><br>
+                    <span class="title">Hilltake Extra Heavy Water Tank</span><br>
                     <span class="price">Rs.10,000 per piece.</span>
                     <p class="go-to" id="d19">Go to Description </p>
                 </div>
