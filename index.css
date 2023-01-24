@@ -218,7 +218,7 @@ footer div.copyright {
     margin: auto;
     margin: 3px;
     position: relative;
-    width: 50%;
+    width: 65%;
     height: 305px;
     display: block;
     padding: 15px;
@@ -253,7 +253,7 @@ footer div.copyright {
   div#prds div.row div.column span.title {
     font-weight: bold;
     font-size: 14px;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     color: #fccd75;
     white-space: nowrap;
     overflow: hidden;
@@ -263,7 +263,7 @@ footer div.copyright {
 
   div#prds div.row div.column span.price {
     font-size: 12px;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     color: #fde6e6;
     font-weight: bold;
   }
@@ -272,7 +272,7 @@ footer div.copyright {
     color: #f3eead;
     font-weight: bold;
     font-size: 12px;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -305,7 +305,7 @@ footer div.copyright {
 
   div#prds div.row div.column div#description-box p.title {
     font-size: 14px;
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: rgb(253, 221, 178);
     text-decoration: underline;
     font-weight: bold;
@@ -315,7 +315,7 @@ footer div.copyright {
 
   div#prds div.row div.column div#description-box p {
     font-size: 12px;
-    font-size: 2.5vw;
+    font-size: 3vw;
     display: block;
     text-align: start;
     text-align: end;
@@ -334,7 +334,7 @@ footer div.copyright {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
-    font-size: 2.5vw;
+    font-size: 3vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
