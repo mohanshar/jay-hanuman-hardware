@@ -20,15 +20,18 @@
 
 <body>
 
-    <div id="home" style="display: none;">
+    <div id="home">
 
-        <header>
+        <header id="Home">
             <h2>Jay Hanuman Hardware</h2>
+        </header>
+        <br>
+        <br>
+        <br>
             <div class="date-time">
                 <iframe frameborder="0" scrolling="no"
                     src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&font_color=333333&aj_time=yes&font_size=14&line_brake=1&api=212110n067"></iframe>
             </div>
-        </header>
 
         <div class="description-box">
 
@@ -40,9 +43,9 @@
 
         </div>
 
-        <!-- <p id="demo"></p> -->
+        <!-- <p id="demo"></p>
 
-        <!-- <script>
+        <script>
             var w = window.innerWidth;
             var h = window.innerHeight;
 
@@ -82,76 +85,18 @@
 
     </div>
 
-    <div id="prds">
+    <div id="prds" style="display: none;">
 
-        <header>
+        <header id="Products">
             <h2>Products</h2>
         </header>
-
-        <style>
-
-            div.box details summary.go-to {
-                list-style: none;
-                margin-top: 10px;
-                cursor: pointer;
-                color: #f3eead;
-                font-weight: bold;
-                font-size: 12px;
-                cursor: pointer;
-                -webkit-tap-highlight-color: none;
-                -webkit-tap-highlight-color: transparent;
-                border-left: 2.5px solid rgba(247, 214, 70, 0.925);
-                padding: 3px;
-                width: fit-content;
-            }
-
-            div.box details div.description-box {
-                background-color: rgb(94, 73, 15);
-                height: 172px;
-                width: 103%;
-                padding: 15px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-                position: relative;
-                margin-left: -3px;
-                margin-top: -238px;
-                transition: 5s;
-            }
-
-            div.box details div.description-box p {
-                padding: 10px;
-                border: 1px solid rgb(224, 142, 142);
-                border-radius: 5px;
-                background-color: rgb(65, 51, 13);
-                overflow-wrap: break-word;
-                word-wrap: break-word;
-                hyphens: auto;
-                font-size: 1vw;
-                font-size: 12px;
-                text-align: center;
-            }
-
-        </style>
+                <br>
+                <br>
+                <br>
 
         <div class="row">
+
             <div class="column">
-
-                <img src="Photos/nails.webp" alt="Iron nail" style="width:100%;">
-                <div class="box">
-                    <span class="title">Iron Nail 1" 1.5" 2" 3" 4"</span><br>
-                    <span class="price">Rs.150 per K.G.</span>
-                    <details>
-                        <summary class="go-to">Go to Description</summary>
-                        <div class="description-box">
-                            <p><b>Description</b> <br>
-                            Nails are used to join two pieces of wood together.</p>
-                        </div>
-                    </details>
-                </div>
-
-            </div>
-
-            <!-- <div class="column">
                 <img src="Photos/nails.webp" alt="Iron nail" style="width:100%;">
                 <div id="box1" class="box" style="background: none;">
                     <span class="title">Iron Nail 1" 1.5" 2" 3" 4"</span><br>
@@ -163,7 +108,7 @@
                     <p>Nails are used to join two pieces of wood together.</p>
                     <span id="b1" class="go-back">Go to Product Info </span>
                 </div>
-            </div> -->
+            </div>
 
             <div class="column">
                 <img src="Photos/nails1.jpg" alt="Cap Nails" style="width:100%;">
@@ -566,10 +511,12 @@
 
     <div id="tools" style="display: none;">
 
-        <header>
+        <header id="Tools">
             <h2>Tools</h2>
         </header>
-
+        <br>
+        <br>
+        <br>
         <div class="description-box">
             <p>This tools category contains calculator which is used to calculate the price of the items which users
                 like.</p>
@@ -615,7 +562,7 @@
                 <input type="reset" value="AC">
 
                 <input type="button" value="del"
-                    onclick="document.calc.ans.value=calc.ans.value.substr(0,calc.ans.value.length-1)">
+                    onClick="document.calc.ans.value=calc.ans.value.substr(0,calc.ans.value.length-1)">
 
                 <input type="button" class="btn" id="ANS" value="=" onclick="compute()">
 
@@ -626,10 +573,12 @@
 
     <div id="conts" style="display:none;">
 
-        <header>
+        <header id="Contact">
             <h2>Contact</h2>
         </header>
-
+        <br>
+        <br>
+        <br>
         <div class="about-text">
             <img src="Photos/suzit sharma.jpg" alt="Sujeet Sharma" class="profilepic">
             <br>
@@ -665,10 +614,14 @@
             Copyrights &copy; JayHanumanHardware 2023. All Rights Reserved.
         </div>
 
-        <button class="active" id="hm">Home</button>
-        <button id="prd">Products</button>
-        <button id="tool">Tools</button>
-        <button id="cont">Contact</button>
+        <div class="menu">
+
+            <a href="#Home" class="active" id="hm">Home</a>
+            <a href="#Products" id="prd">Products</a>
+            <a href="#Tools" id="tool">Tools</a>
+            <a href="#Contact" id="cont">Contact</a>
+
+        </div>
 
     </footer>
 

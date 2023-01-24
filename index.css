@@ -20,7 +20,7 @@ body {
 header h2 {
   color: rgb(250, 227, 100);
   text-align: center;
-  padding: 8px;
+  padding: 13px;
   border-radius: 0 0 25px 25px;
   background-color: rgba(219, 50, 168, 0.473);
   backdrop-filter: blur(20px);
@@ -78,7 +78,20 @@ footer {
   margin: auto;
 }
 
-footer button {
+footer div.menu ul {
+  list-style-type: none;
+  display: block;
+}
+
+footer div.menu a {
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: none;
+  -webkit-tap-highlight-color: transparent;
+  padding: 10px;
+  border: 1px solid rgb(211, 174, 174);
+  margin: 5px;
+  cursor: pointer;
   background-color: rgb(36, 14, 14);
   color: wheat;
   border: none;
@@ -90,68 +103,32 @@ footer button {
   text-align: center;
   width: 25%;
   border-right: 0.5px solid rgb(211, 174, 174);
-  cursor: pointer;
-  -webkit-tap-highlight-color: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
-footer button.active {
+footer div.menu a.active {
   font-weight: bold;
   background-color: rgb(165, 18, 18);
   border-bottom-right-radius: 18px;
   transition: 0.5s;
 }
 
-footer button:hover {
+footer div.menu a:hover {
   font-weight: bold;
   background-color: rgb(165, 18, 18);
 }
 
-footer button:active {
+footer div.menu a:active {
   font-weight: bold;
   background-color: rgb(165, 18, 18);
 }
 
-footer button:nth-child(5) {
-  border-bottom-right-radius: 10px;
-}
-
-footer button:nth-child(2) {
+footer div.menu a:nth-child(1) {
   border-bottom-left-radius: 10px;
 }
 
-footer button:nth-child(4):active {
-  font-weight: bold;
-  background-color: rgb(165, 18, 18);
+footer div.menu a:nth-child(4) {
+  border-bottom-right-radius: 10px;
 }
-
-/* .btn {
-  padding: 10px 15px;
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: bold;
-  border: none;
-  outline: none;
-  border-radius: 30px;
-  cursor: pointer;
-  background-color: rgba(105, 103, 212, 0.726);
-  color: #fff;
-  user-select: none;
-  -webkit-tap-highlight-color: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.btn:hover {
-  background-color: rgba(132, 130, 247, 0.726);
-  color: #fff;
-  border-left: 3px solid rgba(175, 80, 80, 0.801);
-  border-right: 3px solid rgba(175, 80, 80, 0.801);
-}
-
-.btn:active {
-  background-color: rgba(204, 114, 114, 0.658);
-} */
 
 footer div.copyright {
   background-color: rgb(59, 11, 11);
@@ -168,18 +145,16 @@ footer div.copyright {
 
 /* Extra small devices (phones, 600px and down)  */
 @media only screen and (max-width: 550px) {
-
   div#home {
-    margin-top: 42px;
     margin-bottom: 90px;
   }
 
-  div#home header h2 {
+  header h2 {
     font-size: 16px;
   }
 
   div#home div.date-time iframe {
-    background-color:rgb(255, 233, 37);
+    background-color: rgb(255, 233, 37);
     padding: 2px 12px;
     border-radius: 10px;
     border: 1px solid rgb(255, 233, 37);
@@ -212,7 +187,7 @@ footer div.copyright {
     );
   }
 
-  footer button {
+  footer div.menu a {
     font-size: small;
     margin: auto;
   }
@@ -220,10 +195,13 @@ footer div.copyright {
   footer div.copyright {
     font-size: 11px;
     margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
+    padding: 10px;
   }
 
   div#prds {
-    margin-top: 50px;
     margin-bottom: 85px;
   }
 
@@ -240,20 +218,12 @@ footer div.copyright {
     margin: auto;
     margin: 3px;
     position: relative;
-    width: 260px;
-    height: 325px;
+    width: 50%;
+    height: 305px;
     display: block;
     padding: 15px;
     border: 2px solid rgba(212, 155, 32, 0.829);
     background-color: #7c3e04a2;
-    /* background: repeating-linear-gradient(
-      45deg,
-      rgba(186, 70, 240, 0.884) 5px,
-      rgba(235, 38, 241, 0.534) 8px,
-      rgba(172, 1, 214, 0.425) 10px,
-      rgba(162, 4, 177, 0.753) 20px
-    )
-      rgba(150, 8, 95, 0.568); */
     color: rgb(255, 255, 255);
     border-radius: 10px;
   }
@@ -264,7 +234,7 @@ footer div.copyright {
 
   div#prds div.row div.column img {
     width: 100%;
-    height: 220px;
+    height: 200px;
     /* object-fit: cover; */
     position: relative;
     margin: auto;
@@ -283,11 +253,17 @@ footer div.copyright {
   div#prds div.row div.column span.title {
     font-weight: bold;
     font-size: 14px;
+    font-size: 2.5vw;
     color: #fccd75;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
+    width: fit-content; 
   }
 
   div#prds div.row div.column span.price {
     font-size: 12px;
+    font-size: 2.5vw;
     color: #fde6e6;
     font-weight: bold;
   }
@@ -296,6 +272,7 @@ footer div.copyright {
     color: #f3eead;
     font-weight: bold;
     font-size: 12px;
+    font-size: 2.5vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -328,6 +305,7 @@ footer div.copyright {
 
   div#prds div.row div.column div#description-box p.title {
     font-size: 14px;
+    font-size: 2.5vw;
     color: rgb(253, 221, 178);
     text-decoration: underline;
     font-weight: bold;
@@ -337,6 +315,7 @@ footer div.copyright {
 
   div#prds div.row div.column div#description-box p {
     font-size: 12px;
+    font-size: 2.5vw;
     display: block;
     text-align: start;
     text-align: end;
@@ -355,6 +334,7 @@ footer div.copyright {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
+    font-size: 2.5vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -363,11 +343,10 @@ footer div.copyright {
   }
 
   div#tools {
-    margin-top: 50px;
     margin-bottom: 330px;
   }
 
-  div#tools div.description-box{
+  div#tools div.description-box {
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
@@ -381,14 +360,14 @@ footer div.copyright {
     text-align: justify;
     margin-bottom: 10px;
   }
-  
+
   div#tools div.calculator {
     width: 80%;
     margin: auto;
     font-size: medium;
   }
-  
-  div#tools div.calculator input[type=text] {
+
+  div#tools div.calculator input[type="text"] {
     font-size: medium;
     border: none;
     outline: none;
@@ -403,8 +382,9 @@ footer div.copyright {
     align-items: center;
     flex-direction: column;
   }
-  
-  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+
+  div#tools div.calculator input[type="button"],
+  div#tools div.calculator input[type="reset"] {
     border: none;
     outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
@@ -413,13 +393,12 @@ footer div.copyright {
     width: 25%;
     border-radius: 8px;
   }
-  
-  div#tools div.calculator input[type=button].btn {
+
+  div#tools div.calculator input[type="button"].btn {
     width: 50%;
   }
 
   div#conts {
-    margin-top: 50px;
     margin-bottom: 100px;
   }
 
@@ -495,9 +474,7 @@ footer div.copyright {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 550px) {
-
   div#home {
-    margin-top: 45px;
     margin-bottom: 100px;
   }
 
@@ -506,7 +483,7 @@ footer div.copyright {
   }
 
   div#home div.date-time iframe {
-    background-color:rgb(255, 233, 37);
+    background-color: rgb(255, 233, 37);
     padding: 2px 12px;
     border-radius: 10px;
     border: 1px solid rgb(255, 233, 37);
@@ -547,25 +524,28 @@ footer div.copyright {
     right: 0;
     font-size: small;
   }
-  
-  footer button {
-    background-color: rgb(36, 14, 14);
-    color: wheat;
+
+  footer div.menu a {
+    font-size: small;
+    margin: auto;
   }
 
   footer div.copyright {
     font-size: 12px;
     margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
+    padding: 10px;
   }
 
   div#prds {
-    margin-top: 40px;
     margin-bottom: 85px;
   }
 
   div#prds div.row {
-    margin: auto;
-    margin-left: 100px;
+    margin-left: 120px;
+    margin-right: 80px;
   }
 
   /* Create two equal columns that floats next to each other */
@@ -575,7 +555,7 @@ footer div.copyright {
     border: 2px solid rgba(119, 150, 9, 0.753);
     background-color: #7c3e04a2;
     float: left;
-    width: 40%;
+    width: 45%;
     height: 260px;
     padding: 10px;
     color: rgb(240, 213, 213);
@@ -608,13 +588,17 @@ footer div.copyright {
 
   div#prds div.row div.column span.title {
     font-weight: bold;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     color: #f8ed89;
-    width: fit-content;
+    width: fit-content;    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
   }
 
   div#prds div.row div.column span.price {
     font-size: 12px;
+    font-size: 1.6vw;
     color: #fde6e6;
     font-weight: bold;
     margin-bottom: 5px;
@@ -624,6 +608,7 @@ footer div.copyright {
     color: #f3eead;
     font-weight: bold;
     font-size: 12px;
+    font-size: 1.6vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -647,6 +632,7 @@ footer div.copyright {
 
   div#prds div.row div.column div#description-box p.title {
     font-size: 14px;
+    font-size: 1.8vw;
     color: rgb(253, 221, 178);
     text-decoration: underline;
     font-weight: bold;
@@ -657,7 +643,7 @@ footer div.copyright {
   }
 
   div#prds div.row div.column div#description-box p {
-    padding: 10px;
+    padding: 5px;
     border: 1px solid rgb(224, 142, 142);
     background-color: #be7129cc;
     border-radius: 5px;
@@ -670,7 +656,7 @@ footer div.copyright {
     text-align: right;
     text-align: center;
     text-align: justify;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     margin-bottom: 10px;
   }
 
@@ -678,6 +664,7 @@ footer div.copyright {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
+    font-size: 1.6vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
@@ -686,11 +673,10 @@ footer div.copyright {
   }
 
   div#tools {
-    margin-top: 50px;
     margin-bottom: 330px;
   }
 
-  div#tools div.description-box{
+  div#tools div.description-box {
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
@@ -704,14 +690,14 @@ footer div.copyright {
     text-align: justify;
     margin-bottom: 10px;
   }
-  
+
   div#tools div.calculator {
     width: 50%;
     margin: auto;
     font-size: medium;
   }
-  
-  div#tools div.calculator input[type=text] {
+
+  div#tools div.calculator input[type="text"] {
     font-size: medium;
     border: none;
     outline: none;
@@ -726,8 +712,9 @@ footer div.copyright {
     align-items: center;
     flex-direction: column;
   }
-  
-  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+
+  div#tools div.calculator input[type="button"],
+  div#tools div.calculator input[type="reset"] {
     border: none;
     outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
@@ -736,13 +723,12 @@ footer div.copyright {
     width: 25%;
     border-radius: 8px;
   }
-  
-  div#tools div.calculator input[type=button].btn {
+
+  div#tools div.calculator input[type="button"].btn {
     width: 50%;
   }
 
   div#conts {
-    margin-top: 50px;
     margin-bottom: 100px;
   }
 
@@ -811,19 +797,18 @@ footer div.copyright {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) { 
-
+@media only screen and (min-width: 768px) {
   header h2 {
     font-size: 20px;
-  } 
-  
+  }
+
   div#home {
     margin-top: 50px;
     margin-bottom: 100px;
   }
 
   div#home div.date-time iframe {
-    background-color:rgb(255, 233, 37);
+    background-color: rgb(255, 233, 37);
     padding: 2px 12px;
     border-radius: 10px;
     border: 1px solid rgb(255, 233, 37);
@@ -999,7 +984,7 @@ footer div.copyright {
     margin-bottom: 330px;
   }
 
-  div#tools div.description-box{
+  div#tools div.description-box {
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
@@ -1013,14 +998,14 @@ footer div.copyright {
     text-align: justify;
     margin-bottom: 10px;
   }
-  
+
   div#tools div.calculator {
     width: 40%;
     margin: auto;
     font-size: medium;
   }
-  
-  div#tools div.calculator input[type=text] {
+
+  div#tools div.calculator input[type="text"] {
     font-size: medium;
     border: none;
     outline: none;
@@ -1035,8 +1020,9 @@ footer div.copyright {
     align-items: center;
     flex-direction: column;
   }
-  
-  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+
+  div#tools div.calculator input[type="button"],
+  div#tools div.calculator input[type="reset"] {
     border: none;
     outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
@@ -1045,8 +1031,8 @@ footer div.copyright {
     width: 25%;
     border-radius: 8px;
   }
-  
-  div#tools div.calculator input[type=button].btn {
+
+  div#tools div.calculator input[type="button"].btn {
     width: 50%;
   }
 
@@ -1121,8 +1107,7 @@ footer div.copyright {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {  
-  
+@media only screen and (min-width: 992px) {
   div#home {
     margin-top: 48px;
     margin-bottom: 100px;
@@ -1133,7 +1118,7 @@ footer div.copyright {
   }
 
   div#home div.date-time iframe {
-    background-color:rgb(255, 233, 37);
+    background-color: rgb(255, 233, 37);
     padding: 2px 10px;
     border-radius: 10px;
     border: 1px solid rgb(255, 233, 37);
@@ -1296,7 +1281,7 @@ footer div.copyright {
     margin-bottom: 330px;
   }
 
-  div#tools div.description-box{
+  div#tools div.description-box {
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
@@ -1310,14 +1295,14 @@ footer div.copyright {
     text-align: justify;
     margin-bottom: 10px;
   }
-  
+
   div#tools div.calculator {
     width: 30%;
     margin: auto;
     font-size: medium;
   }
-  
-  div#tools div.calculator input[type=text] {
+
+  div#tools div.calculator input[type="text"] {
     font-size: medium;
     border: none;
     outline: none;
@@ -1332,8 +1317,9 @@ footer div.copyright {
     align-items: center;
     flex-direction: column;
   }
-  
-  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+
+  div#tools div.calculator input[type="button"],
+  div#tools div.calculator input[type="reset"] {
     border: none;
     outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
@@ -1342,8 +1328,8 @@ footer div.copyright {
     width: 25%;
     border-radius: 8px;
   }
-  
-  div#tools div.calculator input[type=button].btn {
+
+  div#tools div.calculator input[type="button"].btn {
     width: 50%;
   }
 
@@ -1421,7 +1407,6 @@ footer div.copyright {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  
   div#home {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -1432,7 +1417,7 @@ footer div.copyright {
   }
 
   div#home div.date-time iframe {
-    background-color:rgb(255, 233, 37);
+    background-color: rgb(255, 233, 37);
     padding: 2px 10px;
     border-radius: 10px;
     border: 1px solid rgb(255, 233, 37);
@@ -1475,7 +1460,7 @@ footer div.copyright {
   }
 
   div#prds div.row {
-    margin: auto;    
+    margin: auto;
     margin-left: 180px;
   }
 
@@ -1595,7 +1580,7 @@ footer div.copyright {
     margin-bottom: 330px;
   }
 
-  div#tools div.description-box{
+  div#tools div.description-box {
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
@@ -1609,14 +1594,14 @@ footer div.copyright {
     text-align: justify;
     margin-bottom: 10px;
   }
-  
+
   div#tools div.calculator {
     width: 20%;
     margin: auto;
     font-size: medium;
   }
-  
-  div#tools div.calculator input[type=text] {
+
+  div#tools div.calculator input[type="text"] {
     font-size: medium;
     border: none;
     outline: none;
@@ -1631,8 +1616,9 @@ footer div.copyright {
     align-items: center;
     flex-direction: column;
   }
-  
-  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+
+  div#tools div.calculator input[type="button"],
+  div#tools div.calculator input[type="reset"] {
     border: none;
     outline: 1px solid rgba(49, 39, 139, 0.623);
     padding: 15px;
@@ -1641,8 +1627,8 @@ footer div.copyright {
     width: 25%;
     border-radius: 8px;
   }
-  
-  div#tools div.calculator input[type=button].btn {
+
+  div#tools div.calculator input[type="button"].btn {
     width: 50%;
   }
 
@@ -1724,7 +1710,6 @@ footer div.copyright {
 /* Extra extra large devices (large laptops and desktops, 1400px and up) */
 
 @media only screen and (min-width: 1400px) {
-
   div#home {
     margin-top: 50px;
     margin-bottom: 100px;
@@ -1735,7 +1720,7 @@ footer div.copyright {
   }
 
   div#home div.date-time iframe {
-    background-color:rgb(255, 233, 37);
+    background-color: rgb(255, 233, 37);
     padding: 4px 12px;
     border-radius: 10px;
     border: 1px solid rgb(255, 233, 37);
@@ -1909,7 +1894,7 @@ footer div.copyright {
     margin-bottom: 330px;
   }
 
-  div#tools div.description-box{
+  div#tools div.description-box {
     padding: 15px;
     border-radius: 15px;
     background-color: #f3eead;
@@ -1923,14 +1908,14 @@ footer div.copyright {
     text-align: justify;
     margin-bottom: 10px;
   }
-  
+
   div#tools div.calculator {
     width: 15%;
     margin: auto;
     font-size: medium;
   }
-  
-  div#tools div.calculator input[type=text] {
+
+  div#tools div.calculator input[type="text"] {
     font-size: medium;
     border: none;
     outline: none;
@@ -1945,8 +1930,9 @@ footer div.copyright {
     align-items: center;
     flex-direction: column;
   }
-  
-  div#tools div.calculator input[type=button], div#tools div.calculator input[type=reset] {
+
+  div#tools div.calculator input[type="button"],
+  div#tools div.calculator input[type="reset"] {
     border: none;
     outline: 1px solid rgba(18, 90, 173, 0.623);
     padding: 15px;
@@ -1955,8 +1941,8 @@ footer div.copyright {
     width: 25%;
     border-radius: 8px;
   }
-  
-  div#tools div.calculator input[type=button].btn {
+
+  div#tools div.calculator input[type="button"].btn {
     width: 50%;
   }
 

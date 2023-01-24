@@ -300,6 +300,7 @@ $(document).ready(function () {
 function myFunction(clickedId) {
     document.calc.ans.value += clickedId;
 }
+
 function compute() {
     try {
         var input = eval(document.calc.ans.value);
