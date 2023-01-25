@@ -440,7 +440,7 @@ footer div.copyright {
   }
 
   div#conts div.contact-info {
-    width: fit-content;
+    width: 80%;
     display: block;
     background-color: #83853a6e;
     color: rgb(255, 255, 255);
@@ -454,6 +454,9 @@ footer div.copyright {
     text-align: right;
     text-align: center;
     text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
   }
 
   div#conts div.contact-info kbd {
