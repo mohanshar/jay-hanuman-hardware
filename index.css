@@ -218,7 +218,7 @@ footer div.copyright {
     margin: auto;
     margin: 3px;
     position: relative;
-    width: 65%;
+    width: 60%;
     height: 305px;
     display: block;
     padding: 15px;
@@ -235,11 +235,10 @@ footer div.copyright {
   div#prds div.row div.column img {
     width: 100%;
     height: 200px;
-    /* object-fit: cover; */
+    object-fit: cover;
     position: relative;
     margin: auto;
-    margin-bottom: 5px;
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 4px 4px;
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
@@ -247,65 +246,67 @@ footer div.copyright {
   }
 
   div#prds div.row div.column div.box {
-    padding-left: 2px;
-  }
-
-  div#prds div.row div.column span.title {
-    font-weight: bold;
-    font-size: 14px;
-    font-size: 2.8vw;
-    color: #fccd75;
+    border-bottom: 3px solid rgba(247, 214, 70, 0.925);
+    border-radius: 7px;
+    padding-bottom: 6px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: " ....";
-    width: fit-content; 
   }
 
-  div#prds div.row div.column span.price {
+  div#prds div.row div.column p.title {
+    font-weight: bold;
+    font-size: small;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
+    color: #fccd75;
+    margin-bottom: 3px;
+    padding-left: 3px;
+  }
+
+  div#prds div.row div.column p.price {
     font-size: 12px;
-    font-size: 2.8vw;
+    padding-left: 3px;
     color: #fde6e6;
     font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
   }
 
   div#prds div.row div.column div.box p.go-to {
     color: #f3eead;
     font-weight: bold;
     font-size: 12px;
-    font-size: 2.8vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
     border-left: 2.5px solid rgba(247, 214, 70, 0.925);
     padding: 3px;
     margin-top: 5px;
-    width: fit-content;
   }
 
   div#prds div.row div.column div#description-box {
     display: none;
     color: #fff;
-    margin-top: -184px;
+    margin-top: -180px;
     height: 250px;
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
+    border-bottom: 2px solid rgba(247, 214, 70, 0.925);
+    border-radius: 7px;
     border-radius: 20px 20px 10px 10px;
     padding: 15px;
     background-color: rgb(177, 66, 3);
-    /* background: repeating-linear-gradient(
-      45deg,
-      rgb(236, 216, 113) 5px,
-      rgb(243, 209, 56) 5px,
-      rgb(233, 230, 41) 5px,
-      rgba(160, 150, 10, 0.788) 10px
-    )
-    rgb(115, 255, 0); */
     position: relative;
   }
 
   div#prds div.row div.column div#description-box p.title {
     font-size: 14px;
-    font-size: 3vw;
     color: rgb(253, 221, 178);
     text-decoration: underline;
     font-weight: bold;
@@ -314,8 +315,7 @@ footer div.copyright {
   }
 
   div#prds div.row div.column div#description-box p {
-    font-size: 12px;
-    font-size: 3vw;
+    font-size: 11px;
     display: block;
     text-align: start;
     text-align: end;
@@ -324,22 +324,26 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     margin-bottom: 5px;
-    border-bottom: #f58a0f 3px solid;
-    padding: 5px;
+    border-bottom: #f8b972 3px solid;
+    padding: 2px 2px 5px 2px;
     margin-bottom: 15px;
-    border-radius: 6px;
+    border-radius: 5px;
   }
 
-  div#prds div.row div.column div#description-box span.go-back {
+  div#prds div.row div.column div#description-box p.go-back {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
-    font-size: 3vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(255, 253, 157, 0.575);
+    border-bottom: none;
+    border-radius: 0;
     padding: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ....";
   }
 
   div#tools {
@@ -583,20 +587,20 @@ footer div.copyright {
   }
 
   div#prds div.row div.column div.box {
-    padding-left: 2px;
+    padding-top: 5px;
   }
 
-  div#prds div.row div.column span.title {
-    font-weight: bold;
-    font-size: 1.6vw;
-    color: #f8ed89;
-    width: fit-content;    
+  div#prds div.row div.column p.title {  
     white-space: nowrap;
     overflow: hidden;
     text-overflow: " ....";
+    font-weight: bold;
+    font-size: 12px;
+    color: #f8ed89;
+    width: fit-content;  
   }
 
-  div#prds div.row div.column span.price {
+  div#prds div.row div.column p.price {
     font-size: 12px;
     font-size: 1.6vw;
     color: #fde6e6;
@@ -614,7 +618,6 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
     border-left: 2.5px solid rgba(247, 214, 70, 0.925);
     padding: 3px;
-    margin-top: 5px;
     width: fit-content;
   }
 
@@ -660,7 +663,7 @@ footer div.copyright {
     margin-bottom: 10px;
   }
 
-  div#prds div.row div.column div#description-box span.go-back {
+  div#prds div.row div.column div#description-box p.go-back {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
