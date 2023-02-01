@@ -80,13 +80,14 @@ div#prds div#product-bar div.bar2 {
 
 div#prds div#product-bar,
 div#prds div#product-close {
-  margin-left: 10px;
-  margin-top: 60px;
+  margin-left: 18px;
+  margin-top: 12px;
   cursor: pointer;
   top: 0;
   -webkit-position: sticky;
   position: sticky;
   position: fixed;
+  z-index: 3;
 }
 
 div#prds div#product-close div.bar3 {
@@ -113,13 +114,13 @@ div#prds div.product-category {
   background-color: #fdc687;
   padding: 15px;
   border-radius: 10px;
-  margin-left: 8px;
-  margin-top: 85px;
+  margin-left: 15px;
+  margin-top: 38px;
   top: 0;
   -webkit-position: sticky;
   position: sticky;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   width: fit-content;
 }
 
@@ -193,6 +194,10 @@ footer div.menu a.active {
   transition: 0.5s;
 }
 
+footer div.menu a.active:nth-child(1) {
+  border-bottom-right-radius: 0px;
+}
+
 footer div.menu a:hover {
   font-weight: bold;
   background-color: rgb(165, 18, 18);
@@ -205,6 +210,7 @@ footer div.menu a:active {
 
 footer div.menu a:nth-child(1) {
   border-bottom-left-radius: 10px;
+  border-left: 0.5px solid rgb(211, 174, 174);
 }
 
 footer div.menu a:nth-child(4) {
@@ -315,7 +321,8 @@ footer div.copyright {
   div#prds div.row div.column img {
     width: 100%;
     height: 200px;
-    /* object-fit: cover; */
+    /* border: 2px dashed #9e132a; */
+    border-bottom: none;
     position: relative;
     margin: auto;
     border-radius: 8px 8px 4px 4px;
@@ -628,8 +635,7 @@ footer div.copyright {
   }
 
   div#prds div.row {
-    margin-left: 100px;
-    margin-right: 70px;
+    margin-left: 2px;
   }
 
   /* Create two equal columns that floats next to each other */
@@ -638,12 +644,11 @@ footer div.copyright {
     display: block;
     background-color: #d35a21c2;
     float: left;
-    width: 45%;
-    height: 250px;
-    padding: 10px;
+    width: 32.5%;
+    height: 245px;
     color: rgb(240, 213, 213);
     margin: auto;
-    margin: 3px;
+    margin: 2px;
     border-radius: 10px;
   }
 
@@ -655,7 +660,6 @@ footer div.copyright {
     border-radius: 8px 8px 4px 4px;
     width: 100%;
     height: 170px;
-    /* object-fit: cover; */
     display: block;
     position: relative;
     background-image: linear-gradient(
@@ -665,8 +669,8 @@ footer div.copyright {
   }
 
   div#prds div.row div.column div.box {
-    padding-top: 5px;
-    padding-bottom: 8px;
+    padding: 2px;
+    padding-top: 8px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: " ....";
@@ -676,7 +680,7 @@ footer div.copyright {
     font-weight: bold;
     font-size: 12px;
     color: #f8ed89;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     padding-left: 3px;
   }
 
@@ -696,7 +700,8 @@ footer div.copyright {
     -webkit-tap-highlight-color: transparent;
     border-left: 2.5px solid rgba(247, 214, 70, 0.925);
     padding: 3px;
-    margin-top: 5px;
+    margin-top: 4px;
+    margin-left: 4px;
   }
 
   div#prds div.row div.column div#description-box {
@@ -704,8 +709,8 @@ footer div.copyright {
     color: rgb(255, 255, 255);
     font-weight: bold;
     border-radius: 15px 15px 10px 10px;
-    margin-top: -170px;
-    height: 230px;
+    margin-top: -168px;
+    height: 243.5px;
     padding: 5px;
     font-weight: bold;
     border-radius: 7px;
@@ -943,7 +948,7 @@ footer div.copyright {
   }
 
   div#prds div.row {
-    margin-left: 130px;
+    margin-left: 100px;
     margin-right: 50px;
   }
 
