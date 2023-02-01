@@ -1,3 +1,18 @@
+
+$(document).ready(function () {
+    $('#product-bar').on("click", function () {
+        $('#product-bar').hide();
+        $('.product-category').show();
+        $('#product-close').show();
+    })
+
+    $('#product-close').on("click", function () {
+        $('#product-close').hide();
+        $('.product-category').hide();
+        $('#product-bar').show();
+    })
+})
+
 $(document).ready(function () {
 
     $('#hm').on("click", function () {
@@ -292,6 +307,16 @@ $(document).ready(function () {
     $('#d25').on("click", function () {
         $('#box25').slideUp();
         $('.decrptn24').slideDown();
+    });
+
+    $('#b26').on("click", function () {
+        $('#box26').slideDown();
+        $('.decrptn25').slideUp();
+    });
+
+    $('#d26').on("click", function () {
+        $('#box26').slideUp();
+        $('.decrptn25').slideDown();
     });
 
 });

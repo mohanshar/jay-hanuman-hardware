@@ -20,7 +20,7 @@
 
 <body>
 
-    <div id="home">
+    <div id="home" style="display: none;">
 
         <header id="Home">
             <h2>Jay Hanuman Hardware</h2>
@@ -28,10 +28,10 @@
         <br>
         <br>
         <br>
-            <div class="date-time">
-                <iframe frameborder="0" scrolling="no"
-                    src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&font_color=333333&aj_time=yes&font_size=14&line_brake=1&api=212110n067"></iframe>
-            </div>
+        <div class="date-time">
+            <iframe frameborder="0" scrolling="no"
+                src="https://www.ashesh.com.np/linknepali-time.php?time_only=no&font_color=333333&aj_time=yes&font_size=14&line_brake=1&api=212110n067"></iframe>
+        </div>
 
         <div class="description-box">
 
@@ -85,17 +85,41 @@
 
     </div>
 
-    <div id="prds" style="display: none;">
+    <div id="prds">
 
         <header id="Products">
             <h2>Products</h2>
         </header>
-                <br>
-                <br>
-                <br>
+
+        <br>
+        <br>
+        <br>
+
+        <div id="product-bar">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+        </div>
+
+        <div id="product-close" style="display: none;">
+            <div class="bar3"></div>
+            <div class="bar4"></div>
+        </div>
+
+        <div class="product-category" style="display: none;">
+            <ol>
+                <h3>Product Category</h3>
+                <li><a href="#bathroom-fittings">Bathroom Fittings</a></li>
+                <li><a href="#ropes">Ropes</a></li>
+                <li><a href="#iron-nails">Iron Nails</a></li>
+                <li><a href="#water-tanks">Water Tanks</a></li>
+                <li><a href="#pipes">Pipes</a></li>
+                <li><a href="#paints">Paints</a></li>
+            </ol>
+        </div>
+
         <div class="row">
 
-            <div class="column">
+            <div class="column" id="iron-nails">
                 <img src="Photos/nails.webp" alt="Iron nail" style="width:100%;">
                 <div id="box1" class="box" style="background: none;">
                     <p class="title">Iron Nail 1" 1.5" 2" 3" 4"</p>
@@ -233,7 +257,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column" id="paints">
                 <img src="Photos/gp synthetic enamel(danfe).jpeg" alt="gp synthetic enamel" style="width:100%;">
                 <div id="box10" class="box" style="background: none;">
                     <p class="title">GP Synthetic Enamel</p>
@@ -250,7 +274,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column" id="ropes">
                 <img src="Photos/blue tarpaulin rope.jpg" alt="blue tarpaulin rope" style="width:100%;">
                 <div id="box11" class="box" style="background: none;">
                     <p class="title">Blue Tarpaulin Rope</p>
@@ -347,7 +371,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column" id="water-tanks">
                 <img src="Photos/ss-tank.jpg" alt="ss-tank" style="width:100%;">
                 <div id="box17" class="box" style="background: none;">
                     <p class="title">Stainless Steel Tank</p>
@@ -402,7 +426,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column" id="pipes">
                 <img src="Photos/hilltake-hdpe-pipe.jpeg" alt="hilltake-hdpe-pipe" style="width:100%;">
                 <div id="box20" class="box" style="background: none;">
                     <p class="title">Hilltake HDPE Pipe</p>
@@ -419,7 +443,7 @@
                 </div>
             </div>
 
-            <div class="column">
+            <div class="column" id="bathroom-fittings">
                 <img src="Photos/hilltake geaser.jpg" alt="hilltake geyser" style="width:100%;">
                 <div id="box21" class="box" style="background: none;">
                     <p class="title">Hilltake Gas Geyser</p>
@@ -503,6 +527,27 @@
                     <!-- <button>Add to Cart</button > -->
                 </div>
             </div>
+
+            <div class="column">
+                <img src="Photos/tractor tarpaulin.webp" alt="tarpaulin" style="width:100%;">
+                <div id="box26" class="box" style="background: none;">
+                    <p class="title">Tarpaulin</p>
+                    <p class="price">Rs.1050 per piece</p>
+                    <p class="go-to" id="d26">Go to Description </p>
+                </div>
+                <div class="decrptn25" id="description-box">
+                    <p class="title">Description</p>
+                    <p>
+                        Tarpaulins are used in many ways to protect persons and things from wind, rain, and sunlight.
+                        They are used during construction or after disasters to protect partially built or damaged
+                        structures, to prevent mess during painting and similar activities, and to contain and collect
+                        debris.
+                    </p>
+                    <p id="b26" class="go-back">Go to Product Info </p>
+                    <!-- <button>Add to Cart</button > -->
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -588,7 +633,7 @@
         <div class="contact-info">
             <kbd style="text-decoration: underline;"> You can contact us at the following address. </kbd>
             <br><br>
-            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;
+            <i class="fa fa-map-marker"></i>&nbsp;&nbsp;&nbsp;
             <a target="_blank" href="https://goo.gl/maps/HPAGFaNSNi1ZNMRT6">
                 JeetpurSimara-7, Bhawanipur Jeetpur</a>
             <br>
@@ -600,7 +645,8 @@
             <a href="mailto:jay.hanuman.hardware@gmail.com">jay.hanuman.hardware@gmail.com</a>
             <br><br>
             <i class="fa fa-whatsapp"></i>&nbsp;&nbsp;
-            <a target="_blank" href="https://api.whatsapp.com/send?phone=9779845621768">+977-9845621768</a>
+            <a target="_blank"
+                href="https://wa.me/9779845621768?text=I'm%20interested%20in%20your%20product%20.">+977-9845621768</a>
         </div>
 
     </div>
