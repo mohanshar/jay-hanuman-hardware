@@ -68,6 +68,88 @@ div.row::after {
   display: table;
 }
 
+div#prds div#product-bar div.bar1,
+div#prds div#product-bar div.bar2 {
+  background-color: #f8b972;
+  padding: 2px;
+  width: 25px;
+  margin: 2.8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+div#prds div#product-bar,
+div#prds div#product-close {
+  margin-left: 10px;
+  margin-top: 60px;
+  cursor: pointer;
+  top: 0;
+  -webkit-position: sticky;
+  position: sticky;
+  position: fixed;
+}
+
+div#prds div#product-close div.bar3 {
+  background-color: #f8b972;
+  padding: 2px;
+  width: 25px;
+  margin: 2.8px;
+  cursor: pointer;
+  transform: rotate(135deg) translate(2px, -2px);
+  border-radius: 5px;
+}
+
+div#prds div#product-close div.bar4 {
+  background-color: #f8b972;
+  padding: 2px;
+  width: 25px;
+  margin: 2.8px;
+  cursor: pointer;
+  transform: rotate(-135deg) translate(2.8px, 3px);
+  border-radius: 5px;
+}
+
+div#prds div.product-category {
+  background-color: #fdc687;
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 8px;
+  margin-top: 85px;
+  top: 0;
+  -webkit-position: sticky;
+  position: sticky;
+  position: fixed;
+  z-index: 1;
+  width: fit-content;
+}
+
+div#prds div.product-category ol {
+  list-style-type: none;
+  display: block;
+  margin: auto;
+}
+
+div#prds div.product-category ol h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: rgb(11, 34, 54);
+}
+
+div#prds div.product-category ol li {
+  display: block;
+  margin-left: 1px;
+}
+
+div#prds div.product-category ol li a {
+  color: rgb(201, 57, 0);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 5px;
+  transition: 0.5s;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -204,88 +286,6 @@ footer div.copyright {
     margin-bottom: 85px;
   }
 
-  div#prds div#product-bar div.bar1,
-  div#prds div#product-bar div.bar2 {
-    background-color: #f8b972;
-    padding: 2px;
-    width: 25px;
-    margin: 2.8px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  div#prds div#product-bar,
-  div#prds div#product-close {
-    margin-left: 10px;
-    margin-top: 55px;
-    cursor: pointer;
-    top: 0;
-    -webkit-position: sticky;
-    position: sticky;
-    position: fixed;
-  }
-
-  div#prds div#product-close div.bar3 {
-    background-color: #f8b972;
-    padding: 2px;
-    width: 25px;
-    margin: 2.8px;
-    cursor: pointer;
-    transform: rotate(135deg) translate(2px, -2px);
-    border-radius: 5px;
-  }
-
-  div#prds div#product-close div.bar4 {
-    background-color: #f8b972;
-    padding: 2px;
-    width: 25px;
-    margin: 2.8px;
-    cursor: pointer;
-    transform: rotate(-135deg) translate(2.8px, 3px);
-    border-radius: 5px;
-  }
-
-  div#prds div.product-category {
-    background-color: #fdc687;
-    padding: 15px;
-    border-radius: 10px;
-    margin-left: 8px;
-    margin-top: 80px;
-    top: 0;
-    -webkit-position: sticky;
-    position: sticky;
-    position: fixed;
-    z-index: 1;
-    width: fit-content;
-  }
-
-  div#prds div.product-category ol {
-    list-style-type: none;
-    display: block;
-    margin: auto;
-  }
-
-  div#prds div.product-category ol h3 {
-    font-size: 15px;
-    margin-bottom: 5px;
-    color: rgb(11, 34, 54);
-  }
-
-  div#prds div.product-category ol li {
-    display: block;
-    margin-left: 1px;
-  }
-
-  div#prds div.product-category ol li a {
-    color: rgb(201, 57, 0);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    display: block;
-    padding-bottom: 5px;
-    transition: 0.5s;
-  }
-
   div#prds div.row {
     display: flex;
     justify-content: center;
@@ -300,23 +300,22 @@ footer div.copyright {
     margin: 3px;
     position: relative;
     width: 60%;
-    height: 290px;
+    height: 272px;
     display: block;
-    padding: 15px;
-    border: 2px solid rgba(212, 155, 32, 0.829);
-    background-color: #7c3e04a2;
+    padding: 0px;
+    background-color: #d35a21c2;
     color: rgb(255, 255, 255);
     border-radius: 10px;
   }
 
   div#prds div.row div.column:hover {
-    border: 2px solid rgba(255, 160, 52, 0.849);
+    box-shadow: 0px 0px 3px 3px #fa936a;
   }
 
   div#prds div.row div.column img {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    /* object-fit: cover; */
     position: relative;
     margin: auto;
     border-radius: 8px 8px 4px 4px;
@@ -327,8 +326,7 @@ footer div.copyright {
   }
 
   div#prds div.row div.column div.box {
-    border-radius: 7px;
-    padding-bottom: 6px;
+    padding: 3px 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: " ....";
@@ -341,8 +339,8 @@ footer div.copyright {
     overflow: hidden;
     text-overflow: " ....";
     color: #fccd75;
-    margin-bottom: 3px;
-    padding-left: 3px;
+    margin-bottom: 5px;
+    padding-left: 2px;
   }
 
   div#prds div.row div.column p.price {
@@ -366,21 +364,21 @@ footer div.copyright {
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
     border-left: 2.5px solid rgba(247, 214, 70, 0.925);
-    padding: 3px;
-    margin-top: 5px;
+    padding-left: 3px;
+    margin-top: 8px;
+    margin-left: 4px;
   }
 
   div#prds div.row div.column div#description-box {
     display: none;
     color: #fff;
-    margin-top: -197px;
-    height: 250px;
+    margin-top: -203px;
+    height: 271px;
     padding: 5px;
     font-weight: bold;
-    border-radius: 7px;
     border-radius: 20px 20px 10px 10px;
     padding: 15px;
-    background-color: rgb(177, 66, 3);
+    background-color: rgb(117, 27, 21);
     position: relative;
   }
 
@@ -537,7 +535,7 @@ footer div.copyright {
     text-align: center;
     text-align: justify;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: auto;
     text-overflow: " ...";
   }
 
@@ -622,9 +620,6 @@ footer div.copyright {
   footer div.copyright {
     font-size: 12px;
     margin: auto;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: " ....";
     padding: 10px;
   }
 
@@ -633,33 +628,31 @@ footer div.copyright {
   }
 
   div#prds div.row {
-    margin-left: 120px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 70px;
   }
 
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
     position: relative;
     display: block;
-    border: 2px solid rgba(119, 150, 9, 0.753);
-    background-color: #7c3e04a2;
+    background-color: #d35a21c2;
     float: left;
     width: 45%;
-    height: 260px;
+    height: 250px;
     padding: 10px;
     color: rgb(240, 213, 213);
     margin: auto;
-    margin: 2px;
-    font-family: arial;
+    margin: 3px;
     border-radius: 10px;
   }
 
   div#prds div.row div.column:hover {
-    border: 2px solid rgba(255, 160, 52, 0.849);
+    box-shadow: 0px 0px 3px 3px #fa936a;
   }
 
   div#prds div.row div.column img {
-    border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 4px 4px;
     width: 100%;
     height: 170px;
     /* object-fit: cover; */
@@ -673,37 +666,37 @@ footer div.copyright {
 
   div#prds div.row div.column div.box {
     padding-top: 5px;
-  }
-
-  div#prds div.row div.column p.title {
+    padding-bottom: 8px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: " ....";
+  }
+
+  div#prds div.row div.column p.title {
     font-weight: bold;
     font-size: 12px;
     color: #f8ed89;
-    width: fit-content;
+    margin-bottom: 3px;
+    padding-left: 3px;
   }
 
   div#prds div.row div.column p.price {
     font-size: 12px;
-    font-size: 1.6vw;
     color: #fde6e6;
     font-weight: bold;
-    margin-bottom: 5px;
+    padding-left: 3px;
   }
 
   div#prds div.row div.column div.box p.go-to {
     color: #f3eead;
     font-weight: bold;
     font-size: 12px;
-    font-size: 1.6vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
     border-left: 2.5px solid rgba(247, 214, 70, 0.925);
     padding: 3px;
-    width: fit-content;
+    margin-top: 5px;
   }
 
   div#prds div.row div.column div#description-box {
@@ -712,52 +705,55 @@ footer div.copyright {
     font-weight: bold;
     border-radius: 15px 15px 10px 10px;
     margin-top: -170px;
-    height: 235px;
-    padding: 12px;
+    height: 230px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 7px;
+    border-radius: 20px 20px 10px 10px;
+    padding: 15px;
+    background-color: rgb(117, 27, 21);
     position: relative;
-    background-color: rgb(158, 76, 8);
   }
 
   div#prds div.row div.column div#description-box p.title {
     font-size: 14px;
-    font-size: 1.8vw;
     color: rgb(253, 221, 178);
     text-decoration: underline;
     font-weight: bold;
     margin-bottom: 5px;
     border: none;
-    background-color: transparent;
-    padding: 5px;
   }
 
   div#prds div.row div.column div#description-box p {
-    padding: 5px;
-    border: 1px solid rgb(224, 142, 142);
-    background-color: #be7129cc;
-    border-radius: 5px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
+    font-size: 11px;
+    display: block;
     text-align: start;
     text-align: end;
     text-align: left;
     text-align: right;
     text-align: center;
     text-align: justify;
-    font-size: 1.6vw;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: #f8b972 3px solid;
+    padding: 2px 2px 10px 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
   }
 
   div#prds div.row div.column div#description-box p.go-back {
     color: #fff459;
     font-weight: bold;
     font-size: 12px;
-    font-size: 1.6vw;
     cursor: pointer;
     -webkit-tap-highlight-color: none;
     -webkit-tap-highlight-color: transparent;
     border-left: 3px solid rgba(255, 253, 157, 0.575);
+    border-bottom: none;
+    border-radius: 0;
     padding: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: " ..more";
   }
 
   div#tools {
