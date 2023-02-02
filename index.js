@@ -334,3 +334,20 @@ function compute() {
         document.calc.ans.value = "error";
     }
 }
+
+function itemSearchFunction() {
+  var input, filter, div, column, p;
+  input = document.getElementById("itemSearch");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("box");
+  column = div.getElementsByClassName("column");
+  for (i = 0; i < column.length; i++) {
+    p = column[i].getElementsByTagName("p")[0];
+    if (p.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      column[i].style.display = "";
+    } else {
+      column[i].style.display = "none";
+    }
+  }
+}
+

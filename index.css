@@ -292,6 +292,37 @@ footer div.copyright {
     margin-bottom: 85px;
   }
 
+  div#prds input[type=text] {
+    width: 60%;
+    display: block;
+    margin-top: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+    left: 0;
+    right: 0;
+    padding: 14px 12px;
+    box-sizing: border-box;
+    background-color: #fadeb4;
+    border: 2px solid rgb(197, 119, 31);
+    border-radius: 10px;
+    outline: none;
+    top: 0;
+    -webkit-position: sticky;
+    position: sticky;
+    position: fixed;  
+    z-index: 1;
+    font-size: medium;
+  }
+
+  div#prds input[type=text]:focus {
+    box-shadow: 0px 0px 3px 3px #e98d23;
+  }
+
+  div#prds input::placeholder {
+    color: #79631a;
+  }
+
   div#prds div.row {
     display: flex;
     justify-content: center;
