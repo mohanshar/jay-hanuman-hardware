@@ -468,9 +468,11 @@ footer div.copyright {
   div#tools div.description-box {
     padding: 15px;
     border-radius: 15px;
-    background-color: #f3eead;
+    background-color: #f77538;
+    color: #fff2a7;
+    font-weight: bold;
     margin: auto;
-    font-size: small;
+    font-size: 14px;
     width: 80%;
     text-align: start;
     text-align: end;
@@ -482,16 +484,15 @@ footer div.copyright {
   }
 
   div#tools div.calculator {
-    width: 70%;
+    width: 60%;
     margin: auto;
-    font-size: medium;
   }
 
   div#tools div.calculator input[type="text"] {
-    font-size: small;
+    font-size: 14px;
     border: none;
     outline: none;
-    padding: 12px;
+    padding: 14px;
     width: 100%;
     outline: 2px solid rgb(139, 126, 247);
     border-radius: 5px;
@@ -501,19 +502,18 @@ footer div.copyright {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
   }
 
   div#tools div.calculator input[type="button"],
   div#tools div.calculator input[type="reset"] {
     border: none;
     outline: 1px solid rgba(49, 39, 139, 0.623);
-    padding: 10px;
+    padding: 20px;
     float: left;
     margin: auto;
     width: 25%;
     border-radius: 8px;
-    font-size: small;
+    font-size: 12px;
   }
 
   div#tools div.calculator input[type="button"].btn {
