@@ -7,16 +7,25 @@
 }
 
 body {
+<<<<<<< HEAD
   background-color: #070707;
 }
 
 ::selection {
   background-color: rgba(238, 6, 6, 0.418);
+=======
+  background-color: #ffffff;
+}
+
+::selection {
+  background-color: rgba(167, 120, 120, 0.418);
+>>>>>>> 4ff3e4a (Initial commit)
   backdrop-filter: blur(5px);
   color: #fff;
 }
 
 header h2 {
+<<<<<<< HEAD
   color: rgb(250, 227, 100);
   text-align: center;
   padding: 13px;
@@ -40,6 +49,28 @@ header h2:hover {
 div#home div.description-box {
   background-color: rgba(70, 4, 45, 0.808);
   color: rgb(255, 169, 169);
+=======
+  color: rgb(180, 79, 11);
+  text-align: center;
+  padding: 13px;
+  border-radius: 0 0 25px 25px;
+  /* background-color: rgb(157, 188, 245); */
+  /* backdrop-filter: blur(20px); */
+  user-select: none;
+  display: block;
+  width: 100%;
+  /* top: 0; */
+  text-decoration: underline 2px;
+}
+
+header h2:hover {
+  -webkit-text-stroke: #fabd3b .5px;
+}
+
+div#home div.description-box {
+  /* background-color: rgb(165, 32, 114); */
+  color: rgb(202, 24, 24);
+>>>>>>> 4ff3e4a (Initial commit)
   border-radius: 15px;
   font-weight: bold;
   padding: 20px 15px;
@@ -53,12 +84,20 @@ div#home div.description-box {
 }
 
 div#home div.description-box kbd {
+<<<<<<< HEAD
   color: rgba(255, 255, 0, 0.932);
+=======
+  color: rgba(145, 145, 66, 0.932);
+>>>>>>> 4ff3e4a (Initial commit)
   font-weight: bold;
 }
 
 div#home div.description-box kbd.title {
+<<<<<<< HEAD
   color: #e4d3eb;
+=======
+  color: #b34ddb;
+>>>>>>> 4ff3e4a (Initial commit)
 }
 
 /* Clear floats after the columns */
@@ -241,6 +280,7 @@ footer div.copyright {
   }
 
   div#home div.date-time iframe {
+<<<<<<< HEAD
     background-color: rgb(255, 233, 37);
     padding: 2px 12px;
     border-radius: 10px;
@@ -249,15 +289,33 @@ footer div.copyright {
     height: 65px;
     display: block;
     margin: auto;
+=======
+    padding: 2px 12px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 233, 37);
+    /* width: 45%;
+    height: 65px; */
+    /* display: block; */
+    margin-left: 250px;
+    font-size: 5px;
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   div#home div.description-box {
     font-size: 12px;
+<<<<<<< HEAD
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+=======
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   div#home div.img img {
@@ -266,12 +324,19 @@ footer div.copyright {
     margin: auto;
     object-fit: cover;
     position: relative;
+<<<<<<< HEAD
     border: #8f044a 2px solid;
     border-radius: 10px;
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    border: #eb70ad 1px solid;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   footer div.menu a {
@@ -295,10 +360,17 @@ footer div.copyright {
   div#prds input[type=text] {
     width: 60%;
     display: block;
+<<<<<<< HEAD
     margin-top: 53px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 56px;
+=======
+    /* margin-top: 53px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 56px; */
+>>>>>>> 4ff3e4a (Initial commit)
     left: 0;
     right: 0;
     padding: 14px 12px;
@@ -308,11 +380,19 @@ footer div.copyright {
     border: 2px solid rgb(197, 119, 31);
     border-radius: 10px;
     outline: none;
+<<<<<<< HEAD
     top: 0;
     -webkit-position: sticky;
     position: sticky;
     position: fixed;  
     z-index: 1;
+=======
+    /* top: 0;
+    -webkit-position: sticky;
+    position: sticky;
+    position: fixed;
+    z-index: 1; */
+>>>>>>> 4ff3e4a (Initial commit)
     font-size: medium;
   }
 
@@ -355,10 +435,15 @@ footer div.copyright {
     position: relative;
     margin: auto;
     border-radius: 8px 8px 4px 4px;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   div#prds div.row div.column div.box {
@@ -547,10 +632,15 @@ footer div.copyright {
     width: auto;
     height: 110px;
     border-radius: 10px;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
     display: block;
     margin: auto;
   }
@@ -633,10 +723,15 @@ footer div.copyright {
     position: relative;
     border: #8f044a 2px solid;
     border-radius: 10px;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   footer {
@@ -671,10 +766,17 @@ footer div.copyright {
   div#prds input[type=text] {
     width: 45%;
     display: block;
+<<<<<<< HEAD
     margin-top: 56px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 56px;
+=======
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 56px; */
+>>>>>>> 4ff3e4a (Initial commit)
     left: 0;
     right: 0;
     padding: 14px 12px;
@@ -684,11 +786,19 @@ footer div.copyright {
     border: 2px solid rgb(197, 119, 31);
     border-radius: 10px;
     outline: none;
+<<<<<<< HEAD
     top: 0;
     -webkit-position: sticky;
     position: sticky;
     position: fixed;  
     z-index: 1;
+=======
+    /* top: 0;
+    -webkit-position: sticky;
+    position: sticky;
+    position: fixed;
+    z-index: 1; */
+>>>>>>> 4ff3e4a (Initial commit)
     font-size: medium;
   }
 
@@ -723,10 +833,15 @@ footer div.copyright {
     display: block;
     position: relative;
     border: 3px solid #d35a21c2;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   div#prds div.row div.column div.box {
@@ -906,10 +1021,15 @@ footer div.copyright {
     width: auto;
     height: 120px;
     border-radius: 10px;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
     display: block;
     margin: auto;
   }
@@ -985,10 +1105,15 @@ footer div.copyright {
     position: relative;
     border: #8f044a 2px solid;
     border-radius: 10px;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   footer {
@@ -1020,6 +1145,33 @@ footer div.copyright {
     margin-right: 50px;
   }
 
+<<<<<<< HEAD
+=======
+  div#prds input[type=text] {
+    width: 25%;
+    display: block;
+    /* margin-top: 53px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 56px; */
+    left: 0;
+    right: 0;
+    padding: 14px 12px;
+    box-sizing: border-box;
+    background-color: #fadeb4;
+    color: #ac2615;
+    border: 2px solid rgb(197, 119, 31);
+    border-radius: 10px;
+    outline: none;
+    /* top: 0;
+    -webkit-position: sticky;
+    position: sticky;
+    position: fixed;
+    z-index: 1; */
+    font-size: medium;
+  }
+
+>>>>>>> 4ff3e4a (Initial commit)
   /* Create two equal columns that floats next to each other */
   div#prds div.row div.column {
     float: left;
@@ -1039,10 +1191,15 @@ footer div.copyright {
 
   div#prds div.row div.column img {
     border-radius: 8px 8px 0 0;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
     width: 100%;
     height: 180px;
     /* object-fit: cover; */
@@ -1230,10 +1387,15 @@ footer div.copyright {
     height: 120px;
     border-radius: 10px;
     /* border: 2px solid rgb(180, 193, 201); */
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
     display: block;
     margin: auto;
   }
@@ -1361,10 +1523,15 @@ footer div.copyright {
     /* object-fit: cover; */
     display: block;
     position: relative;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   div#prds div.row div.column div.box {
@@ -1543,10 +1710,15 @@ footer div.copyright {
   }
 
   div#conts div.about-text .profilepic {
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
     display: block;
     margin: auto;
     border-radius: 8px;
@@ -1681,10 +1853,15 @@ footer div.copyright {
     /* object-fit: cover; */
     display: block;
     position: relative;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   div#prds div.row div.column div.box {
@@ -1872,10 +2049,15 @@ footer div.copyright {
     width: auto;
     height: 120px;
     border-radius: 10px;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
     display: block;
     margin: auto;
   }
@@ -2005,10 +2187,15 @@ footer div.copyright {
     /* object-fit: cover; */
     display: block;
     position: relative;
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
   }
 
   div#prds div.row div.column div.box {
@@ -2187,10 +2374,15 @@ footer div.copyright {
   }
 
   div#conts div.about-text .profilepic {
+<<<<<<< HEAD
     background-image: linear-gradient(
       rgba(255, 255, 255, 0.911),
       rgba(230, 212, 212, 0.5)
     );
+=======
+    background-image: linear-gradient(rgba(255, 255, 255, 0.911),
+        rgba(230, 212, 212, 0.5));
+>>>>>>> 4ff3e4a (Initial commit)
     display: block;
     margin: auto;
     border-radius: 8px;
@@ -2230,4 +2422,8 @@ footer div.copyright {
     background: none;
     font-size: 16px;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4ff3e4a (Initial commit)

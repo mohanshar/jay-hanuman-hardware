@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 
 <head>
@@ -437,4 +438,445 @@
     <h4>The End</h4>
 </body>
 
+=======
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device, initial-scale=1">
+
+    <title>
+        Jay Hanuman Hardware
+    </title>
+
+    <style>
+        body {
+            padding: 25px;
+            margin: 5px;
+            border-right: solid 2px #111;
+            border-left: solid 2px #444;
+            border-width: 5px;
+            background-color: #333333;
+            height: 300%;
+            border-bottom: solid 2px #333;
+            border-top: solid 2px #222;
+        }
+
+        .blur {
+            filter: blur(2px);
+        }
+
+        #k {
+            border-bottom: solid 2px green;
+            border-radius: 10%;
+            border-top: solid 20px #666;
+            border-bottom: solid 20px #999;
+            background-color: #ccc;
+        }
+
+        .k {
+            font-family: sans-serif;
+            border-bottom: solid 2px green;
+            border-top: solid 2px green;
+            border-radius: 15%;
+            font-size: 17px;
+            margin-right: 30px;
+            line-height: 25px;
+            border-left: solid 20px #999;
+            border-right: solid 20px #999;
+            background-color: #bbb;
+            text-align: center;
+        }
+
+        #nav {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            border-top: solid 5px #66cccc;
+            border-bottom: solid 5px #aa6611;
+            border-width: 20px;
+            border-radius: 20px;
+            background-color: red;
+            color: yellow;
+            text-shadow: 2px 3px 4px green, 1px 3px 4px green, 2px 3px 4px green;
+        }
+
+        #h1 {
+            font-family: imperial;
+            text-align: center;
+            padding: 3px;
+            border-bottom: solid 2px #fff;
+            border-top: solid 2px #aaa;
+            border-width: 10px;
+            background-color: #333;
+            color: #bbb;
+            font-size: 25px;
+            border-radius: 25%;
+            line-height: 30px;
+            border-left: solid 20px #111;
+            border-right: solid 20px #c0c0c0;
+            text-shadow: 2px 3px 4px black, 1px 3px 4px grey, 2px 3px 4px white;
+        }
+
+        .p {
+            font-family: impact;
+            text-align: center;
+            padding: 2px;
+            border-bottom: solid 2px #fff;
+            background-color: #bbb;
+            color: #c0c0c0;
+            font-size: 20px;
+            border-radius: 5%;
+            line-height: 30px;
+            text-shadow: 2px 3px 4px blue, 1px 3px 2px grey, 2px 3px 4px green;
+        }
+
+        img {
+            filter: brightness(120%) saturate(100%) contrast(90%);
+            margin: 0;
+            padding: 5px;
+            border: solid 2px #ccc;
+            background-image: linear-gradient(green, silver, skyblue);
+
+        }
+
+        summary {
+            outline: none;
+            font-family: imperial;
+            font-weight: bold;
+            background-color: grey;
+        }
+
+        details {
+            font-family: imperial;
+            border: solid 2px skyblue;
+            border-width: 10px;
+            background-color: #666;
+            color: #c0c0c0;
+            font-size: 20px;
+        }
+
+        li {
+            list-style-type: none;
+            border-bottom: solid 2px #bbb;
+            border-radius: 20%;
+            width: 35%;
+            text-align: center;
+            font-family: impact;
+        }
+
+        .marquee {
+            border-radius: 25px;
+            height: 100px;
+            overflow: hidden;
+            border-width: 20px;
+            background-color: rgba(255, 255, 0, 0.432);
+            border-bottom: solid 2px #fff;
+            border-top: solid 2px #fff;
+
+        }
+
+        .change-mode {
+            background-color: rgba(255, 255, 0, 0.432);
+        }
+
+        #btn {
+            padding: 5px;
+            outline: none;
+            font-size: 15px;
+            background-color: #c0c0c0;
+            border-bottom: 2px solid gold;
+            border-right: 2px solid gold;
+            color: brown;
+            position: relative;
+        }
+
+        #btn:hover {
+            background-color: #6666cc;
+            color: #c0c0c0;
+        }
+
+        .clock:hover {
+            background-color: #111;
+            color: #c0c0c0;
+        }
+
+        .clock {
+            float: right;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: sans-serif;
+            border-bottom: solid 2px gold;
+            border-top: solid 2px gold;
+            color: brown;
+            position: relative;
+            background-color: #ccc;
+            height: 26px;
+        }
+
+        hr {
+            border: solid 1px gold;
+        }
+
+        input {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-weight: bold;
+            line-height: 30px;
+            position: relative;
+            border-bottom: solid 4px green;
+            border-top: solid 4px purple;
+            border-radius: 10px;
+            margin: 0;
+            font-size: 19px;
+            text-align: center;
+            background-color: #cc6600;
+            outline: none;
+        }
+
+        .inp {
+            padding: 10px;
+            font-weight: bold;
+            margin: 0;
+            border-bottom: solid 4px green;
+            border-top: solid 4px purple;
+            border-radius: 10px;
+            background-color: #c0c0c0;
+            font-size: 17px;
+            text-align: center;
+        }
+
+        h3 {
+            border-top: solid 5px #cc11ff;
+            border-bottom: solid 5px #cc11ff;
+            background-color: #ff11ee;
+            border-radius: 10px;
+            font-family: impact;
+            font-weight: bold;
+        }
+
+        .form {
+            border-left: solid 5px #ff11aa;
+            border-right: solid 5px #cc11ff;
+            border-bottom: solid 5px #ff6600;
+            background-color: #ccc;
+            border-radius: 20px;
+        }
+
+        h4 {
+            font-family: "impact", consolas, sans-serif;
+            text-align: center;
+            font-size: 20px;
+            border-top: solid 3px #aa6611;
+            border-bottom: solid 3px #aa11ff;
+            border-width: 15px;
+            border-radius: 20%;
+        }
+
+        h2 {
+            font-family: "impact", consolas, helvetica;
+            text-align: center;
+            font-size: 20px;
+            border-top: solid 3px #aa6611;
+            border-bottom: solid 3px #aa11ff;
+            border-right: solid 1px #aa6611;
+            border-left: solid 1px #aa11ff;
+            border-width: 15px;
+            border-radius: 20%;
+            background-color: #6666cc;
+            color: #11ff66;
+            text-shadow: 2px 3px 4px blue, 1px 3px 4px grey, 2px 3px 4px lightgreen;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div>
+        <h2 id="demo" class="h2">
+        </h2>
+
+        <button id="btn" onclick="wlcFunction()" title="click to see welcome" style="float: left;">Click</button>
+
+        <script type="text/javascript">
+            function wlcFunction() {
+                var name = "Welcome to our Official page of Jay Hanuman Hardware";
+                document.getElementById("demo").innerHTML = name;
+            }
+        </script>
+    </div>
+
+    <div>
+        <button id="btn" onclick="scrollFunction()" style="float: right;"
+            title="click to start scrolling">scroll</button>
+
+        <script type="text/javascript">
+            function scrollFunction() {
+                var element = document.marquee;
+                element.classList.toggle("marquee");
+            }
+        </script>
+
+        <marquee behaviour="scroll" direction="up" scrollamount="1.5" class="marquee">
+            <p class="p">
+                |जय हनुमान हार्डवेयर"| यहाँ स्टीलको पञ्चकन्या ट्याङ्की, सिपिभिसि का पाइप र
+                फिटिङ्स पाइन्छन् तथा बाथरुम फिटिङ्सका धाराहरू, कमोड, सिट, सिस्टम,‌ गिजर
+                लगायतका पिभिसि पाइप र फिटिङ्सहरु पनि पाइन्छन्। हिल्टेकका ट्याङ्कीहरु पाइन्छ साथै
+                घरमा लगाउने पेन्टहरु पनि पाइन्छन्। साथै सम्पुर्ण हार्डवेयरका सामानहरू सुपथ मूल्यमा
+                पाइन्छन्। सम्पर्कको लागि ठेगाना : जितपुर-सिमरा उपमहानगरपालिका - ०७, जितपुर(बारा)।
+                मोबाइल नं‌‌ : लक्ष्मण जी [९८४५१२०४१९] र सुजित शर्मा [९८४५६२१७६‌‌८] | धन्यबाद।
+            </p>
+        </marquee>
+    </div>
+
+    <button id="btn" onclick="darkFunction()" title="change background color">
+        <strong>Change-Mode</strong></button>
+
+    <div id="myClock" class="clock" title="know your current time"></div>
+    <script type="text/javascript">
+        function showTime() {
+            var date = new Date();
+            var h = date.getHours();
+            var m = date.getMinutes();
+            var s = date.getSeconds();
+
+            var session = "AM";
+
+            if (h == 0) {
+                h = 12;
+            }
+
+            if (h > 12) {
+                h = h - 12;
+
+                var session = "PM"
+            }
+
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+
+            var time = h + " : " + m + " : " + s + " " + session;
+
+            document.getElementById("myClock").innerText = time;
+            document.getElementById("myClock").innerContent = time;
+
+            setTimeout(showTime, 1000);
+        }
+        showTime();
+    </script>
+
+    <h1 id="h1">
+        ॐ
+        <br>
+        ["जय हनुमान हार्डवेयर"]
+    </h1>
+
+    <hr>
+    <center>
+        <img src="jhh.jpg" width="280px" height="200px">
+    </center>
+    <hr>
+
+    <kbd>
+        <ul id="k">
+            <li class="k">
+                <b>&raquo;Jai Hanuman Hardware</b> is one of the popular
+                hardware shop in Bhawanipur, Jitpur,
+                [Bara] for the sells of machinery, plumbing,or home appliances,
+                etc. This shop gives the best facility to the consumers.&laquo;
+            </li>
+            <li class="k">
+                &raquo;The name of Proprietor of Jai Hanuman Hardware is
+                <b> Mr. Suzit Sharma&laquo;</b>.
+            </li>
+            <li class="k">
+                &raquo;
+                Here are facility of various kinds of materials which are
+                used for home appliances.&laquo;
+            </li>
+        </ul>
+    </kbd>
+
+    <details>
+        <summary>They are:</summary>
+        <ol>
+            <li> Plumbing Materials </li>
+            <li> Bathroom Fittings </li>
+            <li> Paints </li>
+            <li> Motors </li>
+            <li> Panchkanya Tank </li>
+            <li> Panchkanya CPVC </li>
+            <li> Geager </li>
+            <li> PVC/CPVC Pipes </li>
+        </ol>
+    </details>
+
+    <hr>
+
+    <nav id="nav">
+        <p>
+            <center>Proprietor: Mr. Laxman Prasad Lamichhane &
+                Mr. Suzit Sharma</center>
+            <center>
+                Contact: +977-9845621768|
+                +977-9845120419|
+            </center>
+        <p>
+    </nav>
+
+    <hr>
+    <button id="btn" onclick="blurFunction()">Let's blur the whole page!</button>
+
+    <script type="text/javascript">
+        function darkFunction() {
+            var element = document.body;
+            element.classList.toggle("change-mode");
+        }
+
+        function blurFunction() {
+            var element = document.body;
+            element.classList.toggle("blur");
+        }
+    </script>
+
+    <div class="form">
+        <form name="calc">
+            <center>
+                <h3>Let's use Calculator</h3>
+
+                <input type="textbox" class="inp" placeholder="See Your Result" name="ans" value="">
+                <br>
+                <input type="button" value="1" onclick="document.calc.ans.value+='1'">
+                <input type="button" value="2" onclick="document.calc.ans.value+='2'">
+                <input type="button" value="3" onclick="document.calc.ans.value+='3'">
+                <input type="button" value="4" onclick="document.calc.ans.value+='4'">
+                <input type="button" value="5" onclick="document.calc.ans.value+='5'">
+                <br>
+                <input type="button" value="6" onclick="document.calc.ans.value+='6'">
+                <input type="button" value="7" onclick="document.calc.ans.value+='7'">
+                <input type="button" value="8" onclick="document.calc.ans.value+='8'">
+                <input type="button" value="9" onclick="document.calc.ans.value+='9'">
+                <input type="button" value="0" onclick="document.calc.ans.value+='0'">
+                <br>
+                <input type="button" value="+" onclick="document.calc.ans.value+='+'">
+                <input type="button" value="-" onclick="document.calc.ans.value+='-'">
+                <input type="button" value="×" onclick="document.calc.ans.value+='*'">
+                <input type="button" value="÷" onclick="document.calc.ans.value+='/'">
+                <input type="button" value="." onclick="document.calc.ans.value+='.'">
+                <br>
+                <input type="reset" value="AC" onclick="document.calc.ans.value+=''">
+                <input type="button" value="space-bar" onclick="document.calc.ans.value+=' '">
+                <input type="button" value="=" onclick="document.calc.ans.value=eval(document.calc.ans.value)">
+            </center>
+        </form>
+    </div>
+
+    <h4>The End</h4>
+</body>
+
+>>>>>>> 4ff3e4a (Initial commit)
 </html>
